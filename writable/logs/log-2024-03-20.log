@@ -1,0 +1,442 @@
+INFO - 2024-03-20 04:24:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 04:24:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-20 04:36:49 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\CobranzaModel.php on line 27.
+ 1 APPPATH\Controllers\CobranzaController.php(13): App\Models\CobranzaModel->getEntradas()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CobranzaController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobranzaController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 04:39:40 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\CobranzaModel.php on line 27.
+ 1 APPPATH\Controllers\CobranzaController.php(14): App\Models\CobranzaModel->getEntradas()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CobranzaController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobranzaController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 04:46:11 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\CobranzaModel.php on line 28.
+ 1 APPPATH\Controllers\CobranzaController.php(14): App\Models\CobranzaModel->getEntradas()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CobranzaController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobranzaController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 04:46:42 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\CobranzaModel.php on line 27.
+ 1 APPPATH\Controllers\CobranzaController.php(14): App\Models\CobranzaModel->getEntradas()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CobranzaController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobranzaController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 04:47:24 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\CobranzaModel.php on line 29.
+ 1 APPPATH\Controllers\CobranzaController.php(14): App\Models\CobranzaModel->getEntradas()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CobranzaController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobranzaController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 04:47:52 --> ErrorException: Undefined variable $db
+in APPPATH\Models\CobranzaModel.php on line 29.
+ 1 APPPATH\Models\CobranzaModel.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Models\\CobranzaModel.php', 29)
+ 2 APPPATH\Controllers\CobranzaController.php(14): App\Models\CobranzaModel->getEntradas()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CobranzaController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobranzaController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 05:03:50 --> TypeError: json_decode(): Argument #1 ($json) must be of type string, CodeIgniter\Database\MySQLi\Result given
+in APPPATH\Controllers\CobranzaController.php on line 19.
+ 1 APPPATH\Controllers\CobranzaController.php(19): json_decode(Object(CodeIgniter\Database\MySQLi\Result), true)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CobranzaController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobranzaController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 05:05:18 --> Error: Cannot use object of type mysqli as array
+in APPPATH\Views\cobranza\index.php on line 60.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('cobranza/index.php', [], true)
+ 4 APPPATH\Controllers\CobranzaController.php(19): view('cobranza/index.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CobranzaController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobranzaController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 05:18:04 --> Error: Class "App\Controllers\InmuebleModal" not found
+in APPPATH\Controllers\CobranzaController.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CobranzaController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobranzaController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 05:18:38 --> Error: Class "App\Controllers\InmuebleModal" not found
+in APPPATH\Controllers\CobranzaController.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CobranzaController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobranzaController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 05:19:09 --> Error: Class "App\Controllers\InmuebleModal" not found
+in APPPATH\Controllers\CobranzaController.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CobranzaController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobranzaController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 05:20:10 --> ErrorException: Undefined variable $unidad
+in APPPATH\Controllers\CobranzaController.php on line 14.
+ 1 APPPATH\Controllers\CobranzaController.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $unidad', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\CobranzaController.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CobranzaController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobranzaController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 05:20:38 --> Error: Class "App\Models\UnidadModel" not found
+in APPPATH\Controllers\CobranzaController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CobranzaController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobranzaController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 05:21:19 --> Error: Class "App\Models\Unidad" not found
+in APPPATH\Controllers\CobranzaController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CobranzaController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobranzaController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 05:22:13 --> ErrorException: Undefined array key "codigo"
+in APPPATH\Views\cobranza\index.php on line 61.
+ 1 APPPATH\Views\cobranza\index.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "codigo"', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\cobranza\\index.php', 61)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\cobranza\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('cobranza/index.php', [], true)
+ 5 APPPATH\Controllers\CobranzaController.php(24): view('cobranza/index.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CobranzaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobranzaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 05:22:42 --> ErrorException: Undefined array key "codigo_inmueble"
+in APPPATH\Views\cobranza\index.php on line 61.
+ 1 APPPATH\Views\cobranza\index.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "codigo_inmueble"', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\cobranza\\index.php', 61)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\cobranza\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('cobranza/index.php', [], true)
+ 5 APPPATH\Controllers\CobranzaController.php(24): view('cobranza/index.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CobranzaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobranzaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 05:25:27 --> ErrorException: Undefined array key "codigo_inmueble"
+in APPPATH\Views\cobranza\index.php on line 61.
+ 1 APPPATH\Views\cobranza\index.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "codigo_inmueble"', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\cobranza\\index.php', 61)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\cobranza\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('cobranza/index.php', [], true)
+ 5 APPPATH\Controllers\CobranzaController.php(22): view('cobranza/index.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CobranzaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobranzaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-20 05:27:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 05:48:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 06:34:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-20 06:34:50 --> Error: Class "App\Controllers\Contrato" not found
+in APPPATH\Controllers\ContratoController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 06:35:21 --> ErrorException: Undefined variable $cobranza
+in APPPATH\Views\contrato\index.php on line 58.
+ 1 APPPATH\Views\contrato\index.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cobranza', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\index.php', 58)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/index.php', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(11): view('contrato/index.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-20 06:35:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 06:38:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 06:46:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 20:54:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-20 20:58:50 --> Error: Class "App\Controllers\Inquilino" not found
+in APPPATH\Controllers\ContratoController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-20 20:59:11 --> mysqli_sql_exception: Unknown column 'i.nombre' in 'field list' in C:\xampp\htdocs\inmobiliaria\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\inmobiliaria\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `c`.*, `...', 0)
+#1 C:\xampp\htdocs\inmobiliaria\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `c`.*, `...')
+#2 C:\xampp\htdocs\inmobiliaria\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `c`.*, `...')
+#3 C:\xampp\htdocs\inmobiliaria\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `c`.*, `...', Array, false)
+#4 C:\xampp\htdocs\inmobiliaria\app\Controllers\ContratoController.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(941): App\Controllers\ContratoController->index()
+#6 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+#7 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inmobiliaria\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-20 20:59:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'i.nombre' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `c`.*, `i`.`nombre`, `i`.`apellido`, `u`.`codigo_unidad`
+FROM `inm_cobranza` `c`
+JOIN `inm_inmueble` `i` ON `i`.`id_inquilino` = `c`.`id_inquilino`
+JOIN `inm_inquilino` `u` ON `u`.`id_unidad` = `c`.`id_unidad`', [], false)
+ 2 APPPATH\Controllers\ContratoController.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 20:59:12 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'i.nombre' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `c`.*, `i`.`nombre`, `i`.`apellido`, `u`.`codigo_unidad`
+FROM `inm_cobranza` `c`
+JOIN `inm_inmueble` `i` ON `i`.`id_inquilino` = `c`.`id_inquilino`
+JOIN `inm_inquilino` `u` ON `u`.`id_unidad` = `c`.`id_unidad`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `c`.*, `i`.`nombre`, `i`.`apellido`, `u`.`codigo_unidad`
+FROM `inm_cobranza` `c`
+JOIN `inm_inmueble` `i` ON `i`.`id_inquilino` = `c`.`id_inquilino`
+JOIN `inm_inquilino` `u` ON `u`.`id_unidad` = `c`.`id_unidad`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `c`.*, `i`.`nombre`, `i`.`apellido`, `u`.`codigo_unidad`
+FROM `inm_cobranza` `c`
+JOIN `inm_inmueble` `i` ON `i`.`id_inquilino` = `c`.`id_inquilino`
+JOIN `inm_inquilino` `u` ON `u`.`id_unidad` = `c`.`id_unidad`', [], false)
+ 4 APPPATH\Controllers\ContratoController.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 20:59:12 --> [Caused by] mysqli_sql_exception: Unknown column 'i.nombre' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `c`.*, `i`.`nombre`, `i`.`apellido`, `u`.`codigo_unidad`
+FROM `inm_cobranza` `c`
+JOIN `inm_inmueble` `i` ON `i`.`id_inquilino` = `c`.`id_inquilino`
+JOIN `inm_inquilino` `u` ON `u`.`id_unidad` = `c`.`id_unidad`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `c`.*, `i`.`nombre`, `i`.`apellido`, `u`.`codigo_unidad`
+FROM `inm_cobranza` `c`
+JOIN `inm_inmueble` `i` ON `i`.`id_inquilino` = `c`.`id_inquilino`
+JOIN `inm_inquilino` `u` ON `u`.`id_unidad` = `c`.`id_unidad`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `c`.*, `i`.`nombre`, `i`.`apellido`, `u`.`codigo_unidad`
+FROM `inm_cobranza` `c`
+JOIN `inm_inmueble` `i` ON `i`.`id_inquilino` = `c`.`id_inquilino`
+JOIN `inm_inquilino` `u` ON `u`.`id_unidad` = `c`.`id_unidad`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `c`.*, `i`.`nombre`, `i`.`apellido`, `u`.`codigo_unidad`
+FROM `inm_cobranza` `c`
+JOIN `inm_inmueble` `i` ON `i`.`id_inquilino` = `c`.`id_inquilino`
+JOIN `inm_inquilino` `u` ON `u`.`id_unidad` = `c`.`id_unidad`', [], false)
+ 5 APPPATH\Controllers\ContratoController.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-20 21:05:37 --> mysqli_sql_exception: Unknown column 'i.nombres' in 'field list' in C:\xampp\htdocs\inmobiliaria\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\inmobiliaria\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `c`.*, `...', 0)
+#1 C:\xampp\htdocs\inmobiliaria\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `c`.*, `...')
+#2 C:\xampp\htdocs\inmobiliaria\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `c`.*, `...')
+#3 C:\xampp\htdocs\inmobiliaria\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `c`.*, `...', Array, false)
+#4 C:\xampp\htdocs\inmobiliaria\app\Controllers\ContratoController.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(941): App\Controllers\ContratoController->index()
+#6 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+#7 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inmobiliaria\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-20 21:05:37 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'i.nombres' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `c`.*, `i`.`nombres`, `i`.`apellidos`, `u`.`codigo_unidad`
+FROM `inm_cobranza` `c`
+JOIN `inm_inmueble` `i` ON `i`.`id_inquilino` = `c`.`id_inquilino`
+JOIN `inm_inquilino` `u` ON `u`.`id_unidad` = `c`.`id_unidad`', [], false)
+ 2 APPPATH\Controllers\ContratoController.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 21:05:37 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'i.nombres' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `c`.*, `i`.`nombres`, `i`.`apellidos`, `u`.`codigo_unidad`
+FROM `inm_cobranza` `c`
+JOIN `inm_inmueble` `i` ON `i`.`id_inquilino` = `c`.`id_inquilino`
+JOIN `inm_inquilino` `u` ON `u`.`id_unidad` = `c`.`id_unidad`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `c`.*, `i`.`nombres`, `i`.`apellidos`, `u`.`codigo_unidad`
+FROM `inm_cobranza` `c`
+JOIN `inm_inmueble` `i` ON `i`.`id_inquilino` = `c`.`id_inquilino`
+JOIN `inm_inquilino` `u` ON `u`.`id_unidad` = `c`.`id_unidad`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `c`.*, `i`.`nombres`, `i`.`apellidos`, `u`.`codigo_unidad`
+FROM `inm_cobranza` `c`
+JOIN `inm_inmueble` `i` ON `i`.`id_inquilino` = `c`.`id_inquilino`
+JOIN `inm_inquilino` `u` ON `u`.`id_unidad` = `c`.`id_unidad`', [], false)
+ 4 APPPATH\Controllers\ContratoController.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 21:05:37 --> [Caused by] mysqli_sql_exception: Unknown column 'i.nombres' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `c`.*, `i`.`nombres`, `i`.`apellidos`, `u`.`codigo_unidad`
+FROM `inm_cobranza` `c`
+JOIN `inm_inmueble` `i` ON `i`.`id_inquilino` = `c`.`id_inquilino`
+JOIN `inm_inquilino` `u` ON `u`.`id_unidad` = `c`.`id_unidad`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `c`.*, `i`.`nombres`, `i`.`apellidos`, `u`.`codigo_unidad`
+FROM `inm_cobranza` `c`
+JOIN `inm_inmueble` `i` ON `i`.`id_inquilino` = `c`.`id_inquilino`
+JOIN `inm_inquilino` `u` ON `u`.`id_unidad` = `c`.`id_unidad`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `c`.*, `i`.`nombres`, `i`.`apellidos`, `u`.`codigo_unidad`
+FROM `inm_cobranza` `c`
+JOIN `inm_inmueble` `i` ON `i`.`id_inquilino` = `c`.`id_inquilino`
+JOIN `inm_inquilino` `u` ON `u`.`id_unidad` = `c`.`id_unidad`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `c`.*, `i`.`nombres`, `i`.`apellidos`, `u`.`codigo_unidad`
+FROM `inm_cobranza` `c`
+JOIN `inm_inmueble` `i` ON `i`.`id_inquilino` = `c`.`id_inquilino`
+JOIN `inm_inquilino` `u` ON `u`.`id_unidad` = `c`.`id_unidad`', [], false)
+ 5 APPPATH\Controllers\ContratoController.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-20 21:06:18 --> mysqli_sql_exception: Unknown column 'c.id_inquilino' in 'on clause' in C:\xampp\htdocs\inmobiliaria\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\inmobiliaria\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `c`.*, `...', 0)
+#1 C:\xampp\htdocs\inmobiliaria\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `c`.*, `...')
+#2 C:\xampp\htdocs\inmobiliaria\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `c`.*, `...')
+#3 C:\xampp\htdocs\inmobiliaria\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `c`.*, `...', Array, false)
+#4 C:\xampp\htdocs\inmobiliaria\app\Controllers\ContratoController.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(941): App\Controllers\ContratoController->index()
+#6 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+#7 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inmobiliaria\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-20 21:06:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'c.id_inquilino' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `c`.*, `i`.`nombres`, `i`.`apellidos`, `u`.`codigo_unidad`
+FROM `inm_cobranza` `c`
+JOIN `inm_inquilino` `i` ON `i`.`id_inquilino` = `c`.`id_inquilino`
+JOIN `inm_unidad` `u` ON `u`.`id_unidad` = `c`.`id_unidad`', [], false)
+ 2 APPPATH\Controllers\ContratoController.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 21:06:18 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'c.id_inquilino' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `c`.*, `i`.`nombres`, `i`.`apellidos`, `u`.`codigo_unidad`
+FROM `inm_cobranza` `c`
+JOIN `inm_inquilino` `i` ON `i`.`id_inquilino` = `c`.`id_inquilino`
+JOIN `inm_unidad` `u` ON `u`.`id_unidad` = `c`.`id_unidad`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `c`.*, `i`.`nombres`, `i`.`apellidos`, `u`.`codigo_unidad`
+FROM `inm_cobranza` `c`
+JOIN `inm_inquilino` `i` ON `i`.`id_inquilino` = `c`.`id_inquilino`
+JOIN `inm_unidad` `u` ON `u`.`id_unidad` = `c`.`id_unidad`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `c`.*, `i`.`nombres`, `i`.`apellidos`, `u`.`codigo_unidad`
+FROM `inm_cobranza` `c`
+JOIN `inm_inquilino` `i` ON `i`.`id_inquilino` = `c`.`id_inquilino`
+JOIN `inm_unidad` `u` ON `u`.`id_unidad` = `c`.`id_unidad`', [], false)
+ 4 APPPATH\Controllers\ContratoController.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 21:06:18 --> [Caused by] mysqli_sql_exception: Unknown column 'c.id_inquilino' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `c`.*, `i`.`nombres`, `i`.`apellidos`, `u`.`codigo_unidad`
+FROM `inm_cobranza` `c`
+JOIN `inm_inquilino` `i` ON `i`.`id_inquilino` = `c`.`id_inquilino`
+JOIN `inm_unidad` `u` ON `u`.`id_unidad` = `c`.`id_unidad`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `c`.*, `i`.`nombres`, `i`.`apellidos`, `u`.`codigo_unidad`
+FROM `inm_cobranza` `c`
+JOIN `inm_inquilino` `i` ON `i`.`id_inquilino` = `c`.`id_inquilino`
+JOIN `inm_unidad` `u` ON `u`.`id_unidad` = `c`.`id_unidad`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `c`.*, `i`.`nombres`, `i`.`apellidos`, `u`.`codigo_unidad`
+FROM `inm_cobranza` `c`
+JOIN `inm_inquilino` `i` ON `i`.`id_inquilino` = `c`.`id_inquilino`
+JOIN `inm_unidad` `u` ON `u`.`id_unidad` = `c`.`id_unidad`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `c`.*, `i`.`nombres`, `i`.`apellidos`, `u`.`codigo_unidad`
+FROM `inm_cobranza` `c`
+JOIN `inm_inquilino` `i` ON `i`.`id_inquilino` = `c`.`id_inquilino`
+JOIN `inm_unidad` `u` ON `u`.`id_unidad` = `c`.`id_unidad`', [], false)
+ 5 APPPATH\Controllers\ContratoController.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 21:07:01 --> ErrorException: Undefined array key "nombre"
+in APPPATH\Views\contrato\index.php on line 62.
+ 1 APPPATH\Views\contrato\index.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\index.php', 62)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/index.php', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(25): view('contrato/index.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 21:07:24 --> TypeError: Unsupported operand types: string + string
+in APPPATH\Views\contrato\index.php on line 62.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/index.php', [], true)
+ 4 APPPATH\Controllers\ContratoController.php(25): view('contrato/index.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-20 21:07:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 21:08:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 21:08:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 21:11:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 21:11:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 21:16:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 21:18:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 21:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 21:26:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 21:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 21:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 21:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 21:28:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 21:29:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 21:29:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 21:34:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-20 21:35:55 --> BadMethodCallException: Call to undefined method App\Models\ContratoModel::getData
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\ContratoController.php(41): CodeIgniter\Model->__call('getData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->generador()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-20 21:45:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-20 22:02:37 --> ErrorException: Undefined variable $item
+in APPPATH\Controllers\ContratoController.php on line 45.
+ 1 APPPATH\Controllers\ContratoController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $item', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\ContratoController.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->generador()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 22:05:59 --> ErrorException: Undefined variable $contrato
+in APPPATH\Controllers\ContratoController.php on line 46.
+ 1 APPPATH\Controllers\ContratoController.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contrato', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\ContratoController.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->generador()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 22:06:18 --> ErrorException: Undefined array key "id_contrato"
+in APPPATH\Controllers\ContratoController.php on line 48.
+ 1 APPPATH\Controllers\ContratoController.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_contrato"', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\ContratoController.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->generador()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 22:11:03 --> ErrorException: Undefined array key "estatus_sevicio"
+in APPPATH\Controllers\ContratoController.php on line 49.
+ 1 APPPATH\Controllers\ContratoController.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "estatus_sevicio"', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\ContratoController.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->generador()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 22:11:37 --> ErrorException: Undefined array key "estatus_sevicios"
+in APPPATH\Controllers\ContratoController.php on line 49.
+ 1 APPPATH\Controllers\ContratoController.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "estatus_sevicios"', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\ContratoController.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->generador()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-20 22:21:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 22:27:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 22:38:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 23:52:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 23:53:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

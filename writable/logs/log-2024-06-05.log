@@ -1,0 +1,1312 @@
+INFO - 2024-06-05 00:04:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 00:05:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 01:00:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 01:02:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 01:04:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 01:04:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 01:04:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 01:06:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 01:06:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 01:08:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 01:09:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 01:14:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 01:14:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 01:15:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 01:16:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 01:20:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 01:21:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 01:22:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 01:26:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 01:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 01:26:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 01:26:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 01:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 01:27:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 01:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 01:31:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 01:31:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 01:33:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 01:33:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 01:33:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 01:34:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 01:36:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 01:36:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 01:37:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 01:37:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 01:38:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 01:40:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 01:41:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 01:41:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 01:41:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-05 01:41:59 --> ErrorException: Undefined variable $request
+in APPPATH\Controllers\UnidadController.php on line 96.
+ 1 APPPATH\Controllers\UnidadController.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\UnidadController.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UnidadController->saveNew()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnidadController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 01:42:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 01:42:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-05 01:53:21 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::order_by()
+in APPPATH\Controllers\UnidadController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UnidadController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnidadController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 02:00:02 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::order_by()
+in APPPATH\Controllers\UnidadController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UnidadController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnidadController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 02:00:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 03:27:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-05 03:27:33 --> ErrorException: foreach() argument must be of type array|object, null given
+in APPPATH\Views\unidad\editar.php on line 37.
+ 1 APPPATH\Views\unidad\editar.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\unidad\\editar.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\unidad\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('unidad/editar', [], true)
+ 5 APPPATH\Controllers\UnidadController.php(108): view('unidad/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UnidadController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-2.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnidadController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 03:27:33 --> ErrorException: foreach() argument must be of type array|object, null given
+in APPPATH\Views\unidad\editar.php on line 37.
+ 1 APPPATH\Views\unidad\editar.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\unidad\\editar.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\unidad\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('unidad/editar', [], true)
+ 5 APPPATH\Controllers\UnidadController.php(108): view('unidad/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UnidadController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-1.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnidadController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 03:27:34 --> ErrorException: foreach() argument must be of type array|object, null given
+in APPPATH\Views\unidad\editar.php on line 37.
+ 1 APPPATH\Views\unidad\editar.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\unidad\\editar.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\unidad\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('unidad/editar', [], true)
+ 5 APPPATH\Controllers\UnidadController.php(108): view('unidad/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UnidadController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-6.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnidadController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 03:27:34 --> ErrorException: foreach() argument must be of type array|object, null given
+in APPPATH\Views\unidad\editar.php on line 37.
+ 1 APPPATH\Views\unidad\editar.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\unidad\\editar.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\unidad\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('unidad/editar', [], true)
+ 5 APPPATH\Controllers\UnidadController.php(108): view('unidad/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UnidadController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-3.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnidadController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 03:27:35 --> ErrorException: foreach() argument must be of type array|object, null given
+in APPPATH\Views\unidad\editar.php on line 37.
+ 1 APPPATH\Views\unidad\editar.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\unidad\\editar.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\unidad\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('unidad/editar', [], true)
+ 5 APPPATH\Controllers\UnidadController.php(108): view('unidad/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UnidadController->edit('app-assets', 'js', 'core', 'app-menu.js')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnidadController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 03:27:35 --> ErrorException: foreach() argument must be of type array|object, null given
+in APPPATH\Views\unidad\editar.php on line 37.
+ 1 APPPATH\Views\unidad\editar.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\unidad\\editar.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\unidad\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('unidad/editar', [], true)
+ 5 APPPATH\Controllers\UnidadController.php(108): view('unidad/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UnidadController->edit('app-assets', 'js', 'core', 'app.js')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnidadController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 03:35:25 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\unidad\editar.php on line 43.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('unidad/editar', [], true)
+ 4 APPPATH\Controllers\UnidadController.php(108): view('unidad/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UnidadController->edit('2')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnidadController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 03:35:58 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\unidad\editar.php on line 43.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('unidad/editar', [], true)
+ 4 APPPATH\Controllers\UnidadController.php(108): view('unidad/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UnidadController->edit('2')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnidadController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 03:36:37 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\unidad\editar.php on line 43.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('unidad/editar', [], true)
+ 4 APPPATH\Controllers\UnidadController.php(108): view('unidad/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UnidadController->edit('2')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnidadController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 03:37:09 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\unidad\editar.php on line 43.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('unidad/editar', [], true)
+ 4 APPPATH\Controllers\UnidadController.php(108): view('unidad/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UnidadController->edit('2')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnidadController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 03:38:07 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\unidad\editar.php on line 43.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('unidad/editar', [], true)
+ 4 APPPATH\Controllers\UnidadController.php(108): view('unidad/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UnidadController->edit('2')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnidadController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 03:41:48 --> ErrorException: Undefined variable $db
+in APPPATH\Controllers\UnidadController.php on line 108.
+ 1 APPPATH\Controllers\UnidadController.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\UnidadController.php', 108)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UnidadController->edit('2')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnidadController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 03:42:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 03:42:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 03:42:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 03:42:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 03:42:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 03:42:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 03:42:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 03:45:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 03:45:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 03:45:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 03:45:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 03:45:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 03:45:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 03:45:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 03:47:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 03:47:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 03:47:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 03:47:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 03:47:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 03:47:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 03:47:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 03:50:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 03:50:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 03:50:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 03:50:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 03:50:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 03:50:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 03:50:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 03:50:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 03:50:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 03:50:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 03:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 03:50:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 03:50:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 03:50:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:12:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:13:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:13:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:13:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:13:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:13:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:16:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:16:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:16:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:16:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:16:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:16:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:16:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:17:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:17:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:17:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:17:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:17:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:17:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:18:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:18:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:18:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:18:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:18:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:20:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:20:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:20:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:20:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:20:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:31:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:31:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:33:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:34:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:34:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:34:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:34:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:34:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:34:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:34:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:34:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:34:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:34:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:34:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:34:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-05 04:34:54 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '294) VALUES (:294:)' at line 1 in C:\xampp\htdocs\inmobiliaria\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\inmobiliaria\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `in...', 0)
+#1 C:\xampp\htdocs\inmobiliaria\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 C:\xampp\htdocs\inmobiliaria\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 C:\xampp\htdocs\inmobiliaria\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 C:\xampp\htdocs\inmobiliaria\app\Models\UnidadModel.php(32): CodeIgniter\Database\BaseBuilder->insert('294')
+#5 C:\xampp\htdocs\inmobiliaria\app\Controllers\UnidadController.php(173): App\Models\UnidadModel->insertar('294', Array)
+#6 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(941): App\Controllers\UnidadController->save()
+#7 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnidadController))
+#8 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\inmobiliaria\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-05 04:34:54 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '294) VALUES (:294:)' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `inm_unidad` (294) VALUES (:294:)', [...], false)
+ 2 APPPATH\Models\UnidadModel.php(32): CodeIgniter\Database\BaseBuilder->insert('294')
+ 3 APPPATH\Controllers\UnidadController.php(173): App\Models\UnidadModel->insertar('294', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UnidadController->save()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnidadController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 04:34:54 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '294) VALUES (:294:)' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `inm_unidad` (294) VALUES (:294:)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `inm_unidad` (294) VALUES (:294:)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `inm_unidad` (294) VALUES (:294:)', [...], false)
+ 4 APPPATH\Models\UnidadModel.php(32): CodeIgniter\Database\BaseBuilder->insert('294')
+ 5 APPPATH\Controllers\UnidadController.php(173): App\Models\UnidadModel->insertar('294', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UnidadController->save()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnidadController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 04:34:54 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '294) VALUES (:294:)' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `inm_unidad` (294) VALUES (:294:)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `inm_unidad` (294) VALUES (:294:)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `inm_unidad` (294) VALUES (:294:)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `inm_unidad` (294) VALUES (:294:)', [...], false)
+ 5 APPPATH\Models\UnidadModel.php(32): CodeIgniter\Database\BaseBuilder->insert('294')
+ 6 APPPATH\Controllers\UnidadController.php(173): App\Models\UnidadModel->insertar('294', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UnidadController->save()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnidadController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 04:35:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:35:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:35:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:35:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:35:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:36:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:36:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:36:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:36:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:36:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:36:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:36:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:36:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:36:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:36:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:36:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:36:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:36:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:36:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:37:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:37:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:37:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:37:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:37:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:37:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:44:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-05 05:00:46 --> ErrorException: Undefined array key "estatus_cobranza"
+in APPPATH\Controllers\UnidadController.php on line 197.
+ 1 APPPATH\Controllers\UnidadController.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "estatus_cobranza"', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\UnidadController.php', 197)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UnidadController->buscar('294')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnidadController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 05:36:17 --> ErrorException: Undefined array key "cocina_equipada"
+in APPPATH\Controllers\UnidadController.php on line 197.
+ 1 APPPATH\Controllers\UnidadController.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cocina_equipada"', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\UnidadController.php', 197)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UnidadController->buscar('294')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnidadController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 05:37:42 --> ErrorException: Undefined array key "cocina_equipada"
+in APPPATH\Controllers\UnidadController.php on line 197.
+ 1 APPPATH\Controllers\UnidadController.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cocina_equipada"', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\UnidadController.php', 197)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UnidadController->buscar('294')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnidadController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 05:38:28 --> ErrorException: Undefined variable $unidad
+in APPPATH\Controllers\UnidadController.php on line 195.
+ 1 APPPATH\Controllers\UnidadController.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $unidad', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\UnidadController.php', 195)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UnidadController->buscar('294')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnidadController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 05:38:59 --> ErrorException: Undefined array key "estatus_cobranza"
+in APPPATH\Controllers\UnidadController.php on line 200.
+ 1 APPPATH\Controllers\UnidadController.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "estatus_cobranza"', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\UnidadController.php', 200)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UnidadController->buscar('294')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnidadController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 05:39:25 --> ErrorException: Undefined array key "dim_contruccion"
+in APPPATH\Controllers\UnidadController.php on line 230.
+ 1 APPPATH\Controllers\UnidadController.php(230): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "dim_contruccion"', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\UnidadController.php', 230)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UnidadController->buscar('294')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnidadController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 05:39:49 --> ErrorException: Undefined variable $va
+in APPPATH\Controllers\UnidadController.php on line 233.
+ 1 APPPATH\Controllers\UnidadController.php(233): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $va', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\UnidadController.php', 233)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UnidadController->buscar('294')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnidadController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 05:40:47 --> TypeError: json_decode(): Argument #1 ($json) must be of type string, array given
+in APPPATH\Controllers\UnidadController.php on line 246.
+ 1 APPPATH\Controllers\UnidadController.php(246): json_decode([...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UnidadController->buscar('294')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnidadController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 05:41:23 --> TypeError: json_decode(): Argument #1 ($json) must be of type string, array given
+in APPPATH\Controllers\UnidadController.php on line 246.
+ 1 APPPATH\Controllers\UnidadController.php(246): json_decode([...], true)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UnidadController->buscar('294')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnidadController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 05:48:00 --> ErrorException: Undefined array key "otras_caracterisiticas"
+in APPPATH\Controllers\UnidadController.php on line 250.
+ 1 APPPATH\Controllers\UnidadController.php(250): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "otras_caracterisiticas"', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\UnidadController.php', 250)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UnidadController->buscar('294')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnidadController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 05:53:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 05:56:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 06:00:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 06:00:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 06:02:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 06:04:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 06:05:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 06:06:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 06:11:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 06:16:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 06:25:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 06:25:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 06:25:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 06:25:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 06:25:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 06:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 06:26:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 06:26:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 06:26:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 06:26:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 06:26:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 06:26:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 06:26:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 06:26:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 06:26:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 06:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-05 06:28:46 --> ErrorException: Undefined variable $data
+in APPPATH\Controllers\UsuarioController.php on line 155.
+ 1 APPPATH\Controllers\UsuarioController.php(155): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\UsuarioController.php', 155)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UsuarioController->buscar('294')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 06:35:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 06:36:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 06:38:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 06:38:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 06:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 06:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 06:41:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 06:50:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-05 07:13:25 --> mysqli_sql_exception: Unknown column 'e.nombre_estado' in 'field list' in C:\xampp\htdocs\inmobiliaria\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\inmobiliaria\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `p`.*, `...', 0)
+#1 C:\xampp\htdocs\inmobiliaria\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.*, `...')
+#2 C:\xampp\htdocs\inmobiliaria\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.*, `...')
+#3 C:\xampp\htdocs\inmobiliaria\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `p`.*, `...', Array, false)
+#4 C:\xampp\htdocs\inmobiliaria\app\Controllers\PropietarioController.php(186): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(941): App\Controllers\PropietarioController->buscar('15')
+#6 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropietarioController))
+#7 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inmobiliaria\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-05 07:13:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'e.nombre_estado' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `p`.*, `r`.`descripcion_rol`, `ps`.`nombre_pais`, `e`.`nombre_estado`, `m`.`nombre_municipio`
+FROM `inm_propietario` `p`
+JOIN `inm_roles` `r` ON `r`.`id_rolU` = `p`.`id_rol`
+JOIN `inm_pais` `ps` ON `ps`.`id_pais` = `p`.`id_pais`
+JOIN `inm_estado` `e` ON `e`.`id_estado` = `p`.`id_estado`
+JOIN `inm_municipio` `m` ON `m`.`id_municipio` = `p`.`id_municipio`
+WHERE `u`.`id_propietario` = :u.id_propietario:', [...], false)
+ 2 APPPATH\Controllers\PropietarioController.php(186): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PropietarioController->buscar('15')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropietarioController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 07:13:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'e.nombre_estado' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.*, `r`.`descripcion_rol`, `ps`.`nombre_pais`, `e`.`nombre_estado`, `m`.`nombre_municipio`
+FROM `inm_propietario` `p`
+JOIN `inm_roles` `r` ON `r`.`id_rolU` = `p`.`id_rol`
+JOIN `inm_pais` `ps` ON `ps`.`id_pais` = `p`.`id_pais`
+JOIN `inm_estado` `e` ON `e`.`id_estado` = `p`.`id_estado`
+JOIN `inm_municipio` `m` ON `m`.`id_municipio` = `p`.`id_municipio`
+WHERE `u`.`id_propietario` = \'15\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.*, `r`.`descripcion_rol`, `ps`.`nombre_pais`, `e`.`nombre_estado`, `m`.`nombre_municipio`
+FROM `inm_propietario` `p`
+JOIN `inm_roles` `r` ON `r`.`id_rolU` = `p`.`id_rol`
+JOIN `inm_pais` `ps` ON `ps`.`id_pais` = `p`.`id_pais`
+JOIN `inm_estado` `e` ON `e`.`id_estado` = `p`.`id_estado`
+JOIN `inm_municipio` `m` ON `m`.`id_municipio` = `p`.`id_municipio`
+WHERE `u`.`id_propietario` = \'15\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `p`.*, `r`.`descripcion_rol`, `ps`.`nombre_pais`, `e`.`nombre_estado`, `m`.`nombre_municipio`
+FROM `inm_propietario` `p`
+JOIN `inm_roles` `r` ON `r`.`id_rolU` = `p`.`id_rol`
+JOIN `inm_pais` `ps` ON `ps`.`id_pais` = `p`.`id_pais`
+JOIN `inm_estado` `e` ON `e`.`id_estado` = `p`.`id_estado`
+JOIN `inm_municipio` `m` ON `m`.`id_municipio` = `p`.`id_municipio`
+WHERE `u`.`id_propietario` = :u.id_propietario:', [...], false)
+ 4 APPPATH\Controllers\PropietarioController.php(186): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PropietarioController->buscar('15')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropietarioController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 07:13:25 --> [Caused by] mysqli_sql_exception: Unknown column 'e.nombre_estado' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `p`.*, `r`.`descripcion_rol`, `ps`.`nombre_pais`, `e`.`nombre_estado`, `m`.`nombre_municipio`
+FROM `inm_propietario` `p`
+JOIN `inm_roles` `r` ON `r`.`id_rolU` = `p`.`id_rol`
+JOIN `inm_pais` `ps` ON `ps`.`id_pais` = `p`.`id_pais`
+JOIN `inm_estado` `e` ON `e`.`id_estado` = `p`.`id_estado`
+JOIN `inm_municipio` `m` ON `m`.`id_municipio` = `p`.`id_municipio`
+WHERE `u`.`id_propietario` = \'15\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.*, `r`.`descripcion_rol`, `ps`.`nombre_pais`, `e`.`nombre_estado`, `m`.`nombre_municipio`
+FROM `inm_propietario` `p`
+JOIN `inm_roles` `r` ON `r`.`id_rolU` = `p`.`id_rol`
+JOIN `inm_pais` `ps` ON `ps`.`id_pais` = `p`.`id_pais`
+JOIN `inm_estado` `e` ON `e`.`id_estado` = `p`.`id_estado`
+JOIN `inm_municipio` `m` ON `m`.`id_municipio` = `p`.`id_municipio`
+WHERE `u`.`id_propietario` = \'15\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.*, `r`.`descripcion_rol`, `ps`.`nombre_pais`, `e`.`nombre_estado`, `m`.`nombre_municipio`
+FROM `inm_propietario` `p`
+JOIN `inm_roles` `r` ON `r`.`id_rolU` = `p`.`id_rol`
+JOIN `inm_pais` `ps` ON `ps`.`id_pais` = `p`.`id_pais`
+JOIN `inm_estado` `e` ON `e`.`id_estado` = `p`.`id_estado`
+JOIN `inm_municipio` `m` ON `m`.`id_municipio` = `p`.`id_municipio`
+WHERE `u`.`id_propietario` = \'15\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `p`.*, `r`.`descripcion_rol`, `ps`.`nombre_pais`, `e`.`nombre_estado`, `m`.`nombre_municipio`
+FROM `inm_propietario` `p`
+JOIN `inm_roles` `r` ON `r`.`id_rolU` = `p`.`id_rol`
+JOIN `inm_pais` `ps` ON `ps`.`id_pais` = `p`.`id_pais`
+JOIN `inm_estado` `e` ON `e`.`id_estado` = `p`.`id_estado`
+JOIN `inm_municipio` `m` ON `m`.`id_municipio` = `p`.`id_municipio`
+WHERE `u`.`id_propietario` = :u.id_propietario:', [...], false)
+ 5 APPPATH\Controllers\PropietarioController.php(186): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PropietarioController->buscar('15')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropietarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-05 07:15:14 --> mysqli_sql_exception: Unknown column 'u.id_propietario' in 'where clause' in C:\xampp\htdocs\inmobiliaria\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\inmobiliaria\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `p`.*, `...', 0)
+#1 C:\xampp\htdocs\inmobiliaria\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.*, `...')
+#2 C:\xampp\htdocs\inmobiliaria\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.*, `...')
+#3 C:\xampp\htdocs\inmobiliaria\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `p`.*, `...', Array, false)
+#4 C:\xampp\htdocs\inmobiliaria\app\Controllers\PropietarioController.php(186): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(941): App\Controllers\PropietarioController->buscar('15')
+#6 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropietarioController))
+#7 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inmobiliaria\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-05 07:15:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'u.id_propietario' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `p`.*, `r`.`descripcion_rol`, `ps`.`nombre_pais`, `e`.`descripcion`, `m`.`nombre_municipio`
+FROM `inm_propietario` `p`
+JOIN `inm_roles` `r` ON `r`.`id_rolU` = `p`.`id_rol`
+JOIN `inm_pais` `ps` ON `ps`.`id_pais` = `p`.`id_pais`
+JOIN `inm_estado` `e` ON `e`.`id_estado` = `p`.`id_estado`
+JOIN `inm_municipio` `m` ON `m`.`id_municipio` = `p`.`id_municipio`
+WHERE `u`.`id_propietario` = :u.id_propietario:', [...], false)
+ 2 APPPATH\Controllers\PropietarioController.php(186): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PropietarioController->buscar('15')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropietarioController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 07:15:14 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'u.id_propietario' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.*, `r`.`descripcion_rol`, `ps`.`nombre_pais`, `e`.`descripcion`, `m`.`nombre_municipio`
+FROM `inm_propietario` `p`
+JOIN `inm_roles` `r` ON `r`.`id_rolU` = `p`.`id_rol`
+JOIN `inm_pais` `ps` ON `ps`.`id_pais` = `p`.`id_pais`
+JOIN `inm_estado` `e` ON `e`.`id_estado` = `p`.`id_estado`
+JOIN `inm_municipio` `m` ON `m`.`id_municipio` = `p`.`id_municipio`
+WHERE `u`.`id_propietario` = \'15\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.*, `r`.`descripcion_rol`, `ps`.`nombre_pais`, `e`.`descripcion`, `m`.`nombre_municipio`
+FROM `inm_propietario` `p`
+JOIN `inm_roles` `r` ON `r`.`id_rolU` = `p`.`id_rol`
+JOIN `inm_pais` `ps` ON `ps`.`id_pais` = `p`.`id_pais`
+JOIN `inm_estado` `e` ON `e`.`id_estado` = `p`.`id_estado`
+JOIN `inm_municipio` `m` ON `m`.`id_municipio` = `p`.`id_municipio`
+WHERE `u`.`id_propietario` = \'15\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `p`.*, `r`.`descripcion_rol`, `ps`.`nombre_pais`, `e`.`descripcion`, `m`.`nombre_municipio`
+FROM `inm_propietario` `p`
+JOIN `inm_roles` `r` ON `r`.`id_rolU` = `p`.`id_rol`
+JOIN `inm_pais` `ps` ON `ps`.`id_pais` = `p`.`id_pais`
+JOIN `inm_estado` `e` ON `e`.`id_estado` = `p`.`id_estado`
+JOIN `inm_municipio` `m` ON `m`.`id_municipio` = `p`.`id_municipio`
+WHERE `u`.`id_propietario` = :u.id_propietario:', [...], false)
+ 4 APPPATH\Controllers\PropietarioController.php(186): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PropietarioController->buscar('15')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropietarioController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 07:15:14 --> [Caused by] mysqli_sql_exception: Unknown column 'u.id_propietario' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `p`.*, `r`.`descripcion_rol`, `ps`.`nombre_pais`, `e`.`descripcion`, `m`.`nombre_municipio`
+FROM `inm_propietario` `p`
+JOIN `inm_roles` `r` ON `r`.`id_rolU` = `p`.`id_rol`
+JOIN `inm_pais` `ps` ON `ps`.`id_pais` = `p`.`id_pais`
+JOIN `inm_estado` `e` ON `e`.`id_estado` = `p`.`id_estado`
+JOIN `inm_municipio` `m` ON `m`.`id_municipio` = `p`.`id_municipio`
+WHERE `u`.`id_propietario` = \'15\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.*, `r`.`descripcion_rol`, `ps`.`nombre_pais`, `e`.`descripcion`, `m`.`nombre_municipio`
+FROM `inm_propietario` `p`
+JOIN `inm_roles` `r` ON `r`.`id_rolU` = `p`.`id_rol`
+JOIN `inm_pais` `ps` ON `ps`.`id_pais` = `p`.`id_pais`
+JOIN `inm_estado` `e` ON `e`.`id_estado` = `p`.`id_estado`
+JOIN `inm_municipio` `m` ON `m`.`id_municipio` = `p`.`id_municipio`
+WHERE `u`.`id_propietario` = \'15\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.*, `r`.`descripcion_rol`, `ps`.`nombre_pais`, `e`.`descripcion`, `m`.`nombre_municipio`
+FROM `inm_propietario` `p`
+JOIN `inm_roles` `r` ON `r`.`id_rolU` = `p`.`id_rol`
+JOIN `inm_pais` `ps` ON `ps`.`id_pais` = `p`.`id_pais`
+JOIN `inm_estado` `e` ON `e`.`id_estado` = `p`.`id_estado`
+JOIN `inm_municipio` `m` ON `m`.`id_municipio` = `p`.`id_municipio`
+WHERE `u`.`id_propietario` = \'15\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `p`.*, `r`.`descripcion_rol`, `ps`.`nombre_pais`, `e`.`descripcion`, `m`.`nombre_municipio`
+FROM `inm_propietario` `p`
+JOIN `inm_roles` `r` ON `r`.`id_rolU` = `p`.`id_rol`
+JOIN `inm_pais` `ps` ON `ps`.`id_pais` = `p`.`id_pais`
+JOIN `inm_estado` `e` ON `e`.`id_estado` = `p`.`id_estado`
+JOIN `inm_municipio` `m` ON `m`.`id_municipio` = `p`.`id_municipio`
+WHERE `u`.`id_propietario` = :u.id_propietario:', [...], false)
+ 5 APPPATH\Controllers\PropietarioController.php(186): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PropietarioController->buscar('15')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropietarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 07:16:00 --> ErrorException: Undefined array key "baños"
+in APPPATH\Controllers\PropietarioController.php on line 201.
+ 1 APPPATH\Controllers\PropietarioController.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "baños"', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\PropietarioController.php', 201)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PropietarioController->buscar('15')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropietarioController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 08:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-05 08:03:39 --> Error: Class "App\Controllers\RolesModel" not found
+in APPPATH\Controllers\PropietarioController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PropietarioController->create()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropietarioController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 08:04:50 --> ErrorException: Undefined variable $inmueble
+in APPPATH\Views\propietario\crear.php on line 43.
+ 1 APPPATH\Views\propietario\crear.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $inmueble', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\propietario\\crear.php', 43)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\propietario\\crear.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('propietario/crear.php', [], true)
+ 5 APPPATH\Controllers\PropietarioController.php(29): view('propietario/crear.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PropietarioController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropietarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 08:20:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 08:27:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 08:29:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 08:39:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 08:54:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 08:56:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 08:57:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 09:37:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 09:37:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 09:38:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 09:38:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 09:39:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 09:39:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 15:52:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 15:52:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 15:52:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 15:53:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 15:53:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 15:58:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 16:04:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 16:09:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 16:19:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-05 16:24:19 --> ErrorException: Undefined variable $descripcion_rol
+in APPPATH\Controllers\PropietarioController.php on line 66.
+ 1 APPPATH\Controllers\PropietarioController.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $descripcion_rol', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\PropietarioController.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PropietarioController->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropietarioController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 16:25:04 --> BadMethodCallException: Call to undefined method App\Models\PropietarioModel::insertar
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\PropietarioController.php(96): CodeIgniter\Model->__call('insertar', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PropietarioController->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropietarioController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-05 16:26:39 --> mysqli_sql_exception: Unknown column 'rol' in 'field list' in C:\xampp\htdocs\inmobiliaria\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\inmobiliaria\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `in...', 0)
+#1 C:\xampp\htdocs\inmobiliaria\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 C:\xampp\htdocs\inmobiliaria\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 C:\xampp\htdocs\inmobiliaria\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 C:\xampp\htdocs\inmobiliaria\app\Models\PropietarioModel.php(31): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\inmobiliaria\app\Controllers\PropietarioController.php(96): App\Models\PropietarioModel->insertar(Array)
+#6 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(941): App\Controllers\PropietarioController->guardar()
+#7 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropietarioController))
+#8 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\inmobiliaria\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-05 16:26:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'rol' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `inm_propietario` (`codigo_propietario`, `rol`, `nombres`, `apellidos`, `rfc`, `cp_fiscal`, `regimen_fiscal`, `dispensar_ingresos`, `factura`, `codigo_postal`, `email_prin`, `email_sec`, `telefono_movil`, `telefono_casa`, `telefono_trabajo`, `telefono2_trabajo`, `banco_deposito`, `cuenta_clabe`, `titular_cuenta`, `porcentaje`, `instrucciones_pago`, `instrucciones_extras`, `pais`, `estado`, `municipio`, `colonia`, `ciudad`, `calle`, `numero`) VALUES (:codigo_propietario:, :rol:, :nombres:, :apellidos:, :rfc:, :cp_fiscal:, :regimen_fiscal:, :dispensar_ingresos:, :factura:, :codigo_postal:, :email_prin:, :email_sec:, :telefono_movil:, :telefono_casa:, :telefono_trabajo:, :telefono2_trabajo:, :banco_deposito:, :cuenta_clabe:, :titular_cuenta:, :porcentaje:, :instrucciones_pago:, :instrucciones_extras:, :pais:, :estado:, :municipio:, :colonia:, :ciudad:, :calle:, :numero:)', [...], false)
+ 2 APPPATH\Models\PropietarioModel.php(31): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\PropietarioController.php(96): App\Models\PropietarioModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PropietarioController->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropietarioController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 16:26:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'rol' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `inm_propietario` (`codigo_propietario`, `rol`, `nombres`, `apellidos`, `rfc`, `cp_fiscal`, `regimen_fiscal`, `dispensar_ingresos`, `factura`, `codigo_postal`, `email_prin`, `email_sec`, `telefono_movil`, `telefono_casa`, `telefono_trabajo`, `telefono2_trabajo`, `banco_deposito`, `cuenta_clabe`, `titular_cuenta`, `porcentaje`, `instrucciones_pago`, `instrucciones_extras`, `pais`, `estado`, `municipio`, `colonia`, `ciudad`, `calle`, `numero`) VALUES (NULL, \'2\', \'Erika\', \'Brito\', \'HG-2024\', \'8050\', \'\', \'2\', \'1\', \'8050\', \'erikab644@gmail.com\', \'erikab644@gmail.com\', \'04121090185\', \'04121090185\', \'04261963110\', \'04121090185\', \'Santander\', \'00102547892025\', \'Juana DE\', NULL, NULL, \'\', NULL, NULL, NULL, \'Tovar\', \'Maturin\', \'Casa78 Av.\', \'458\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `inm_propietario` (`codigo_propietario`, `rol`, `nombres`, `apellidos`, `rfc`, `cp_fiscal`, `regimen_fiscal`, `dispensar_ingresos`, `factura`, `codigo_postal`, `email_prin`, `email_sec`, `telefono_movil`, `telefono_casa`, `telefono_trabajo`, `telefono2_trabajo`, `banco_deposito`, `cuenta_clabe`, `titular_cuenta`, `porcentaje`, `instrucciones_pago`, `instrucciones_extras`, `pais`, `estado`, `municipio`, `colonia`, `ciudad`, `calle`, `numero`) VALUES (NULL, \'2\', \'Erika\', \'Brito\', \'HG-2024\', \'8050\', \'\', \'2\', \'1\', \'8050\', \'erikab644@gmail.com\', \'erikab644@gmail.com\', \'04121090185\', \'04121090185\', \'04261963110\', \'04121090185\', \'Santander\', \'00102547892025\', \'Juana DE\', NULL, NULL, \'\', NULL, NULL, NULL, \'Tovar\', \'Maturin\', \'Casa78 Av.\', \'458\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `inm_propietario` (`codigo_propietario`, `rol`, `nombres`, `apellidos`, `rfc`, `cp_fiscal`, `regimen_fiscal`, `dispensar_ingresos`, `factura`, `codigo_postal`, `email_prin`, `email_sec`, `telefono_movil`, `telefono_casa`, `telefono_trabajo`, `telefono2_trabajo`, `banco_deposito`, `cuenta_clabe`, `titular_cuenta`, `porcentaje`, `instrucciones_pago`, `instrucciones_extras`, `pais`, `estado`, `municipio`, `colonia`, `ciudad`, `calle`, `numero`) VALUES (:codigo_propietario:, :rol:, :nombres:, :apellidos:, :rfc:, :cp_fiscal:, :regimen_fiscal:, :dispensar_ingresos:, :factura:, :codigo_postal:, :email_prin:, :email_sec:, :telefono_movil:, :telefono_casa:, :telefono_trabajo:, :telefono2_trabajo:, :banco_deposito:, :cuenta_clabe:, :titular_cuenta:, :porcentaje:, :instrucciones_pago:, :instrucciones_extras:, :pais:, :estado:, :municipio:, :colonia:, :ciudad:, :calle:, :numero:)', [...], false)
+ 4 APPPATH\Models\PropietarioModel.php(31): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\PropietarioController.php(96): App\Models\PropietarioModel->insertar([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PropietarioController->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropietarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 16:26:39 --> [Caused by] mysqli_sql_exception: Unknown column 'rol' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `inm_propietario` (`codigo_propietario`, `rol`, `nombres`, `apellidos`, `rfc`, `cp_fiscal`, `regimen_fiscal`, `dispensar_ingresos`, `factura`, `codigo_postal`, `email_prin`, `email_sec`, `telefono_movil`, `telefono_casa`, `telefono_trabajo`, `telefono2_trabajo`, `banco_deposito`, `cuenta_clabe`, `titular_cuenta`, `porcentaje`, `instrucciones_pago`, `instrucciones_extras`, `pais`, `estado`, `municipio`, `colonia`, `ciudad`, `calle`, `numero`) VALUES (NULL, \'2\', \'Erika\', \'Brito\', \'HG-2024\', \'8050\', \'\', \'2\', \'1\', \'8050\', \'erikab644@gmail.com\', \'erikab644@gmail.com\', \'04121090185\', \'04121090185\', \'04261963110\', \'04121090185\', \'Santander\', \'00102547892025\', \'Juana DE\', NULL, NULL, \'\', NULL, NULL, NULL, \'Tovar\', \'Maturin\', \'Casa78 Av.\', \'458\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `inm_propietario` (`codigo_propietario`, `rol`, `nombres`, `apellidos`, `rfc`, `cp_fiscal`, `regimen_fiscal`, `dispensar_ingresos`, `factura`, `codigo_postal`, `email_prin`, `email_sec`, `telefono_movil`, `telefono_casa`, `telefono_trabajo`, `telefono2_trabajo`, `banco_deposito`, `cuenta_clabe`, `titular_cuenta`, `porcentaje`, `instrucciones_pago`, `instrucciones_extras`, `pais`, `estado`, `municipio`, `colonia`, `ciudad`, `calle`, `numero`) VALUES (NULL, \'2\', \'Erika\', \'Brito\', \'HG-2024\', \'8050\', \'\', \'2\', \'1\', \'8050\', \'erikab644@gmail.com\', \'erikab644@gmail.com\', \'04121090185\', \'04121090185\', \'04261963110\', \'04121090185\', \'Santander\', \'00102547892025\', \'Juana DE\', NULL, NULL, \'\', NULL, NULL, NULL, \'Tovar\', \'Maturin\', \'Casa78 Av.\', \'458\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `inm_propietario` (`codigo_propietario`, `rol`, `nombres`, `apellidos`, `rfc`, `cp_fiscal`, `regimen_fiscal`, `dispensar_ingresos`, `factura`, `codigo_postal`, `email_prin`, `email_sec`, `telefono_movil`, `telefono_casa`, `telefono_trabajo`, `telefono2_trabajo`, `banco_deposito`, `cuenta_clabe`, `titular_cuenta`, `porcentaje`, `instrucciones_pago`, `instrucciones_extras`, `pais`, `estado`, `municipio`, `colonia`, `ciudad`, `calle`, `numero`) VALUES (NULL, \'2\', \'Erika\', \'Brito\', \'HG-2024\', \'8050\', \'\', \'2\', \'1\', \'8050\', \'erikab644@gmail.com\', \'erikab644@gmail.com\', \'04121090185\', \'04121090185\', \'04261963110\', \'04121090185\', \'Santander\', \'00102547892025\', \'Juana DE\', NULL, NULL, \'\', NULL, NULL, NULL, \'Tovar\', \'Maturin\', \'Casa78 Av.\', \'458\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `inm_propietario` (`codigo_propietario`, `rol`, `nombres`, `apellidos`, `rfc`, `cp_fiscal`, `regimen_fiscal`, `dispensar_ingresos`, `factura`, `codigo_postal`, `email_prin`, `email_sec`, `telefono_movil`, `telefono_casa`, `telefono_trabajo`, `telefono2_trabajo`, `banco_deposito`, `cuenta_clabe`, `titular_cuenta`, `porcentaje`, `instrucciones_pago`, `instrucciones_extras`, `pais`, `estado`, `municipio`, `colonia`, `ciudad`, `calle`, `numero`) VALUES (:codigo_propietario:, :rol:, :nombres:, :apellidos:, :rfc:, :cp_fiscal:, :regimen_fiscal:, :dispensar_ingresos:, :factura:, :codigo_postal:, :email_prin:, :email_sec:, :telefono_movil:, :telefono_casa:, :telefono_trabajo:, :telefono2_trabajo:, :banco_deposito:, :cuenta_clabe:, :titular_cuenta:, :porcentaje:, :instrucciones_pago:, :instrucciones_extras:, :pais:, :estado:, :municipio:, :colonia:, :ciudad:, :calle:, :numero:)', [...], false)
+ 5 APPPATH\Models\PropietarioModel.php(31): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\PropietarioController.php(96): App\Models\PropietarioModel->insertar([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PropietarioController->guardar()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropietarioController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-05 16:27:24 --> mysqli_sql_exception: Unknown column 'pais' in 'field list' in C:\xampp\htdocs\inmobiliaria\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\inmobiliaria\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `in...', 0)
+#1 C:\xampp\htdocs\inmobiliaria\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 C:\xampp\htdocs\inmobiliaria\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 C:\xampp\htdocs\inmobiliaria\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 C:\xampp\htdocs\inmobiliaria\app\Models\PropietarioModel.php(31): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\inmobiliaria\app\Controllers\PropietarioController.php(96): App\Models\PropietarioModel->insertar(Array)
+#6 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(941): App\Controllers\PropietarioController->guardar()
+#7 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropietarioController))
+#8 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\inmobiliaria\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-05 16:27:24 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pais' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `inm_propietario` (`codigo_propietario`, `id_rol`, `nombres`, `apellidos`, `rfc`, `cp_fiscal`, `regimen_fiscal`, `dispensar_ingresos`, `factura`, `codigo_postal`, `email_prin`, `email_sec`, `telefono_movil`, `telefono_casa`, `telefono_trabajo`, `telefono2_trabajo`, `banco_deposito`, `cuenta_clabe`, `titular_cuenta`, `porcentaje`, `instrucciones_pago`, `instrucciones_extras`, `pais`, `estado`, `municipio`, `colonia`, `ciudad`, `calle`, `numero`) VALUES (:codigo_propietario:, :id_rol:, :nombres:, :apellidos:, :rfc:, :cp_fiscal:, :regimen_fiscal:, :dispensar_ingresos:, :factura:, :codigo_postal:, :email_prin:, :email_sec:, :telefono_movil:, :telefono_casa:, :telefono_trabajo:, :telefono2_trabajo:, :banco_deposito:, :cuenta_clabe:, :titular_cuenta:, :porcentaje:, :instrucciones_pago:, :instrucciones_extras:, :pais:, :estado:, :municipio:, :colonia:, :ciudad:, :calle:, :numero:)', [...], false)
+ 2 APPPATH\Models\PropietarioModel.php(31): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\PropietarioController.php(96): App\Models\PropietarioModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PropietarioController->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropietarioController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 16:27:24 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pais' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `inm_propietario` (`codigo_propietario`, `id_rol`, `nombres`, `apellidos`, `rfc`, `cp_fiscal`, `regimen_fiscal`, `dispensar_ingresos`, `factura`, `codigo_postal`, `email_prin`, `email_sec`, `telefono_movil`, `telefono_casa`, `telefono_trabajo`, `telefono2_trabajo`, `banco_deposito`, `cuenta_clabe`, `titular_cuenta`, `porcentaje`, `instrucciones_pago`, `instrucciones_extras`, `pais`, `estado`, `municipio`, `colonia`, `ciudad`, `calle`, `numero`) VALUES (NULL, \'2\', \'Erika\', \'Brito\', \'HG-2024\', \'8050\', \'\', \'2\', \'1\', \'8050\', \'erikab644@gmail.com\', \'erikab644@gmail.com\', \'04121090185\', \'04121090185\', \'04261963110\', \'04121090185\', \'Santander\', \'00102547892025\', \'Juana DE\', NULL, NULL, \'\', NULL, NULL, NULL, \'Tovar\', \'Maturin\', \'Casa78 Av.\', \'458\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `inm_propietario` (`codigo_propietario`, `id_rol`, `nombres`, `apellidos`, `rfc`, `cp_fiscal`, `regimen_fiscal`, `dispensar_ingresos`, `factura`, `codigo_postal`, `email_prin`, `email_sec`, `telefono_movil`, `telefono_casa`, `telefono_trabajo`, `telefono2_trabajo`, `banco_deposito`, `cuenta_clabe`, `titular_cuenta`, `porcentaje`, `instrucciones_pago`, `instrucciones_extras`, `pais`, `estado`, `municipio`, `colonia`, `ciudad`, `calle`, `numero`) VALUES (NULL, \'2\', \'Erika\', \'Brito\', \'HG-2024\', \'8050\', \'\', \'2\', \'1\', \'8050\', \'erikab644@gmail.com\', \'erikab644@gmail.com\', \'04121090185\', \'04121090185\', \'04261963110\', \'04121090185\', \'Santander\', \'00102547892025\', \'Juana DE\', NULL, NULL, \'\', NULL, NULL, NULL, \'Tovar\', \'Maturin\', \'Casa78 Av.\', \'458\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `inm_propietario` (`codigo_propietario`, `id_rol`, `nombres`, `apellidos`, `rfc`, `cp_fiscal`, `regimen_fiscal`, `dispensar_ingresos`, `factura`, `codigo_postal`, `email_prin`, `email_sec`, `telefono_movil`, `telefono_casa`, `telefono_trabajo`, `telefono2_trabajo`, `banco_deposito`, `cuenta_clabe`, `titular_cuenta`, `porcentaje`, `instrucciones_pago`, `instrucciones_extras`, `pais`, `estado`, `municipio`, `colonia`, `ciudad`, `calle`, `numero`) VALUES (:codigo_propietario:, :id_rol:, :nombres:, :apellidos:, :rfc:, :cp_fiscal:, :regimen_fiscal:, :dispensar_ingresos:, :factura:, :codigo_postal:, :email_prin:, :email_sec:, :telefono_movil:, :telefono_casa:, :telefono_trabajo:, :telefono2_trabajo:, :banco_deposito:, :cuenta_clabe:, :titular_cuenta:, :porcentaje:, :instrucciones_pago:, :instrucciones_extras:, :pais:, :estado:, :municipio:, :colonia:, :ciudad:, :calle:, :numero:)', [...], false)
+ 4 APPPATH\Models\PropietarioModel.php(31): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\PropietarioController.php(96): App\Models\PropietarioModel->insertar([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PropietarioController->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropietarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 16:27:24 --> [Caused by] mysqli_sql_exception: Unknown column 'pais' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `inm_propietario` (`codigo_propietario`, `id_rol`, `nombres`, `apellidos`, `rfc`, `cp_fiscal`, `regimen_fiscal`, `dispensar_ingresos`, `factura`, `codigo_postal`, `email_prin`, `email_sec`, `telefono_movil`, `telefono_casa`, `telefono_trabajo`, `telefono2_trabajo`, `banco_deposito`, `cuenta_clabe`, `titular_cuenta`, `porcentaje`, `instrucciones_pago`, `instrucciones_extras`, `pais`, `estado`, `municipio`, `colonia`, `ciudad`, `calle`, `numero`) VALUES (NULL, \'2\', \'Erika\', \'Brito\', \'HG-2024\', \'8050\', \'\', \'2\', \'1\', \'8050\', \'erikab644@gmail.com\', \'erikab644@gmail.com\', \'04121090185\', \'04121090185\', \'04261963110\', \'04121090185\', \'Santander\', \'00102547892025\', \'Juana DE\', NULL, NULL, \'\', NULL, NULL, NULL, \'Tovar\', \'Maturin\', \'Casa78 Av.\', \'458\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `inm_propietario` (`codigo_propietario`, `id_rol`, `nombres`, `apellidos`, `rfc`, `cp_fiscal`, `regimen_fiscal`, `dispensar_ingresos`, `factura`, `codigo_postal`, `email_prin`, `email_sec`, `telefono_movil`, `telefono_casa`, `telefono_trabajo`, `telefono2_trabajo`, `banco_deposito`, `cuenta_clabe`, `titular_cuenta`, `porcentaje`, `instrucciones_pago`, `instrucciones_extras`, `pais`, `estado`, `municipio`, `colonia`, `ciudad`, `calle`, `numero`) VALUES (NULL, \'2\', \'Erika\', \'Brito\', \'HG-2024\', \'8050\', \'\', \'2\', \'1\', \'8050\', \'erikab644@gmail.com\', \'erikab644@gmail.com\', \'04121090185\', \'04121090185\', \'04261963110\', \'04121090185\', \'Santander\', \'00102547892025\', \'Juana DE\', NULL, NULL, \'\', NULL, NULL, NULL, \'Tovar\', \'Maturin\', \'Casa78 Av.\', \'458\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `inm_propietario` (`codigo_propietario`, `id_rol`, `nombres`, `apellidos`, `rfc`, `cp_fiscal`, `regimen_fiscal`, `dispensar_ingresos`, `factura`, `codigo_postal`, `email_prin`, `email_sec`, `telefono_movil`, `telefono_casa`, `telefono_trabajo`, `telefono2_trabajo`, `banco_deposito`, `cuenta_clabe`, `titular_cuenta`, `porcentaje`, `instrucciones_pago`, `instrucciones_extras`, `pais`, `estado`, `municipio`, `colonia`, `ciudad`, `calle`, `numero`) VALUES (NULL, \'2\', \'Erika\', \'Brito\', \'HG-2024\', \'8050\', \'\', \'2\', \'1\', \'8050\', \'erikab644@gmail.com\', \'erikab644@gmail.com\', \'04121090185\', \'04121090185\', \'04261963110\', \'04121090185\', \'Santander\', \'00102547892025\', \'Juana DE\', NULL, NULL, \'\', NULL, NULL, NULL, \'Tovar\', \'Maturin\', \'Casa78 Av.\', \'458\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `inm_propietario` (`codigo_propietario`, `id_rol`, `nombres`, `apellidos`, `rfc`, `cp_fiscal`, `regimen_fiscal`, `dispensar_ingresos`, `factura`, `codigo_postal`, `email_prin`, `email_sec`, `telefono_movil`, `telefono_casa`, `telefono_trabajo`, `telefono2_trabajo`, `banco_deposito`, `cuenta_clabe`, `titular_cuenta`, `porcentaje`, `instrucciones_pago`, `instrucciones_extras`, `pais`, `estado`, `municipio`, `colonia`, `ciudad`, `calle`, `numero`) VALUES (:codigo_propietario:, :id_rol:, :nombres:, :apellidos:, :rfc:, :cp_fiscal:, :regimen_fiscal:, :dispensar_ingresos:, :factura:, :codigo_postal:, :email_prin:, :email_sec:, :telefono_movil:, :telefono_casa:, :telefono_trabajo:, :telefono2_trabajo:, :banco_deposito:, :cuenta_clabe:, :titular_cuenta:, :porcentaje:, :instrucciones_pago:, :instrucciones_extras:, :pais:, :estado:, :municipio:, :colonia:, :ciudad:, :calle:, :numero:)', [...], false)
+ 5 APPPATH\Models\PropietarioModel.php(31): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\PropietarioController.php(96): App\Models\PropietarioModel->insertar([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PropietarioController->guardar()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropietarioController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-05 16:27:54 --> mysqli_sql_exception: Column 'codigo_propietario' cannot be null in C:\xampp\htdocs\inmobiliaria\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\inmobiliaria\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `in...', 0)
+#1 C:\xampp\htdocs\inmobiliaria\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 C:\xampp\htdocs\inmobiliaria\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 C:\xampp\htdocs\inmobiliaria\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 C:\xampp\htdocs\inmobiliaria\app\Models\PropietarioModel.php(31): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\inmobiliaria\app\Controllers\PropietarioController.php(96): App\Models\PropietarioModel->insertar(Array)
+#6 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(941): App\Controllers\PropietarioController->guardar()
+#7 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropietarioController))
+#8 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\inmobiliaria\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-05 16:27:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'codigo_propietario' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `inm_propietario` (`codigo_propietario`, `id_rol`, `nombres`, `apellidos`, `rfc`, `cp_fiscal`, `regimen_fiscal`, `dispensar_ingresos`, `factura`, `codigo_postal`, `email_prin`, `email_sec`, `telefono_movil`, `telefono_casa`, `telefono_trabajo`, `telefono2_trabajo`, `banco_deposito`, `cuenta_clabe`, `titular_cuenta`, `porcentaje`, `instrucciones_pago`, `instrucciones_extras`, `id_pais`, `id_estado`, `id_municipio`, `colonia`, `ciudad`, `calle`, `numero`) VALUES (:codigo_propietario:, :id_rol:, :nombres:, :apellidos:, :rfc:, :cp_fiscal:, :regimen_fiscal:, :dispensar_ingresos:, :factura:, :codigo_postal:, :email_prin:, :email_sec:, :telefono_movil:, :telefono_casa:, :telefono_trabajo:, :telefono2_trabajo:, :banco_deposito:, :cuenta_clabe:, :titular_cuenta:, :porcentaje:, :instrucciones_pago:, :instrucciones_extras:, :id_pais:, :id_estado:, :id_municipio:, :colonia:, :ciudad:, :calle:, :numero:)', [...], false)
+ 2 APPPATH\Models\PropietarioModel.php(31): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\PropietarioController.php(96): App\Models\PropietarioModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PropietarioController->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropietarioController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 16:27:54 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'codigo_propietario' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `inm_propietario` (`codigo_propietario`, `id_rol`, `nombres`, `apellidos`, `rfc`, `cp_fiscal`, `regimen_fiscal`, `dispensar_ingresos`, `factura`, `codigo_postal`, `email_prin`, `email_sec`, `telefono_movil`, `telefono_casa`, `telefono_trabajo`, `telefono2_trabajo`, `banco_deposito`, `cuenta_clabe`, `titular_cuenta`, `porcentaje`, `instrucciones_pago`, `instrucciones_extras`, `id_pais`, `id_estado`, `id_municipio`, `colonia`, `ciudad`, `calle`, `numero`) VALUES (NULL, \'2\', \'Erika\', \'Brito\', \'HG-2024\', \'8050\', \'\', \'2\', \'1\', \'8050\', \'erikab644@gmail.com\', \'erikab644@gmail.com\', \'04121090185\', \'04121090185\', \'04261963110\', \'04121090185\', \'Santander\', \'00102547892025\', \'Juana DE\', NULL, NULL, \'\', NULL, NULL, NULL, \'Tovar\', \'Maturin\', \'Casa78 Av.\', \'458\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `inm_propietario` (`codigo_propietario`, `id_rol`, `nombres`, `apellidos`, `rfc`, `cp_fiscal`, `regimen_fiscal`, `dispensar_ingresos`, `factura`, `codigo_postal`, `email_prin`, `email_sec`, `telefono_movil`, `telefono_casa`, `telefono_trabajo`, `telefono2_trabajo`, `banco_deposito`, `cuenta_clabe`, `titular_cuenta`, `porcentaje`, `instrucciones_pago`, `instrucciones_extras`, `id_pais`, `id_estado`, `id_municipio`, `colonia`, `ciudad`, `calle`, `numero`) VALUES (NULL, \'2\', \'Erika\', \'Brito\', \'HG-2024\', \'8050\', \'\', \'2\', \'1\', \'8050\', \'erikab644@gmail.com\', \'erikab644@gmail.com\', \'04121090185\', \'04121090185\', \'04261963110\', \'04121090185\', \'Santander\', \'00102547892025\', \'Juana DE\', NULL, NULL, \'\', NULL, NULL, NULL, \'Tovar\', \'Maturin\', \'Casa78 Av.\', \'458\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `inm_propietario` (`codigo_propietario`, `id_rol`, `nombres`, `apellidos`, `rfc`, `cp_fiscal`, `regimen_fiscal`, `dispensar_ingresos`, `factura`, `codigo_postal`, `email_prin`, `email_sec`, `telefono_movil`, `telefono_casa`, `telefono_trabajo`, `telefono2_trabajo`, `banco_deposito`, `cuenta_clabe`, `titular_cuenta`, `porcentaje`, `instrucciones_pago`, `instrucciones_extras`, `id_pais`, `id_estado`, `id_municipio`, `colonia`, `ciudad`, `calle`, `numero`) VALUES (:codigo_propietario:, :id_rol:, :nombres:, :apellidos:, :rfc:, :cp_fiscal:, :regimen_fiscal:, :dispensar_ingresos:, :factura:, :codigo_postal:, :email_prin:, :email_sec:, :telefono_movil:, :telefono_casa:, :telefono_trabajo:, :telefono2_trabajo:, :banco_deposito:, :cuenta_clabe:, :titular_cuenta:, :porcentaje:, :instrucciones_pago:, :instrucciones_extras:, :id_pais:, :id_estado:, :id_municipio:, :colonia:, :ciudad:, :calle:, :numero:)', [...], false)
+ 4 APPPATH\Models\PropietarioModel.php(31): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\PropietarioController.php(96): App\Models\PropietarioModel->insertar([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PropietarioController->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropietarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 16:27:54 --> [Caused by] mysqli_sql_exception: Column 'codigo_propietario' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `inm_propietario` (`codigo_propietario`, `id_rol`, `nombres`, `apellidos`, `rfc`, `cp_fiscal`, `regimen_fiscal`, `dispensar_ingresos`, `factura`, `codigo_postal`, `email_prin`, `email_sec`, `telefono_movil`, `telefono_casa`, `telefono_trabajo`, `telefono2_trabajo`, `banco_deposito`, `cuenta_clabe`, `titular_cuenta`, `porcentaje`, `instrucciones_pago`, `instrucciones_extras`, `id_pais`, `id_estado`, `id_municipio`, `colonia`, `ciudad`, `calle`, `numero`) VALUES (NULL, \'2\', \'Erika\', \'Brito\', \'HG-2024\', \'8050\', \'\', \'2\', \'1\', \'8050\', \'erikab644@gmail.com\', \'erikab644@gmail.com\', \'04121090185\', \'04121090185\', \'04261963110\', \'04121090185\', \'Santander\', \'00102547892025\', \'Juana DE\', NULL, NULL, \'\', NULL, NULL, NULL, \'Tovar\', \'Maturin\', \'Casa78 Av.\', \'458\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `inm_propietario` (`codigo_propietario`, `id_rol`, `nombres`, `apellidos`, `rfc`, `cp_fiscal`, `regimen_fiscal`, `dispensar_ingresos`, `factura`, `codigo_postal`, `email_prin`, `email_sec`, `telefono_movil`, `telefono_casa`, `telefono_trabajo`, `telefono2_trabajo`, `banco_deposito`, `cuenta_clabe`, `titular_cuenta`, `porcentaje`, `instrucciones_pago`, `instrucciones_extras`, `id_pais`, `id_estado`, `id_municipio`, `colonia`, `ciudad`, `calle`, `numero`) VALUES (NULL, \'2\', \'Erika\', \'Brito\', \'HG-2024\', \'8050\', \'\', \'2\', \'1\', \'8050\', \'erikab644@gmail.com\', \'erikab644@gmail.com\', \'04121090185\', \'04121090185\', \'04261963110\', \'04121090185\', \'Santander\', \'00102547892025\', \'Juana DE\', NULL, NULL, \'\', NULL, NULL, NULL, \'Tovar\', \'Maturin\', \'Casa78 Av.\', \'458\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `inm_propietario` (`codigo_propietario`, `id_rol`, `nombres`, `apellidos`, `rfc`, `cp_fiscal`, `regimen_fiscal`, `dispensar_ingresos`, `factura`, `codigo_postal`, `email_prin`, `email_sec`, `telefono_movil`, `telefono_casa`, `telefono_trabajo`, `telefono2_trabajo`, `banco_deposito`, `cuenta_clabe`, `titular_cuenta`, `porcentaje`, `instrucciones_pago`, `instrucciones_extras`, `id_pais`, `id_estado`, `id_municipio`, `colonia`, `ciudad`, `calle`, `numero`) VALUES (NULL, \'2\', \'Erika\', \'Brito\', \'HG-2024\', \'8050\', \'\', \'2\', \'1\', \'8050\', \'erikab644@gmail.com\', \'erikab644@gmail.com\', \'04121090185\', \'04121090185\', \'04261963110\', \'04121090185\', \'Santander\', \'00102547892025\', \'Juana DE\', NULL, NULL, \'\', NULL, NULL, NULL, \'Tovar\', \'Maturin\', \'Casa78 Av.\', \'458\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `inm_propietario` (`codigo_propietario`, `id_rol`, `nombres`, `apellidos`, `rfc`, `cp_fiscal`, `regimen_fiscal`, `dispensar_ingresos`, `factura`, `codigo_postal`, `email_prin`, `email_sec`, `telefono_movil`, `telefono_casa`, `telefono_trabajo`, `telefono2_trabajo`, `banco_deposito`, `cuenta_clabe`, `titular_cuenta`, `porcentaje`, `instrucciones_pago`, `instrucciones_extras`, `id_pais`, `id_estado`, `id_municipio`, `colonia`, `ciudad`, `calle`, `numero`) VALUES (:codigo_propietario:, :id_rol:, :nombres:, :apellidos:, :rfc:, :cp_fiscal:, :regimen_fiscal:, :dispensar_ingresos:, :factura:, :codigo_postal:, :email_prin:, :email_sec:, :telefono_movil:, :telefono_casa:, :telefono_trabajo:, :telefono2_trabajo:, :banco_deposito:, :cuenta_clabe:, :titular_cuenta:, :porcentaje:, :instrucciones_pago:, :instrucciones_extras:, :id_pais:, :id_estado:, :id_municipio:, :colonia:, :ciudad:, :calle:, :numero:)', [...], false)
+ 5 APPPATH\Models\PropietarioModel.php(31): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\PropietarioController.php(96): App\Models\PropietarioModel->insertar([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PropietarioController->guardar()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropietarioController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 16:28:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-05 16:29:17 --> mysqli_sql_exception: Column 'codigo_propietario' cannot be null in C:\xampp\htdocs\inmobiliaria\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\inmobiliaria\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `in...', 0)
+#1 C:\xampp\htdocs\inmobiliaria\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 C:\xampp\htdocs\inmobiliaria\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 C:\xampp\htdocs\inmobiliaria\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 C:\xampp\htdocs\inmobiliaria\app\Models\PropietarioModel.php(31): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\inmobiliaria\app\Controllers\PropietarioController.php(96): App\Models\PropietarioModel->insertar(Array)
+#6 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(941): App\Controllers\PropietarioController->guardar()
+#7 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropietarioController))
+#8 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\inmobiliaria\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-05 16:29:17 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'codigo_propietario' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `inm_propietario` (`codigo_propietario`, `id_rol`, `nombres`, `apellidos`, `rfc`, `cp_fiscal`, `regimen_fiscal`, `dispensar_ingresos`, `factura`, `codigo_postal`, `email_prin`, `email_sec`, `telefono_movil`, `telefono_casa`, `telefono_trabajo`, `telefono2_trabajo`, `banco_deposito`, `cuenta_clabe`, `titular_cuenta`, `porcentaje`, `instrucciones_pago`, `instrucciones_extras`, `id_pais`, `id_estado`, `id_municipio`, `colonia`, `ciudad`, `calle`, `numero`) VALUES (:codigo_propietario:, :id_rol:, :nombres:, :apellidos:, :rfc:, :cp_fiscal:, :regimen_fiscal:, :dispensar_ingresos:, :factura:, :codigo_postal:, :email_prin:, :email_sec:, :telefono_movil:, :telefono_casa:, :telefono_trabajo:, :telefono2_trabajo:, :banco_deposito:, :cuenta_clabe:, :titular_cuenta:, :porcentaje:, :instrucciones_pago:, :instrucciones_extras:, :id_pais:, :id_estado:, :id_municipio:, :colonia:, :ciudad:, :calle:, :numero:)', [...], false)
+ 2 APPPATH\Models\PropietarioModel.php(31): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\PropietarioController.php(96): App\Models\PropietarioModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PropietarioController->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropietarioController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 16:29:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'codigo_propietario' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `inm_propietario` (`codigo_propietario`, `id_rol`, `nombres`, `apellidos`, `rfc`, `cp_fiscal`, `regimen_fiscal`, `dispensar_ingresos`, `factura`, `codigo_postal`, `email_prin`, `email_sec`, `telefono_movil`, `telefono_casa`, `telefono_trabajo`, `telefono2_trabajo`, `banco_deposito`, `cuenta_clabe`, `titular_cuenta`, `porcentaje`, `instrucciones_pago`, `instrucciones_extras`, `id_pais`, `id_estado`, `id_municipio`, `colonia`, `ciudad`, `calle`, `numero`) VALUES (NULL, \'2\', \'Erika\', \'Brito\', \'HG-2024\', \'8050\', \'\', \'2\', \'1\', \'8050\', \'erikab644@gmail.com\', \'erikab644@gmail.com\', \'04121090185\', \'04121090185\', \'04261963110\', \'04121090185\', \'Santander\', \'00102547892025\', \'Juana DE\', NULL, NULL, \'\', NULL, NULL, NULL, \'Tovar\', \'Maturin\', \'Casa78 Av.\', \'458\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `inm_propietario` (`codigo_propietario`, `id_rol`, `nombres`, `apellidos`, `rfc`, `cp_fiscal`, `regimen_fiscal`, `dispensar_ingresos`, `factura`, `codigo_postal`, `email_prin`, `email_sec`, `telefono_movil`, `telefono_casa`, `telefono_trabajo`, `telefono2_trabajo`, `banco_deposito`, `cuenta_clabe`, `titular_cuenta`, `porcentaje`, `instrucciones_pago`, `instrucciones_extras`, `id_pais`, `id_estado`, `id_municipio`, `colonia`, `ciudad`, `calle`, `numero`) VALUES (NULL, \'2\', \'Erika\', \'Brito\', \'HG-2024\', \'8050\', \'\', \'2\', \'1\', \'8050\', \'erikab644@gmail.com\', \'erikab644@gmail.com\', \'04121090185\', \'04121090185\', \'04261963110\', \'04121090185\', \'Santander\', \'00102547892025\', \'Juana DE\', NULL, NULL, \'\', NULL, NULL, NULL, \'Tovar\', \'Maturin\', \'Casa78 Av.\', \'458\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `inm_propietario` (`codigo_propietario`, `id_rol`, `nombres`, `apellidos`, `rfc`, `cp_fiscal`, `regimen_fiscal`, `dispensar_ingresos`, `factura`, `codigo_postal`, `email_prin`, `email_sec`, `telefono_movil`, `telefono_casa`, `telefono_trabajo`, `telefono2_trabajo`, `banco_deposito`, `cuenta_clabe`, `titular_cuenta`, `porcentaje`, `instrucciones_pago`, `instrucciones_extras`, `id_pais`, `id_estado`, `id_municipio`, `colonia`, `ciudad`, `calle`, `numero`) VALUES (:codigo_propietario:, :id_rol:, :nombres:, :apellidos:, :rfc:, :cp_fiscal:, :regimen_fiscal:, :dispensar_ingresos:, :factura:, :codigo_postal:, :email_prin:, :email_sec:, :telefono_movil:, :telefono_casa:, :telefono_trabajo:, :telefono2_trabajo:, :banco_deposito:, :cuenta_clabe:, :titular_cuenta:, :porcentaje:, :instrucciones_pago:, :instrucciones_extras:, :id_pais:, :id_estado:, :id_municipio:, :colonia:, :ciudad:, :calle:, :numero:)', [...], false)
+ 4 APPPATH\Models\PropietarioModel.php(31): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\PropietarioController.php(96): App\Models\PropietarioModel->insertar([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PropietarioController->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropietarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 16:29:17 --> [Caused by] mysqli_sql_exception: Column 'codigo_propietario' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `inm_propietario` (`codigo_propietario`, `id_rol`, `nombres`, `apellidos`, `rfc`, `cp_fiscal`, `regimen_fiscal`, `dispensar_ingresos`, `factura`, `codigo_postal`, `email_prin`, `email_sec`, `telefono_movil`, `telefono_casa`, `telefono_trabajo`, `telefono2_trabajo`, `banco_deposito`, `cuenta_clabe`, `titular_cuenta`, `porcentaje`, `instrucciones_pago`, `instrucciones_extras`, `id_pais`, `id_estado`, `id_municipio`, `colonia`, `ciudad`, `calle`, `numero`) VALUES (NULL, \'2\', \'Erika\', \'Brito\', \'HG-2024\', \'8050\', \'\', \'2\', \'1\', \'8050\', \'erikab644@gmail.com\', \'erikab644@gmail.com\', \'04121090185\', \'04121090185\', \'04261963110\', \'04121090185\', \'Santander\', \'00102547892025\', \'Juana DE\', NULL, NULL, \'\', NULL, NULL, NULL, \'Tovar\', \'Maturin\', \'Casa78 Av.\', \'458\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `inm_propietario` (`codigo_propietario`, `id_rol`, `nombres`, `apellidos`, `rfc`, `cp_fiscal`, `regimen_fiscal`, `dispensar_ingresos`, `factura`, `codigo_postal`, `email_prin`, `email_sec`, `telefono_movil`, `telefono_casa`, `telefono_trabajo`, `telefono2_trabajo`, `banco_deposito`, `cuenta_clabe`, `titular_cuenta`, `porcentaje`, `instrucciones_pago`, `instrucciones_extras`, `id_pais`, `id_estado`, `id_municipio`, `colonia`, `ciudad`, `calle`, `numero`) VALUES (NULL, \'2\', \'Erika\', \'Brito\', \'HG-2024\', \'8050\', \'\', \'2\', \'1\', \'8050\', \'erikab644@gmail.com\', \'erikab644@gmail.com\', \'04121090185\', \'04121090185\', \'04261963110\', \'04121090185\', \'Santander\', \'00102547892025\', \'Juana DE\', NULL, NULL, \'\', NULL, NULL, NULL, \'Tovar\', \'Maturin\', \'Casa78 Av.\', \'458\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `inm_propietario` (`codigo_propietario`, `id_rol`, `nombres`, `apellidos`, `rfc`, `cp_fiscal`, `regimen_fiscal`, `dispensar_ingresos`, `factura`, `codigo_postal`, `email_prin`, `email_sec`, `telefono_movil`, `telefono_casa`, `telefono_trabajo`, `telefono2_trabajo`, `banco_deposito`, `cuenta_clabe`, `titular_cuenta`, `porcentaje`, `instrucciones_pago`, `instrucciones_extras`, `id_pais`, `id_estado`, `id_municipio`, `colonia`, `ciudad`, `calle`, `numero`) VALUES (NULL, \'2\', \'Erika\', \'Brito\', \'HG-2024\', \'8050\', \'\', \'2\', \'1\', \'8050\', \'erikab644@gmail.com\', \'erikab644@gmail.com\', \'04121090185\', \'04121090185\', \'04261963110\', \'04121090185\', \'Santander\', \'00102547892025\', \'Juana DE\', NULL, NULL, \'\', NULL, NULL, NULL, \'Tovar\', \'Maturin\', \'Casa78 Av.\', \'458\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `inm_propietario` (`codigo_propietario`, `id_rol`, `nombres`, `apellidos`, `rfc`, `cp_fiscal`, `regimen_fiscal`, `dispensar_ingresos`, `factura`, `codigo_postal`, `email_prin`, `email_sec`, `telefono_movil`, `telefono_casa`, `telefono_trabajo`, `telefono2_trabajo`, `banco_deposito`, `cuenta_clabe`, `titular_cuenta`, `porcentaje`, `instrucciones_pago`, `instrucciones_extras`, `id_pais`, `id_estado`, `id_municipio`, `colonia`, `ciudad`, `calle`, `numero`) VALUES (:codigo_propietario:, :id_rol:, :nombres:, :apellidos:, :rfc:, :cp_fiscal:, :regimen_fiscal:, :dispensar_ingresos:, :factura:, :codigo_postal:, :email_prin:, :email_sec:, :telefono_movil:, :telefono_casa:, :telefono_trabajo:, :telefono2_trabajo:, :banco_deposito:, :cuenta_clabe:, :titular_cuenta:, :porcentaje:, :instrucciones_pago:, :instrucciones_extras:, :id_pais:, :id_estado:, :id_municipio:, :colonia:, :ciudad:, :calle:, :numero:)', [...], false)
+ 5 APPPATH\Models\PropietarioModel.php(31): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\PropietarioController.php(96): App\Models\PropietarioModel->insertar([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PropietarioController->guardar()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropietarioController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 16:29:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 16:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-05 16:30:16 --> mysqli_sql_exception: Column 'porcentaje' cannot be null in C:\xampp\htdocs\inmobiliaria\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\inmobiliaria\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `in...', 0)
+#1 C:\xampp\htdocs\inmobiliaria\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 C:\xampp\htdocs\inmobiliaria\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 C:\xampp\htdocs\inmobiliaria\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 C:\xampp\htdocs\inmobiliaria\app\Models\PropietarioModel.php(31): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\inmobiliaria\app\Controllers\PropietarioController.php(96): App\Models\PropietarioModel->insertar(Array)
+#6 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(941): App\Controllers\PropietarioController->guardar()
+#7 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropietarioController))
+#8 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\inmobiliaria\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-05 16:30:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'porcentaje' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `inm_propietario` (`codigo_propietario`, `id_rol`, `nombres`, `apellidos`, `rfc`, `cp_fiscal`, `regimen_fiscal`, `dispensar_ingresos`, `factura`, `codigo_postal`, `email_prin`, `email_sec`, `telefono_movil`, `telefono_casa`, `telefono_trabajo`, `telefono2_trabajo`, `banco_deposito`, `cuenta_clabe`, `titular_cuenta`, `porcentaje`, `instrucciones_pago`, `instrucciones_extras`, `id_pais`, `id_estado`, `id_municipio`, `colonia`, `ciudad`, `calle`, `numero`) VALUES (:codigo_propietario:, :id_rol:, :nombres:, :apellidos:, :rfc:, :cp_fiscal:, :regimen_fiscal:, :dispensar_ingresos:, :factura:, :codigo_postal:, :email_prin:, :email_sec:, :telefono_movil:, :telefono_casa:, :telefono_trabajo:, :telefono2_trabajo:, :banco_deposito:, :cuenta_clabe:, :titular_cuenta:, :porcentaje:, :instrucciones_pago:, :instrucciones_extras:, :id_pais:, :id_estado:, :id_municipio:, :colonia:, :ciudad:, :calle:, :numero:)', [...], false)
+ 2 APPPATH\Models\PropietarioModel.php(31): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\PropietarioController.php(96): App\Models\PropietarioModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PropietarioController->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropietarioController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 16:30:16 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'porcentaje' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `inm_propietario` (`codigo_propietario`, `id_rol`, `nombres`, `apellidos`, `rfc`, `cp_fiscal`, `regimen_fiscal`, `dispensar_ingresos`, `factura`, `codigo_postal`, `email_prin`, `email_sec`, `telefono_movil`, `telefono_casa`, `telefono_trabajo`, `telefono2_trabajo`, `banco_deposito`, `cuenta_clabe`, `titular_cuenta`, `porcentaje`, `instrucciones_pago`, `instrucciones_extras`, `id_pais`, `id_estado`, `id_municipio`, `colonia`, `ciudad`, `calle`, `numero`) VALUES (\'850\', \'2\', \'Erika\', \'Brito\', \'HG-2024\', \'8050\', \'\', \'2\', \'1\', \'8050\', \'erikab644@gmail.com\', \'erikab644@gmail.com\', \'04121090185\', \'04121090185\', \'04261963110\', \'04121090185\', \'Santander\', \'00102547892025\', \'Juana DE\', NULL, NULL, \'\', NULL, NULL, NULL, \'Tovar\', \'Maturin\', \'Casa78 Av.\', \'458\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `inm_propietario` (`codigo_propietario`, `id_rol`, `nombres`, `apellidos`, `rfc`, `cp_fiscal`, `regimen_fiscal`, `dispensar_ingresos`, `factura`, `codigo_postal`, `email_prin`, `email_sec`, `telefono_movil`, `telefono_casa`, `telefono_trabajo`, `telefono2_trabajo`, `banco_deposito`, `cuenta_clabe`, `titular_cuenta`, `porcentaje`, `instrucciones_pago`, `instrucciones_extras`, `id_pais`, `id_estado`, `id_municipio`, `colonia`, `ciudad`, `calle`, `numero`) VALUES (\'850\', \'2\', \'Erika\', \'Brito\', \'HG-2024\', \'8050\', \'\', \'2\', \'1\', \'8050\', \'erikab644@gmail.com\', \'erikab644@gmail.com\', \'04121090185\', \'04121090185\', \'04261963110\', \'04121090185\', \'Santander\', \'00102547892025\', \'Juana DE\', NULL, NULL, \'\', NULL, NULL, NULL, \'Tovar\', \'Maturin\', \'Casa78 Av.\', \'458\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `inm_propietario` (`codigo_propietario`, `id_rol`, `nombres`, `apellidos`, `rfc`, `cp_fiscal`, `regimen_fiscal`, `dispensar_ingresos`, `factura`, `codigo_postal`, `email_prin`, `email_sec`, `telefono_movil`, `telefono_casa`, `telefono_trabajo`, `telefono2_trabajo`, `banco_deposito`, `cuenta_clabe`, `titular_cuenta`, `porcentaje`, `instrucciones_pago`, `instrucciones_extras`, `id_pais`, `id_estado`, `id_municipio`, `colonia`, `ciudad`, `calle`, `numero`) VALUES (:codigo_propietario:, :id_rol:, :nombres:, :apellidos:, :rfc:, :cp_fiscal:, :regimen_fiscal:, :dispensar_ingresos:, :factura:, :codigo_postal:, :email_prin:, :email_sec:, :telefono_movil:, :telefono_casa:, :telefono_trabajo:, :telefono2_trabajo:, :banco_deposito:, :cuenta_clabe:, :titular_cuenta:, :porcentaje:, :instrucciones_pago:, :instrucciones_extras:, :id_pais:, :id_estado:, :id_municipio:, :colonia:, :ciudad:, :calle:, :numero:)', [...], false)
+ 4 APPPATH\Models\PropietarioModel.php(31): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\PropietarioController.php(96): App\Models\PropietarioModel->insertar([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PropietarioController->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropietarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 16:30:16 --> [Caused by] mysqli_sql_exception: Column 'porcentaje' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `inm_propietario` (`codigo_propietario`, `id_rol`, `nombres`, `apellidos`, `rfc`, `cp_fiscal`, `regimen_fiscal`, `dispensar_ingresos`, `factura`, `codigo_postal`, `email_prin`, `email_sec`, `telefono_movil`, `telefono_casa`, `telefono_trabajo`, `telefono2_trabajo`, `banco_deposito`, `cuenta_clabe`, `titular_cuenta`, `porcentaje`, `instrucciones_pago`, `instrucciones_extras`, `id_pais`, `id_estado`, `id_municipio`, `colonia`, `ciudad`, `calle`, `numero`) VALUES (\'850\', \'2\', \'Erika\', \'Brito\', \'HG-2024\', \'8050\', \'\', \'2\', \'1\', \'8050\', \'erikab644@gmail.com\', \'erikab644@gmail.com\', \'04121090185\', \'04121090185\', \'04261963110\', \'04121090185\', \'Santander\', \'00102547892025\', \'Juana DE\', NULL, NULL, \'\', NULL, NULL, NULL, \'Tovar\', \'Maturin\', \'Casa78 Av.\', \'458\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `inm_propietario` (`codigo_propietario`, `id_rol`, `nombres`, `apellidos`, `rfc`, `cp_fiscal`, `regimen_fiscal`, `dispensar_ingresos`, `factura`, `codigo_postal`, `email_prin`, `email_sec`, `telefono_movil`, `telefono_casa`, `telefono_trabajo`, `telefono2_trabajo`, `banco_deposito`, `cuenta_clabe`, `titular_cuenta`, `porcentaje`, `instrucciones_pago`, `instrucciones_extras`, `id_pais`, `id_estado`, `id_municipio`, `colonia`, `ciudad`, `calle`, `numero`) VALUES (\'850\', \'2\', \'Erika\', \'Brito\', \'HG-2024\', \'8050\', \'\', \'2\', \'1\', \'8050\', \'erikab644@gmail.com\', \'erikab644@gmail.com\', \'04121090185\', \'04121090185\', \'04261963110\', \'04121090185\', \'Santander\', \'00102547892025\', \'Juana DE\', NULL, NULL, \'\', NULL, NULL, NULL, \'Tovar\', \'Maturin\', \'Casa78 Av.\', \'458\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `inm_propietario` (`codigo_propietario`, `id_rol`, `nombres`, `apellidos`, `rfc`, `cp_fiscal`, `regimen_fiscal`, `dispensar_ingresos`, `factura`, `codigo_postal`, `email_prin`, `email_sec`, `telefono_movil`, `telefono_casa`, `telefono_trabajo`, `telefono2_trabajo`, `banco_deposito`, `cuenta_clabe`, `titular_cuenta`, `porcentaje`, `instrucciones_pago`, `instrucciones_extras`, `id_pais`, `id_estado`, `id_municipio`, `colonia`, `ciudad`, `calle`, `numero`) VALUES (\'850\', \'2\', \'Erika\', \'Brito\', \'HG-2024\', \'8050\', \'\', \'2\', \'1\', \'8050\', \'erikab644@gmail.com\', \'erikab644@gmail.com\', \'04121090185\', \'04121090185\', \'04261963110\', \'04121090185\', \'Santander\', \'00102547892025\', \'Juana DE\', NULL, NULL, \'\', NULL, NULL, NULL, \'Tovar\', \'Maturin\', \'Casa78 Av.\', \'458\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `inm_propietario` (`codigo_propietario`, `id_rol`, `nombres`, `apellidos`, `rfc`, `cp_fiscal`, `regimen_fiscal`, `dispensar_ingresos`, `factura`, `codigo_postal`, `email_prin`, `email_sec`, `telefono_movil`, `telefono_casa`, `telefono_trabajo`, `telefono2_trabajo`, `banco_deposito`, `cuenta_clabe`, `titular_cuenta`, `porcentaje`, `instrucciones_pago`, `instrucciones_extras`, `id_pais`, `id_estado`, `id_municipio`, `colonia`, `ciudad`, `calle`, `numero`) VALUES (:codigo_propietario:, :id_rol:, :nombres:, :apellidos:, :rfc:, :cp_fiscal:, :regimen_fiscal:, :dispensar_ingresos:, :factura:, :codigo_postal:, :email_prin:, :email_sec:, :telefono_movil:, :telefono_casa:, :telefono_trabajo:, :telefono2_trabajo:, :banco_deposito:, :cuenta_clabe:, :titular_cuenta:, :porcentaje:, :instrucciones_pago:, :instrucciones_extras:, :id_pais:, :id_estado:, :id_municipio:, :colonia:, :ciudad:, :calle:, :numero:)', [...], false)
+ 5 APPPATH\Models\PropietarioModel.php(31): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\PropietarioController.php(96): App\Models\PropietarioModel->insertar([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PropietarioController->guardar()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropietarioController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 16:30:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 16:31:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-05 16:32:36 --> mysqli_sql_exception: Column 'instrucciones_pago' cannot be null in C:\xampp\htdocs\inmobiliaria\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\inmobiliaria\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `in...', 0)
+#1 C:\xampp\htdocs\inmobiliaria\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 C:\xampp\htdocs\inmobiliaria\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 C:\xampp\htdocs\inmobiliaria\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 C:\xampp\htdocs\inmobiliaria\app\Models\PropietarioModel.php(31): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\inmobiliaria\app\Controllers\PropietarioController.php(96): App\Models\PropietarioModel->insertar(Array)
+#6 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(941): App\Controllers\PropietarioController->guardar()
+#7 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropietarioController))
+#8 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\inmobiliaria\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-05 16:32:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'instrucciones_pago' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `inm_propietario` (`codigo_propietario`, `id_rol`, `nombres`, `apellidos`, `rfc`, `cp_fiscal`, `regimen_fiscal`, `dispensar_ingresos`, `factura`, `codigo_postal`, `email_prin`, `email_sec`, `telefono_movil`, `telefono_casa`, `telefono_trabajo`, `telefono2_trabajo`, `banco_deposito`, `cuenta_clabe`, `titular_cuenta`, `porcentaje`, `instrucciones_pago`, `instrucciones_extras`, `id_pais`, `id_estado`, `id_municipio`, `colonia`, `ciudad`, `calle`, `numero`) VALUES (:codigo_propietario:, :id_rol:, :nombres:, :apellidos:, :rfc:, :cp_fiscal:, :regimen_fiscal:, :dispensar_ingresos:, :factura:, :codigo_postal:, :email_prin:, :email_sec:, :telefono_movil:, :telefono_casa:, :telefono_trabajo:, :telefono2_trabajo:, :banco_deposito:, :cuenta_clabe:, :titular_cuenta:, :porcentaje:, :instrucciones_pago:, :instrucciones_extras:, :id_pais:, :id_estado:, :id_municipio:, :colonia:, :ciudad:, :calle:, :numero:)', [...], false)
+ 2 APPPATH\Models\PropietarioModel.php(31): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\PropietarioController.php(96): App\Models\PropietarioModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PropietarioController->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropietarioController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 16:32:36 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'instrucciones_pago' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `inm_propietario` (`codigo_propietario`, `id_rol`, `nombres`, `apellidos`, `rfc`, `cp_fiscal`, `regimen_fiscal`, `dispensar_ingresos`, `factura`, `codigo_postal`, `email_prin`, `email_sec`, `telefono_movil`, `telefono_casa`, `telefono_trabajo`, `telefono2_trabajo`, `banco_deposito`, `cuenta_clabe`, `titular_cuenta`, `porcentaje`, `instrucciones_pago`, `instrucciones_extras`, `id_pais`, `id_estado`, `id_municipio`, `colonia`, `ciudad`, `calle`, `numero`) VALUES (\'850\', NULL, \'Erika\', \'Brito\', \'HG-2024\', \'8050\', \'\', \'2\', \'1\', \'8050\', \'yosoyproferika@gmail.com\', \'yosoyproferika@gmail.com\', \'04121090185\', \'04121090185\', \'04121090185\', \'04878728244\', \'Santander\', \'00102547892025\', \'Juana DE\', \'25\', NULL, \'\', NULL, NULL, NULL, \'Tovar\', \'Guayana\', \'Casa78 Av.\', \'458\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `inm_propietario` (`codigo_propietario`, `id_rol`, `nombres`, `apellidos`, `rfc`, `cp_fiscal`, `regimen_fiscal`, `dispensar_ingresos`, `factura`, `codigo_postal`, `email_prin`, `email_sec`, `telefono_movil`, `telefono_casa`, `telefono_trabajo`, `telefono2_trabajo`, `banco_deposito`, `cuenta_clabe`, `titular_cuenta`, `porcentaje`, `instrucciones_pago`, `instrucciones_extras`, `id_pais`, `id_estado`, `id_municipio`, `colonia`, `ciudad`, `calle`, `numero`) VALUES (\'850\', NULL, \'Erika\', \'Brito\', \'HG-2024\', \'8050\', \'\', \'2\', \'1\', \'8050\', \'yosoyproferika@gmail.com\', \'yosoyproferika@gmail.com\', \'04121090185\', \'04121090185\', \'04121090185\', \'04878728244\', \'Santander\', \'00102547892025\', \'Juana DE\', \'25\', NULL, \'\', NULL, NULL, NULL, \'Tovar\', \'Guayana\', \'Casa78 Av.\', \'458\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `inm_propietario` (`codigo_propietario`, `id_rol`, `nombres`, `apellidos`, `rfc`, `cp_fiscal`, `regimen_fiscal`, `dispensar_ingresos`, `factura`, `codigo_postal`, `email_prin`, `email_sec`, `telefono_movil`, `telefono_casa`, `telefono_trabajo`, `telefono2_trabajo`, `banco_deposito`, `cuenta_clabe`, `titular_cuenta`, `porcentaje`, `instrucciones_pago`, `instrucciones_extras`, `id_pais`, `id_estado`, `id_municipio`, `colonia`, `ciudad`, `calle`, `numero`) VALUES (:codigo_propietario:, :id_rol:, :nombres:, :apellidos:, :rfc:, :cp_fiscal:, :regimen_fiscal:, :dispensar_ingresos:, :factura:, :codigo_postal:, :email_prin:, :email_sec:, :telefono_movil:, :telefono_casa:, :telefono_trabajo:, :telefono2_trabajo:, :banco_deposito:, :cuenta_clabe:, :titular_cuenta:, :porcentaje:, :instrucciones_pago:, :instrucciones_extras:, :id_pais:, :id_estado:, :id_municipio:, :colonia:, :ciudad:, :calle:, :numero:)', [...], false)
+ 4 APPPATH\Models\PropietarioModel.php(31): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\PropietarioController.php(96): App\Models\PropietarioModel->insertar([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PropietarioController->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropietarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 16:32:36 --> [Caused by] mysqli_sql_exception: Column 'instrucciones_pago' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `inm_propietario` (`codigo_propietario`, `id_rol`, `nombres`, `apellidos`, `rfc`, `cp_fiscal`, `regimen_fiscal`, `dispensar_ingresos`, `factura`, `codigo_postal`, `email_prin`, `email_sec`, `telefono_movil`, `telefono_casa`, `telefono_trabajo`, `telefono2_trabajo`, `banco_deposito`, `cuenta_clabe`, `titular_cuenta`, `porcentaje`, `instrucciones_pago`, `instrucciones_extras`, `id_pais`, `id_estado`, `id_municipio`, `colonia`, `ciudad`, `calle`, `numero`) VALUES (\'850\', NULL, \'Erika\', \'Brito\', \'HG-2024\', \'8050\', \'\', \'2\', \'1\', \'8050\', \'yosoyproferika@gmail.com\', \'yosoyproferika@gmail.com\', \'04121090185\', \'04121090185\', \'04121090185\', \'04878728244\', \'Santander\', \'00102547892025\', \'Juana DE\', \'25\', NULL, \'\', NULL, NULL, NULL, \'Tovar\', \'Guayana\', \'Casa78 Av.\', \'458\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `inm_propietario` (`codigo_propietario`, `id_rol`, `nombres`, `apellidos`, `rfc`, `cp_fiscal`, `regimen_fiscal`, `dispensar_ingresos`, `factura`, `codigo_postal`, `email_prin`, `email_sec`, `telefono_movil`, `telefono_casa`, `telefono_trabajo`, `telefono2_trabajo`, `banco_deposito`, `cuenta_clabe`, `titular_cuenta`, `porcentaje`, `instrucciones_pago`, `instrucciones_extras`, `id_pais`, `id_estado`, `id_municipio`, `colonia`, `ciudad`, `calle`, `numero`) VALUES (\'850\', NULL, \'Erika\', \'Brito\', \'HG-2024\', \'8050\', \'\', \'2\', \'1\', \'8050\', \'yosoyproferika@gmail.com\', \'yosoyproferika@gmail.com\', \'04121090185\', \'04121090185\', \'04121090185\', \'04878728244\', \'Santander\', \'00102547892025\', \'Juana DE\', \'25\', NULL, \'\', NULL, NULL, NULL, \'Tovar\', \'Guayana\', \'Casa78 Av.\', \'458\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `inm_propietario` (`codigo_propietario`, `id_rol`, `nombres`, `apellidos`, `rfc`, `cp_fiscal`, `regimen_fiscal`, `dispensar_ingresos`, `factura`, `codigo_postal`, `email_prin`, `email_sec`, `telefono_movil`, `telefono_casa`, `telefono_trabajo`, `telefono2_trabajo`, `banco_deposito`, `cuenta_clabe`, `titular_cuenta`, `porcentaje`, `instrucciones_pago`, `instrucciones_extras`, `id_pais`, `id_estado`, `id_municipio`, `colonia`, `ciudad`, `calle`, `numero`) VALUES (\'850\', NULL, \'Erika\', \'Brito\', \'HG-2024\', \'8050\', \'\', \'2\', \'1\', \'8050\', \'yosoyproferika@gmail.com\', \'yosoyproferika@gmail.com\', \'04121090185\', \'04121090185\', \'04121090185\', \'04878728244\', \'Santander\', \'00102547892025\', \'Juana DE\', \'25\', NULL, \'\', NULL, NULL, NULL, \'Tovar\', \'Guayana\', \'Casa78 Av.\', \'458\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `inm_propietario` (`codigo_propietario`, `id_rol`, `nombres`, `apellidos`, `rfc`, `cp_fiscal`, `regimen_fiscal`, `dispensar_ingresos`, `factura`, `codigo_postal`, `email_prin`, `email_sec`, `telefono_movil`, `telefono_casa`, `telefono_trabajo`, `telefono2_trabajo`, `banco_deposito`, `cuenta_clabe`, `titular_cuenta`, `porcentaje`, `instrucciones_pago`, `instrucciones_extras`, `id_pais`, `id_estado`, `id_municipio`, `colonia`, `ciudad`, `calle`, `numero`) VALUES (:codigo_propietario:, :id_rol:, :nombres:, :apellidos:, :rfc:, :cp_fiscal:, :regimen_fiscal:, :dispensar_ingresos:, :factura:, :codigo_postal:, :email_prin:, :email_sec:, :telefono_movil:, :telefono_casa:, :telefono_trabajo:, :telefono2_trabajo:, :banco_deposito:, :cuenta_clabe:, :titular_cuenta:, :porcentaje:, :instrucciones_pago:, :instrucciones_extras:, :id_pais:, :id_estado:, :id_municipio:, :colonia:, :ciudad:, :calle:, :numero:)', [...], false)
+ 5 APPPATH\Models\PropietarioModel.php(31): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\PropietarioController.php(96): App\Models\PropietarioModel->insertar([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PropietarioController->guardar()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropietarioController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 16:33:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-05 16:33:34 --> ErrorException: Undefined variable $pais
+in APPPATH\Views\propietario\index.php on line 258.
+ 1 APPPATH\Views\propietario\index.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\propietario\\index.php', 258)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\propietario\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('propietario/index.php', [], true)
+ 5 APPPATH\Controllers\PropietarioController.php(17): view('propietario/index.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PropietarioController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropietarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 16:36:00 --> ErrorException: Undefined variable $pais
+in APPPATH\Views\propietario\index.php on line 258.
+ 1 APPPATH\Views\propietario\index.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\propietario\\index.php', 258)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\propietario\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('propietario/index.php', [], true)
+ 5 APPPATH\Controllers\PropietarioController.php(17): view('propietario/index.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PropietarioController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropietarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 16:36:14 --> ErrorException: Undefined variable $pais
+in APPPATH\Views\propietario\index.php on line 258.
+ 1 APPPATH\Views\propietario\index.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\propietario\\index.php', 258)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\propietario\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('propietario/index.php', [], true)
+ 5 APPPATH\Controllers\PropietarioController.php(17): view('propietario/index.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PropietarioController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropietarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 16:37:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-05 16:42:41 --> ErrorException: Undefined variable $pais
+in APPPATH\Views\propietario\crear.php on line 204.
+ 1 APPPATH\Views\propietario\crear.php(204): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\propietario\\crear.php', 204)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\propietario\\crear.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('propietario/crear.php', [], true)
+ 5 APPPATH\Controllers\PropietarioController.php(29): view('propietario/crear.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PropietarioController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropietarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 16:43:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 16:45:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 16:45:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 16:46:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 16:46:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-05 16:47:36 --> Error: Class "App\Controllers\PropiedadModel" not found
+in APPPATH\Controllers\PropietarioController.php on line 265.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PropietarioController->delete('123')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropietarioController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 16:48:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 16:48:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:10:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:12:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:15:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:20:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-05 17:21:32 --> ErrorException: Undefined variable $unidad
+in APPPATH\Views\unidad\editar.php on line 37.
+ 1 APPPATH\Views\unidad\editar.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $unidad', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\unidad\\editar.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\unidad\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('unidad/editar', [], true)
+ 5 APPPATH\Controllers\PropietarioController.php(127): view('unidad/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PropietarioController->edit('11')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropietarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 17:21:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-05 17:21:54 --> ErrorException: Undefined variable $unidad
+in APPPATH\Views\unidad\editar.php on line 37.
+ 1 APPPATH\Views\unidad\editar.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $unidad', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\unidad\\editar.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\unidad\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('unidad/editar', [], true)
+ 5 APPPATH\Controllers\PropietarioController.php(127): view('unidad/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PropietarioController->edit('124')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropietarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 17:23:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-05 17:23:59 --> ErrorException: Undefined variable $contrato
+in APPPATH\Views\propietario\editar.php on line 37.
+ 1 APPPATH\Views\propietario\editar.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contrato', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\propietario\\editar.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\propietario\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('propietario/editar', [], true)
+ 5 APPPATH\Controllers\PropietarioController.php(127): view('propietario/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PropietarioController->edit('124')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropietarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 17:26:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:26:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:26:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:26:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:26:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:26:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:35:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:35:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:35:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:35:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:35:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:36:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:36:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:36:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:36:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:36:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:36:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:36:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:36:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:37:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:37:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:37:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:37:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:37:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:37:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:40:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:40:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:40:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:40:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:40:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:40:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:40:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:41:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:41:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:41:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:41:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:41:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:41:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:41:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-05 17:44:47 --> ParseError: syntax error, unexpected token "}"
+in APPPATH\Views\propietario\editar.php on line 266.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('propietario/editar', [], true)
+ 3 APPPATH\Controllers\PropietarioController.php(128): view('propietario/editar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PropietarioController->edit('124')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropietarioController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 17:45:05 --> ErrorException: Undefined array key "dispensar_ingreso"
+in APPPATH\Views\propietario\editar.php on line 93.
+ 1 APPPATH\Views\propietario\editar.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "dispensar_ingreso"', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\propietario\\editar.php', 93)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\propietario\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('propietario/editar', [], true)
+ 5 APPPATH\Controllers\PropietarioController.php(128): view('propietario/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PropietarioController->edit('124')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropietarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 17:45:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:45:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:45:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:45:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:45:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:45:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:46:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:46:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:46:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:47:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:47:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:47:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:47:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-05 17:48:33 --> ErrorException: Undefined variable $descripcion_rol
+in APPPATH\Controllers\PropietarioController.php on line 167.
+ 1 APPPATH\Controllers\PropietarioController.php(167): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $descripcion_rol', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\PropietarioController.php', 167)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PropietarioController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropietarioController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 17:50:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:50:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:51:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:51:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:51:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:51:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:51:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:51:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:55:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:55:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:56:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 17:56:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-05 21:08:17 --> Error: Call to undefined function App\Controllers\PropietarioModel()
+in APPPATH\Controllers\InmuebleController.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\InmuebleController->create()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InmuebleController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 21:10:09 --> ErrorException: Undefined variable $unidad
+in APPPATH\Views\inmueble\crear.php on line 73.
+ 1 APPPATH\Views\inmueble\crear.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $unidad', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\inmueble\\crear.php', 73)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\inmueble\\crear.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('inmueble/crear.php', [], true)
+ 5 APPPATH\Controllers\InmuebleController.php(39): view('inmueble/crear.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\InmuebleController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InmuebleController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 21:10:39 --> ErrorException: Undefined array key "apellidos"
+in APPPATH\Views\inmueble\crear.php on line 85.
+ 1 APPPATH\Views\inmueble\crear.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "apellidos"', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\inmueble\\crear.php', 85)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\inmueble\\crear.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('inmueble/crear.php', [], true)
+ 5 APPPATH\Controllers\InmuebleController.php(39): view('inmueble/crear.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\InmuebleController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InmuebleController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 21:11:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 21:13:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-05 21:14:42 --> mysqli_sql_exception: Column 'num_ext' cannot be null in C:\xampp\htdocs\inmobiliaria\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\inmobiliaria\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `in...', 0)
+#1 C:\xampp\htdocs\inmobiliaria\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 C:\xampp\htdocs\inmobiliaria\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 C:\xampp\htdocs\inmobiliaria\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 C:\xampp\htdocs\inmobiliaria\app\Models\InmuebleModel.php(30): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\inmobiliaria\app\Controllers\InmuebleController.php(85): App\Models\InmuebleModel->insertar(Array)
+#6 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(941): App\Controllers\InmuebleController->guardar()
+#7 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InmuebleController))
+#8 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\inmobiliaria\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-05 21:14:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'num_ext' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `inm_inmueble` (`codigo_inmueble`, `id_pais`, `id_estado`, `id_municipio`, `colonia`, `ciudad`, `calle`, `numero`, `num_ext`, `num_int`, `codigo_postal`, `referencia`, `enseña`, `transporte`, `locales`, `unidades`, `id_uso`, `id_tipo`, `id_propietario`) VALUES (:codigo_inmueble:, :id_pais:, :id_estado:, :id_municipio:, :colonia:, :ciudad:, :calle:, :numero:, :num_ext:, :num_int:, :codigo_postal:, :referencia:, :enseña:, :transporte:, :locales:, :unidades:, :id_uso:, :id_tipo:, :id_propietario:)', [...], false)
+ 2 APPPATH\Models\InmuebleModel.php(30): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\InmuebleController.php(85): App\Models\InmuebleModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\InmuebleController->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InmuebleController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 21:14:42 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'num_ext' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `inm_inmueble` (`codigo_inmueble`, `id_pais`, `id_estado`, `id_municipio`, `colonia`, `ciudad`, `calle`, `numero`, `num_ext`, `num_int`, `codigo_postal`, `referencia`, `enseña`, `transporte`, `locales`, `unidades`, `id_uso`, `id_tipo`, `id_propietario`) VALUES (\'2589\', \'1\', \'1\', \'1\', \'Tovar\', \'Maturin\', \'Casa78 Av.\', \'458\', NULL, NULL, \'8050\', \'DETRAS DE FERRETERIA EL AGUILA\', \'Erika\', \'Buses\', \'2\', \'3\', \'1\', \'2\', \'12\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `inm_inmueble` (`codigo_inmueble`, `id_pais`, `id_estado`, `id_municipio`, `colonia`, `ciudad`, `calle`, `numero`, `num_ext`, `num_int`, `codigo_postal`, `referencia`, `enseña`, `transporte`, `locales`, `unidades`, `id_uso`, `id_tipo`, `id_propietario`) VALUES (\'2589\', \'1\', \'1\', \'1\', \'Tovar\', \'Maturin\', \'Casa78 Av.\', \'458\', NULL, NULL, \'8050\', \'DETRAS DE FERRETERIA EL AGUILA\', \'Erika\', \'Buses\', \'2\', \'3\', \'1\', \'2\', \'12\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `inm_inmueble` (`codigo_inmueble`, `id_pais`, `id_estado`, `id_municipio`, `colonia`, `ciudad`, `calle`, `numero`, `num_ext`, `num_int`, `codigo_postal`, `referencia`, `enseña`, `transporte`, `locales`, `unidades`, `id_uso`, `id_tipo`, `id_propietario`) VALUES (:codigo_inmueble:, :id_pais:, :id_estado:, :id_municipio:, :colonia:, :ciudad:, :calle:, :numero:, :num_ext:, :num_int:, :codigo_postal:, :referencia:, :enseña:, :transporte:, :locales:, :unidades:, :id_uso:, :id_tipo:, :id_propietario:)', [...], false)
+ 4 APPPATH\Models\InmuebleModel.php(30): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\InmuebleController.php(85): App\Models\InmuebleModel->insertar([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\InmuebleController->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InmuebleController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 21:14:42 --> [Caused by] mysqli_sql_exception: Column 'num_ext' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `inm_inmueble` (`codigo_inmueble`, `id_pais`, `id_estado`, `id_municipio`, `colonia`, `ciudad`, `calle`, `numero`, `num_ext`, `num_int`, `codigo_postal`, `referencia`, `enseña`, `transporte`, `locales`, `unidades`, `id_uso`, `id_tipo`, `id_propietario`) VALUES (\'2589\', \'1\', \'1\', \'1\', \'Tovar\', \'Maturin\', \'Casa78 Av.\', \'458\', NULL, NULL, \'8050\', \'DETRAS DE FERRETERIA EL AGUILA\', \'Erika\', \'Buses\', \'2\', \'3\', \'1\', \'2\', \'12\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `inm_inmueble` (`codigo_inmueble`, `id_pais`, `id_estado`, `id_municipio`, `colonia`, `ciudad`, `calle`, `numero`, `num_ext`, `num_int`, `codigo_postal`, `referencia`, `enseña`, `transporte`, `locales`, `unidades`, `id_uso`, `id_tipo`, `id_propietario`) VALUES (\'2589\', \'1\', \'1\', \'1\', \'Tovar\', \'Maturin\', \'Casa78 Av.\', \'458\', NULL, NULL, \'8050\', \'DETRAS DE FERRETERIA EL AGUILA\', \'Erika\', \'Buses\', \'2\', \'3\', \'1\', \'2\', \'12\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `inm_inmueble` (`codigo_inmueble`, `id_pais`, `id_estado`, `id_municipio`, `colonia`, `ciudad`, `calle`, `numero`, `num_ext`, `num_int`, `codigo_postal`, `referencia`, `enseña`, `transporte`, `locales`, `unidades`, `id_uso`, `id_tipo`, `id_propietario`) VALUES (\'2589\', \'1\', \'1\', \'1\', \'Tovar\', \'Maturin\', \'Casa78 Av.\', \'458\', NULL, NULL, \'8050\', \'DETRAS DE FERRETERIA EL AGUILA\', \'Erika\', \'Buses\', \'2\', \'3\', \'1\', \'2\', \'12\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `inm_inmueble` (`codigo_inmueble`, `id_pais`, `id_estado`, `id_municipio`, `colonia`, `ciudad`, `calle`, `numero`, `num_ext`, `num_int`, `codigo_postal`, `referencia`, `enseña`, `transporte`, `locales`, `unidades`, `id_uso`, `id_tipo`, `id_propietario`) VALUES (:codigo_inmueble:, :id_pais:, :id_estado:, :id_municipio:, :colonia:, :ciudad:, :calle:, :numero:, :num_ext:, :num_int:, :codigo_postal:, :referencia:, :enseña:, :transporte:, :locales:, :unidades:, :id_uso:, :id_tipo:, :id_propietario:)', [...], false)
+ 5 APPPATH\Models\InmuebleModel.php(30): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\InmuebleController.php(85): App\Models\InmuebleModel->insertar([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\InmuebleController->guardar()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InmuebleController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 21:15:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 21:20:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 21:21:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 21:21:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 21:21:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 21:36:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 21:36:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 21:36:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 21:36:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-05 21:36:15 --> ErrorException: Undefined variable $propietario
+in APPPATH\Views\inmueble\index.php on line 99.
+ 1 APPPATH\Views\inmueble\index.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $propietario', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\inmueble\\index.php', 99)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\inmueble\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('inmueble/index.php', [], true)
+ 5 APPPATH\Controllers\InmuebleController.php(23): view('inmueble/index.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\InmuebleController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InmuebleController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 21:36:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 21:36:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 21:39:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 21:40:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 21:40:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 21:40:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 21:40:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 21:40:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 21:40:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 21:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 21:49:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 21:49:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 21:49:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 21:49:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 21:49:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 21:49:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 21:49:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 21:51:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 21:51:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 21:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 21:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-05 22:03:53 --> ErrorException: Undefined variable $data
+in APPPATH\Controllers\InmuebleController.php on line 225.
+ 1 APPPATH\Controllers\InmuebleController.php(225): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\InmuebleController.php', 225)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\InmuebleController->buscar('15')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InmuebleController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 22:33:25 --> ErrorException: Undefined array key "nombre_uso"
+in APPPATH\Controllers\InmuebleController.php on line 218.
+ 1 APPPATH\Controllers\InmuebleController.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_uso"', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\InmuebleController.php', 218)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\InmuebleController->buscar('15')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InmuebleController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 22:37:39 --> ErrorException: Undefined array key "nombre_uso"
+in APPPATH\Controllers\InmuebleController.php on line 218.
+ 1 APPPATH\Controllers\InmuebleController.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_uso"', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\InmuebleController.php', 218)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\InmuebleController->buscar('15')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InmuebleController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 23:18:52 --> ErrorException: Undefined array key "nombre_uso"
+in APPPATH\Controllers\InmuebleController.php on line 218.
+ 1 APPPATH\Controllers\InmuebleController.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_uso"', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\InmuebleController.php', 218)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\InmuebleController->buscar('16')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InmuebleController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 23:41:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 23:42:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 23:52:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

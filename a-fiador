@@ -1,0 +1,3 @@
+INSERT INTO `inm_fiador`(`id_fiador`, `id_rol`, `id_inquilino`, `nombres`, `apellidos`, `telefono_movil`, `telefono_casa`,
+             `telefono_trabajo`, `email`, `propiedad`, `folio_real`, `libro_rpp`, `rpp`, `predial`, `codigo_postal`, 
+             `id_pais`, `id_estado`, `id_municipio`, `colonia`, `ciudad`, `calle`, `numero`) VALUES

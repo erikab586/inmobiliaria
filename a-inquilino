@@ -1,0 +1,372 @@
+INSERT INTO `inm_inquilino`(`id_inquilino`, `nombres`, `apellidos`, `rfc`, `email`, `telefono_movil`, 
+`telefono_local`, `telefono_local2`) 
+VALUES
+
+
+
+
+
+
+004(18, 'ANA MARIA', 'GRACIA HERNANDEZ', ' ', 'amgh@live.com',	'5540172272', ' ', ' '),
+005(19, 'BRAULIO ALEJANDRO', 'CORTES TAPIA', ' ', 'damarisnatalia@hotmail.com', '5534087898', '5532600365', '5532853361'),
+006(20, 'CARLO GEOVANY', 'BENITEZ MATAMOROS', ' ',	'cgbm20@gmail.com', '5534942480', '5548259688',	' '),
+0007(21, 'NICEFORO ERNESTO', 'CERON VALDOVINOS', ' ', ' ', '5574819129', '5528900076', ' '),
+008(22, 'ZAMIRA', 'BLAS BERNAL', ' ', 'zamira1993@yahoo.com.mx', '5566160033',	'5563071114', '5534035464'),
+009(23, 'CECILIA',	'ROJAS LOMBO', ' ',	'lomboceci@gmail.com', '5554574889',	' ', ' '),
+010(24, 'FLOR VANESSA', 'PEÑA DEL RIO', ' ', 'florpeadelrio@gmail.com', '5561853723', '5561953723', '5555673949'),
+101(25, 'JESSICA',	'TORRES VARGAS', ' ', 'jezz8422@gmail.com',	'5548731558', '5548731558',	'5618753238'),
+019(26, 'IVAN OSVALDO', 'ESTEINOU BUENROSTRO', ' ', 'ivanesteinou@gmail.com', '5554570627', '5541843441', ' '),
+058(27, 'GENARO', 'SANCHEZ JUAREZ', ' ', 'muneco-123@hotmail.com',	'5532276912', '5572620720',	'5555654280'),
+001(28, 'LIZBETH ADRIANA',	'FLORES MOLLER', ' ', 'flore6680@gmail.com', '5530371257', '5522991867', '5539239947'),
+003(29, 'ELBA', 'REMIGIO EVANGELISTA', ' ','direccionanpro@gmail.com', '5569057226',	'5591584037',	'5591574037'),
+004(30, 'FERNANDA MICHELLE', 'VARGAS VELMONT',	' ', 'michele.vbel@gmail.com', '5615819046',	'5529678708',	'5584359234'),
+005(31, 'ROXANA', 'NIEVA DE LA ROSA', 	' ', 'rnieva2017@gmail.com', '5534010281',	'5556055931',	'5553350189'),
+006(32, 'MARIA DEL CONSUELO', 'MENDOZA TRUJILLO', ' ',	' ', '5515727057',	'5555392933',	' '),
+
+007(33, 'RICARDO CELSA', 'FLORES', ' ', 'floresrichar84@gmail.com', '5534405945',	'5556048432',	' '),
+00A(34, 'CESAR', 'BENITEZ CORIA', ' ',	'cbenitez.coria@gmail.com', '5579920492',	'5542558778',	' '),
+102(35, 'HERLINDA LILIANA', 'RIVERA TREJO', ' ', 'lilirivera.ciudadmaderas@gmail.com', '4424259021', ' ', ' '),
+001(36, 'LAURA MELANY', 'RODRIGUEZ MIRELES', ' ', 'melany.mireles@gmail.com','5572751374',	' ', ' '),
+002(37, 'JORGE ALFONSO', 'HERNANDEZ SANDOVAL',' ', 'jhs_11mx@gmail.com','5514963144',   ' ', ' '),
+003(38, 'BRENDA GRACIELA',	'NAVARRO TOVAR', ' ', 'badtz_20_17@hotmail.com', '5543812199',	'8188430220',	' ');
+004(39, 'ANTONIO FELIPE','MORALES AQUINO',	' ', 'moralesa3@yahoo.com.mx', '5555816972', '5556230616',	'5539899009'),
+005(40, 'VACIO', 'VACIO',	' ', ' ', ' ',  ' ', ' '),
+006(41, 'SANDRA', 'PEREZ GARCIA', ' ',	'sandrap12398@gmail.com', '5530380131',	'5524600395', '5536512991'),
+007(42, 'REBECA', 'BASTIDA VAZQUEZ', ' ', 'rebeca.bastida.v@gmail.com', '5555906422', '5555754775', '5591169401'),
+008(43, 'VACIO', 'VACIO', ' ',	' ', ' ', ' ', ' '),
+009(44, 'OSCAR  GUSTAVO','CRUZ CORREA', ' ', 'ogccorrea307@gmail.com',	'5532641929',	'5579069290',	'5554284684'),
+010(45, 'ISAAC', 'GUTIERREZ BRISEÑO', 	' ', 'isaac2558gtzb@gmail.com',	'5517292558',	' ', ' '),
+011(46, 'URSULA ZURIZADAY', 'RAMIREZ GONZALEZ', ' ', ' ', ' ', ' ', ' '),
+012(47, 'ISABEL CRISTINA', 'CERVANTES ZARATE', ' ', 'cristina.cervantes.zarate@gmanil.com', '5545599740', '5555819205', '5511078788'),
+013(48, 'NAYELI', 'FLORES GARCIA', ' ', ' ', '5536931408',	'5555828699',	'5544034488'),
+014(49, 'VACIO', 'VACIO', ' ', ' ', ' ',' ', ' '),
+015(50, 'AMADOR OMAR',	'PEREZ', ' ','omar.perez.amador@gmail.com',	'5630733644',	'5539401807',	'5555100040'),
+016(51, 'SUSANA MONTSERRAT', 'TRIANA MORENO', ' ',	'm-rdy@hotmail.com', '8712694462',	'5516067438',	' '),
+017(52, 'MARIANA',	'RUIZ GARCIA', ' ', 'mariana.rugar@gmail.com', '5533344383',	'5527278377',	' '),
+018(53, 'CINTIA NAYELI', 'RAMIREZ AMBRIZ', ' ', 'chona2911@gmail.com',	'5536772550',	'5522716503',	'5557010537'),
+019(54, 'ARACELI JAZMIN', 'ANGELES VELAZQUEZ', ' ', 'arangv23@gmail.com', '5553321463', '5583672825',	' '),
+020(55, 'ROBERTO', 'RUIZ RODRIGUEZ', ' ', 'robertoruiz6@hotmail.com', '5523721258', '5591307933',	' '),
+021(56, 'ISABEL CRISTINA',	'CERVANTES ZARATE', ' ', 'cristina.cervantes.zarate@gmanil.com', '5545599740',	'5555819205',	'5511078788'),
+022(57, 'VACIO', 'VACIO', ' ',	' ', ' ', ' ', ' '),
+
+023(58, 'BENITA', 'MONTES RAMIREZ', ' ', ' ', ' ',	' ' , ' '),
+024(59, 'DIEGO SEBASTIAN',	'CONTRERAS GARCIA', ' ', 'sebasksc@outlook.com.mx',	 '5644004651',	'5644004651',	'5643946068'),
+025(60, 'JOSE ANTONIO', 'PEREZ CAMPOS', ' ', 'antoni_pc@hotmail.com', '5532105348', '5556977574', '5591380493'),
+026(61, 'VACIO', 'VACIO', ' ', ' ', ' ', ' ', ' '),
+00B(62, 'ANA MARIA', 'GARCIA PEREZ', ' ', ' ', '5554067667', ' ', ' '),
+101(63, 'MIGUEL', 'VILLEGAS URIBE', 'VIUM-561213', ' ', '5554168274',	'5557898461', '5557025604'),
+ZAH(64, 'ARACELI',	'GARCIA MENDOZA', ' ', 'carlosseguraramos@gmail.com', '5573767909',	'5557027986',	' '),
+001(65, 'BEATRIZ',	'NAVARRETE SOLIS', ' ', 'brendahnavarrete@gmail.com', '5539161648',	'5514945310',	' '),
+002(66, 'OLIVIA',	'MENDEZ BAUTISTA', ' ',	' ', ' ', ' ', ' '),
+003(67, 'MARIA IRMA', 'NAVARRETE SOLIS',' ', 'brendahnavarrete@gmail.com',	'5553920829', '5560078495',	' '),
+004(68, 'MARISELA', 'PADILLA MENDOZA', ' ', ' ', '5543010308',	'5568333207',	' '),
+005(69, 'KATIA FERNANDA', 'FUENTES ARRIAGA', ' ', 'katifer.97@gmail.com', '5611724186',	' ', ' ')
+2050, 29, 20B   (70, 'HOSPEDAJE', 'HOSPEDAJE',' ',' ',' ',' ',' ');
+
+
+ID  	NOMBRES	                APELLIDOS		EMAIL	TELEFONO_MOVIL	TELEFONO_LOCAL	TELEFONO_LOCAL2
+2051, 61, 061 (71,	'MARIA EUGENIA',	'MENDEZ ARAMBULA', 		'',	                                    '5591881656',	'5570892774',	'5554824100'),
+2055, 17, 102 (72,	'JERONIMO',	        'HERRERA MARTINEZ', 	'',	                                    '5541263436',	'',	            ''),
+2055, 17, 103 (73,	'CONSTANTINO',	    'VASCONCELOS CERQUEDA',	'',	                                    '5553552305',	'5558510043',	''),
+2055, 17, 105 (74,	'TOMAS',	        'BARRIENTOS LOPEZ', 	'',	                                    '5553994156',	'',	            ''),
+2055, 32, 001 (75,	'LOURDES',	        'BUMAS VILLADOBLE',		'josemanuel.elizaldebumas@gmail.com',	'5535653109',	'5540601309',	''),
+2055, 32, 002 (76,	'MARIA DE LOURDES', 'FLORES TAPIA',		    '',	                                    '59167338',	    '',	            ''),
+2055, 32, 003 (77,	'JOSE MANUEL',	    'ELIZALDE BUMAS', 		'josemanuel.elizaldebumas@gmail.com',	'5540297578',	'',	            ''),
+2055, 32, 004 (78,	'ROSA MARIA',	    'BUMAS VILLADOBLE', 	'',	                                    '5527649780',	'5553828714',	''),
+2055, 32, 005 (79,	'NORMA ERIKA',	    'VAZQUEZ FLORES', 		'',	                                    '5559167338',	'5546868445',	''),
+2055, 32, 006 (80,	'LOURDES',	        'BUMAS VILLADOBLE',     '',	                                    '5535653109',	'5540601394',	''),
+2055, 64, 001 (81,	'JERONIMO',	        'MALPICA COSME',		'',	                                    '5553198195',	'',	            ''),
+2055, 64, 002 (82,	'FIDEL',	        'MARTINEZ ESQUIVEL',    '',	                                    '',	            '',	            ''),
+2055, 64, 003 (83,	'EDGAR',	        'OSORNIO PADILLA',		'',	                                    '',	            '',	            ''),
+2055, 64, 005 (84,	'JOSE FRANCISCO',	'BAEZ MENESES', 		'',	                                    '5546382445',	'',	            ''),
+2055, 64, 006 (85,	'ROSALBA',	        'LOPEZ MARTINEZ', 		'',	                                    '5517909036',	'5555100850',	'');
+
+
+
+
+
+2055, 64, 007 (86,	'FABIANA',	        'GONZALEZ GARCIA', 		'',	                        '5521473522',	'',	''),
+2055, 64, 008 (87,	'MARIANA',	        'CEDILLO CASTRO',		'',	                        '5586315410',	'5545995223',	''),
+2055, 64, 009 (88,	'GERONIMA',	        'RAMIREZ VALDEZ', 		'',	                        '5553182835',	'',	''),
+2055, 64, 010 (89,	'MARISOL',	        'PATIÑO SEGOVIA', 		'',	                        '5547540169',	'5540167938',	'5516697576'),
+2055, 64, 011 (90,	'VACIO',	        'VACIO',		        '',	                        '',	'',	''),
+2055, 64, 012 (91,	'SORAYA ISABEL',	'MANRIQUE HERRERA',     '',	                        '5553946247',	'5534050233',	''),
+2055, 64, 101 (92,	'RICARDO',	        'RAMIREZ VALDEZ',		'',	                        '5521473522',	'5532506129',	'5526840303'),
+2055, 64, 102 (93,	'EDGAR',	        'OSORNIO PADILLA', 		'',	                        '5555650361',	'5520890904',	''),
+2057, 39, 001 (94,	'FRANCISCO',	    'MENESES MENA', 		'',	                        '5512974273',	'555834988',	''),
+2057, 39, 002 (95,	'VACIO',	        'VACIO',		        '',	                        '',	'',	''),
+2057, 39, 003 (96,	'JONATHAN',	        'HERNANDEZ CARDELL', 	'jonhcardell@gmail.com',	'5524698385',	'5576600938',	'5555641835'),
+2057, 39, 004 (97,	'FERNANDO',	        'SERRANO PEREZ', 		'f.serrano@live.com',	    '5532289318',	'5555973346',	'5519415881'),
+2057, 39, 005 (98,	'MARIA EUGENIA',	'GUTIERREZ CASTILLO', 	'sergioarriaga@gmail.com',	'5513414590',	'5578447864',	'5516887845'),
+2057, 39, 006 (99,	'JOSE', 	        'JUAREZ',       		'',	                        '5546167688',	'5543305365',	'');
+
+
+
+
+2057, 39, 007 (100,	'PAULINA',	            'GARCIA CORTES', 		'shurq129@hotmail.com',	                '5591887579',	'',	''),
+2057, 39, 008 (101,	'JOSE LUIS',	        'GORDILLO CASTILLO',    '',	                                    '5620040048',	'5526046080',	'5541550200'),
+2057, 39, 009 (102,	'VERONICA IVETT',	    'MENESES FELIX', 		'',	                                    '5512974273',	'5939142946',	'5555975922'),
+2057, 39, 010 (103,	'MARIA EUGENIA',	    'GUTIERREZ CASTILLO', 	'sergioarriaga@gmail.com',	            '5513414590',	'5557846864',	'5557296000'),
+2057, 39, 011 (104,	'ANGELICA',	            'BEYER GARCIA',		    'anyi_eral@hotmail.com',	            '5516465892',	'5541550200',	''),
+2057, 39, 012 (105,	'LAURA ELIZABETH',	    'PEREZ GAMERO',		    'elizagamero@gmail.com',	            '5546167688',	'5525295019',	''),
+2060, 35, 001 (106,	'TANIA SHEYLA',	        'MIRANDA SANTIAGO',		'sheylamiranda@urvia.com.mx',	        '5527546451',	'5527546451',	'5524031197'),
+2060, 35, 002 (107,	'OCUPA FAMILIAR', 	    'PROPIETARIO',		    '',	                                    '',	'',	''),
+2060, 35, 003 (108,	'GERARDO',	            'BENITEZ FONSECA', 		'',	                                    '5554570167',	'5556605957',	''),
+2060, 35, 004 (109,	'ARACELI',	            'VAZQUEZ PINEDA',		'aracelivazquezp@hotmail.com',	        '5554880721',	'5534641436',	''),
+2061, 28, 001 (110,	'HUGO RAFAEL',	        'VILLEGAS MORENO',		'vandyksy@gmail.com',	                '5554351502',	'',	''),
+2061, 28, 002 (111,	'MARIANA',	            'GANDARA SALAZAR',		'gandaruka@gmail.com',	                '5513535002',	'5562748323',	''),
+2061, 28, 003 (112,	'MARIA FERNANDA',	    'VICENCIO SANCHEZ',     'maria.fernanda.vecencio@gmail.com',	'5554576156',	'5550051009',	''),
+2061, 28, 004 (113,	'VACIO',	            'VACIO',		        '',	                                    '',	'',	''),
+2061, 28, 005 (114,	'MIGUEL ANGEL',	        'PEREZ DEL RIO', 	    'angelitoblu@gmail.com',	            '5530454591',	'5530454951',	'5530673005');
+
+
+
+
+
+
+2061, 28, 006 (115,	'FERNANDO ROMAN',	        'CEDILLO LOZANO', 		'',	                        '5522020124',	'',	''),
+2061, 28, 007 (116,	'VACIO',	                'VACIO',		        '',	                        '',	'',	''),
+2061, 28, 008 (117,	'VACIO',	                'VACIO',		        '',	                        '',	'',	''),
+2061, 28, 009 (118,	'VACIO',	                'VACIO',		        '',	                        '',	'',	''),
+2061, 28, 101 (119,	'HERIBERTO',	            'GARCIA VARGAS',		'',	                        '7713610184',	'5556721368',	'5556821468'),
+2061, 28, 102 (120,	'ALBERTO',	                'GIL DIAZ', 		    'hgv730517@live.com',	    '5554143387',	'5532441050',	'5555435808'),
+2061, 28, 103 (121,	'MARCO ANTONIO',	        'SEGURA RODRIGUEZ', 	'acron18@hotmail.com',	    '5528830041',	'5540277897',	'5584362234'),
+2061, 29, 128 (122,	'MARIA ZORAIDA',	        'JACOBO ALVAREZ', 		'',	                        '',	'',	''),
+2061, 38, 004 (123,	'JANET',	                'MOLINA PALACIOS',		'janet.cdmx@gmail.com',	    '5539841165',	'5539841165',	'5552294400'),
+2062, 72, 102 (124,	'REVERIANO',	            'SALAS ROMERO', 		'morenoestela2@gmail.com',	'5553910510',	'',	''),
+2074, 53, 001 (125,	'VACIO',	                'VACIO',		        '',	                        '',	'',	''),
+2074, 53, 002 (126,	'VACIO',	                'VACIO',		        '',	                        '',	'',	''),
+2074, 53, 003 (127,	'MARTHA PATRICIA',	        'RUIZ FLORES', 		    '',	                        '5531822528',	'5534826110',	'5527892000'),
+2074, 53, 004 (128,	'VACIO',	                'VACIO',		        '',	                        '',	'',	''),
+2074, 53, 005 (129,	'MARIO ERNESTO MANUEL',	    'HERRERA VILLANUEVA', 	'',	                        '',	'',	'');
+
+
+
+
+
+
+
+2074, 53, 006 (130,	'VICTOR ARMANDO',	'BARRERA OCAMPO', 		'victorbarrera.ocampo@gmail.com',	'5568180695',	'5553519101',	'5555071797'),
+2074, 53, 007 (131,	'JOSE GERARDO',	    'GARCIA BRIANO', 		'revolverrosa.machin@gmail.com',	'5566246430',	'',	''),
+2074, 53, 008 (132,	'MIRNA OLIVIA',	    'GONZALEZ MARTINEZ', 	'gonzalezmartinezmo@hotmail.com',	'5524500679',	'5538920778',	'5591718130'),
+2074, 53, 009 (133,	'OFELIA',	        'BURGOS LEYVA',		    'ofeliabl@prodigy.net.mx',	        '5555461831',	'5556761969',	''),
+2074, 53, 010 (134,	'PAULINA',	        'SOTO VILLASEÑOR', 	    'carlosf_gh@yahoo.com.mx',	        '5557400603',	'5537192754',	''),
+2074, 53, 011 (135,	'OCUPA', 	        'PROIETARIO',		    '',	'',	'',	''),
+2074, 53, 012 (136,	'OCUPA FAMILIAR', 	'DEL PROPIETARIO',		'',	'',	'',	''),
+2088, 01, 101 (137,	'MARIA JANETH',	    'SEPULVEDA CASTILLO',   'dakarc_sepu@hotamil.com',	        '5618520004',	'5576788720',	'5552716261'),
+2088, 10, 010 (138,	'KEVIN ANDREW',	    'LEON DIAZ',		    'kevinaleon07@gmail.com',	        '5630525066',	'5510565915',	'5581322032'),
+2098, 72, 071 (139,	'SERGIO DEMETRIO',	'GONZALEZ ANGELES',	    'angeles.23.sa@gmail.com',	        '5543188364',	'',	''),
+2128, 10, 301 (140,	'JORGE ANTONIO',	'CASTILLO CABRERA', 	'jcastillocabrera@gmail.com',	    '5527832588',	'5520003000',	''),
+2128, 14, 701 (141,	'EDUARDO SAUL',	    'MARQUEZ TEYSSIER',	    'teyssier.eduardo@gmail.com',	    '5519650278',	'5552671500',	''),
+2128, 50, 303 (142,	'VACIO',	        'VACIO',		        '',	'',	'',	''),
+2128, 56, 001 (143,	'LUIS',	            'BELTRAN LOPEZ', 		'lbeltran30@yahoo.com.mx',	        '5535385645',	'5556681889',	'5551854487'),
+2135, 10, 201 (144,	'DANIEL',	        'CORTES PEREZ', 		'daniel_dz9@hotmail.com',	        '5522311017',	'5535671291',	'5535413584');
+
+
+
+
+
+
+2135, 44, 203 (145,	'MAURICIO',	        'ORTA SOLANO',		    'adrivale_0523@hotmail.com',	'5523592351',	'5530678400',	''),
+2135, 53, 101 (146,	'EVELYN',	        'RUIZ BANDERAS',		'ruizban11@gmail.com',	        '5535045116',	'',	''),
+2156, 01, 402 (147,	'ELIZABETH',	    'LANDEROS GUTIERREZ', 	'liz_cancer04@hotmail.com',	    '5545314271',	'5521624914',	''),
+2158, 04, 021 (148,	'NATALIA',	        'ANCONA MEDELLIN',		'natz.ancona@gmail.com',	    '5586889908',	'5538992957',	'5554821600'),
+2227, 10, 001 (149,	'SERGIO ALONSO',	'MENDEZ LARA', 		    'alma.derechos@gmail.com',	    '5555329970',	'5536865100',	'5522995060'),
+2242, 55, 203 (150,	'MARIA DOLORES',	'ALDRETE ALVAREZ', 	    'madoloresal@yahoo.com.mx',	    '5527561990',	'',	''),
+2283, 94, 103 (151,	'JAIME',	        'CHAVEZ LOPEZ', 		'susychavezlopez@gmail.com',	'5553567693',	'5544484430',	'5550617582'),
+2300, 36, 001 (152,	'ENTREGADO', 	    'A PROPIETARIO',		'',	'',	'',	''),
+2300, 36, 002 (153,	'RICARDO',	        'ARELLANOS HERRERA', 	'',	                            '5523003602',	'5555663268',	'5539102176'),
+2300, 36, 003 (154,	'LANZADA',	        'LANZADA',		        '',	'',	'',	''),
+2300, 36, 004 (155,	'LANZADA',	        'LANZADA',		        '',	'',	'',	''),
+2300, 36, 005 (156,	'EVANGELINA',	    'AGUILAR', 		        '',	                            '5553414289',	'',	''),
+2300, 36, 006 (157,	'MARIA ENGRACIA',	'FERNANDEZ',		    'maiafer575@gmail.com',	        '5553229200',	'',	''),
+2300, 36, 007 (158,	'VACIO',	            'VACIO',		        '',	'',	'',	''),
+2300, 36, 008 (159,	'VACIO',	        'VACIO',		        '',	'',	'',	''),
+2301, 58, 006 (160,	'RODRIGO',	        'MUÑOZ ORTEGA',		    'rodrigomortega@gmail.com',	    '5555744166',	'5551339371',	'5557296000');
+
+
+
+
+
+
+2309, 03, 001 (161,	'DAVID',	            'REYES PACHECO',		'davidrey1008@hotmail.com',	    '5585990710',	'5555799632',	''),
+2309, 03, 002 (162,	'JUAN CARLOS',	        'MOGOLLAN ZARATE', 		'jkarlosmz@hotmail.com',	    '5568115635',	'5556254500',	'5532369121'),
+2309, 03, 003 (163,	'VACIO',	            'VACIO',		        '',	'',	'',	''),
+2311, 03, 001 (164,	'SARA ALICIA',	        'RAMIREZ FRANCO', 		'',	                            '5577981467',	'5531316146',	'5556511214'),
+2311, 03, 002 (165,	'FRANCISCO',	        'TORRES VAZQUEZ', 		'fco_t_v@hotmail.com',	        '5529559035',	'5575821362',	'5580951125'),
+2311, 03, AZO (166,	'EDGAR FABIAN',	        'CORREA GUTIERREZ',		'edgar.correagtz@gmail.com',	'5529577865',	'',	''),
+2317, 62, 006 (167,	'DIANA PAOLA',	        'SANCHEZ BASURTO', 		'dianapaola_sb@hotmail.com',	'5514735667',	'',	''),
+2328, 80, 00B (168,	'JOSE UBALDO',	        'GARCIA RIOS', 		    'joseu.garcia@oxxo.com',	    '8333113102',	'',	''),
+2328, 84, 313 (169,	'GABRIELA',	            'RAMIREZ MONROY', 		'',	                            '5560393801',	'5557810113',	''),
+2411, 21, 1-B (170,	'GLORIA ALICIA',	    'BARAJAS ANGUIANO',     '',	                            '5545819131',	'5553123149',	'5555765558'),
+2411, 21, 3-A (171,	'GLORIA CECILIA',	    'MELO VILLALBA', 		'cecy_zukino@yahoo.com.mx',	    '5523177387',	'',	''),
+2415, 84, 2-B (172,	'CESAR CALET',	        'MORALES CORONEL', 		'calet84@hotmail.com',	        '5580238108',	'5556565652',	'5546586161'),
+2439, 27, 001 (173,	'JESSICA BERENICE',	    'GUERRERO MANZANO',		'jessica.bm.guerrero@gamil.com','5547796439',	'',	''),
+2442, 73, 108 (174,	'TANIA ERIKA',	        'EULOGIO GONZALEZ',		'teeg411@gmail.com',	        '5556360973',	'5557746408',	'5516489971'),
+2456, 19, 00 (175,	'CINTHIA KAREN',	    'LOZANO CABRERA',		'',	                            '5522547709',	'5552955220',	'5526252770');
+
+
+
+
+2459, 72, 011 (176,	'EDNA ISIS',	            'SALAS RUIZ', 		    'esmar80@hotmail.com',	            '5611924823',	'5554220147',	'5534555022'),
+2477, 30, 502 (177,	'ADELA',	                'DOMINGUEZ CAMPOS',	    'adela_dc@yahoo.com.mx',	        '5555744559',	'5525634273',	'5541156627'),
+2505, 50, 201 (178,	'ROSA AURORA',	            'MANZANO FERRER', 		'aurora-mf@live.com',	            '5526994994',	'5553897106',	'5583742214'),
+2514, 86, 222 (179,	'ANA MARIA GUADALUPE',	    'WILDE GALLARDO', 		'wigaag@gmail.com',	                '5565659895',	'5525858379',	'5525858380'),
+2517, 12, 016 (180,	'GERARDO',	                'CRUZ VICTORIA',		'',	                                '5544362765',	'7223489748',	'7221008234'),
+2530, 06, 201 (181,	'VACIO',	                'VACIO',		        '',	'',	'',	''),
+2542, 23, 405 (182,	'HECTOR MIGUEL',	        'MARTINEZ HORTA',		'hecmartinezhorta@gmail.com',	    '5583804973',	'',	''),
+2542, 29, 405 (183,	'CARLOS',	                'OROZCO SILVA',		    'orozcos3000@hotmail.com',	        '5555231746',	'5533840425',	'5562358260'),
+2542, 66, 107 (184,	'GUADALUPE MARISOL',        'TENORIO MORA', 		'marisolteno.90@gmail.com',	        '5566106347',	'5550908100',	'5512311735'),
+2543, 66, 502 (185,	'FABIOLA MONTSERRAT',	    'MONTIEL ROJAS', 		'fabiola.montiel.rojas@gmail.com',  '5524148379',	'5524148379',	''),
+2559, 33, 201 (186,	'JUAN MANUEL',	            'ROSALES GONZALEZ', 	'jmrosalesg@gmail.com',	            '5550126108',	'5554058754',	'5536011000'),
+2562, 70, 170 (187,	'VLADIMIR',	                'VARGAS PACHECO', 		'nico-hb@hotmail.com',	            '5587739318',	'5555195740',	'5562007498'),
+2563, 99, 101 (188,	'JOSE IGNACIO JAVIER',	    'AROCHI CUEVA',		    'javierarochi@hotmail.com',	        '5525641039',	'5555275791',	'5552603550'),
+2566, 10, 201 (189,	'LAURA ELENA',	            'ROJAS CORDERO', 		'',	                                '5549250200',	'5549250200',	'5526835015'),
+2571, 11, 043 (190,	'MARIA FERNANDA',	        'ROSAS FUENTES',		'mafer_rosasfuentes@hotmail.com',   '5574543050',	'5510055078',	'5516705600');
+
+
+
+
+
+2579, 75, 018 (191,	'MARGARITA',	        'ARANA ESQUIVEL', 		        'olivberr16@outlook.com',	    '5535792940',	'5545828963',	'5565446031'),
+2579, 80, 504 (192,	'VACIO',	            'VACIO',		                '',	'',	'',	''),
+2580, 24, 124 (193,	'COVIMART, S.A.', 	    'DE C.V.',		                'direccionanpro@gmail.com',	    '5555374710',	'',	''),
+2581, 87, 008 (194,	'RODRIGO',	            'BUENO ROMO', 		            'rbuenoromo@gmail.com',	        '5552564387',	'5557735441',	'5554150975'),
+2594, 36, 048 (195,	'MICHELLE VIRIDIANA',	'TAMAYO BALLESTEROS',		    'michelletb18@hotmail.com',	    '5548264264',	'5548706720',	'5553018201'),
+2595, 17, 117 (196,	'MARIA DEL ROSARIO',	'GRANADOS GARCIA',		        'africamia2010@yahoo.com.mx',	'5561271728',	'5555172371',	'5555405306'),
+2595, 70, 070 (197,	'ALICIA',	            'CASASOLA EVARISTO',		    'ponchogomezdf@gmail.com',	    '5518283157',	'5525982691',	'5555527437'),
+2606, 11, 041 (198,	'LUIS FERNANDO',	    'SANCHEZ MONDRAGON', 		    'axxamovil@yahoo.com.mx',	    '3331170896',	'5521512449',	'5512721529'),
+2612, 75, 205 (199,	'ARACELI',	            'PEREZ VARGAS', 		        'merkara2000@hotmail.com',	    '5559654485',	'5555162337',	'5555162346'),
+2614, 25, 207 (200,	'DAVID',	            'ZEPEDA TEJEDA', 		        'dabigmadafaka@gmail.com',	    '5513862339',	'5556032253',	''),
+2623, 53, 401 (201,	'EDUARDO IVAN',	        'AGUILAR GARCIA',		        'lq.vansalgado@hotmail.com',	'5531285691',	'5551210032',	'5537296000'),
+2632, 62, 008 (202,	'GIOVANA',	            'FRANCHINI DE LOS COBOS',		'',	                            '5514884859',	'5550005200',	'5553433192'),
+2641, 95, 403 (203,	'CARLOS ENRIQUE',	    'SANCHEZ PEREZ',		        'cceesspp@gmail.com',	        '5541935135',	'5515516640',	'5541935335'),
+2644, 10, 001 (204,	'KAREN MONSERRAT',	    'BENNETTS MEDELLIN',		    'bennetts.karen@gmail.com',	    '5541358263',	'5518412326',	''),
+2645, 64, 001 (205,	'EDUARDO FLORENTINO',	'JUAREZ HOYOS',		            '',	                            '5541769785',	'',	'');
+
+
+
+
+
+
+2645, 64, 002 (206,	'LUIS VICENTE',	            'SEDANO TEJEDA', 		    'luisedano@yahoo.com.mx',	        '5510089528',	'5552086427',	'5557820378'),
+2645, 64, 003 (207,	'VACIO',	                'VACIO',		            '',	'',	'',	''),
+2645, 64, 004 (208,	'LUIS VICENTE',	            'SEDANO TEJEDA',		    'luisedano@yahoo.com.mx',	        '5510089528',	'5552086427',	'5557820378'),
+2645, 64, 005 (209,	'AZALIA ZAIRA',	            'NAVA GARCIA',		        'zaing1234@yahoo.com.mx',	        '5555266795',	'5557289905',	'5537256433'),
+2645, 64, 006 (210,	'SEBASTIAN ALBERTO',	    'AGUILAR GONZALEZ',	        'sebas.aguilar@comunidad.unam.mx',	'5510927737',	'5543819435',	''),
+2645, 64, 007 (211,	'LOURDES',	                'RAMOS PEREZ', 		        '',	                                '5545834495',	'',	''),
+2645, 64, 008 (212,	'VACIO',	                'VACIO',		            '',	'','',	''),
+2645, 64, 009 (213,	'SAUL',	                    'MUNGUIA MERCHANT', 	    '',	                                '5522649778',	'5552086427',	'5557820378'),
+2645, 64, 00A (214,	'PABLO FERNANDO',	        'FLORES DUQUE DE ESTRADA',	'',	                                '5619308606',	'',	''),
+2645, 64, 010 (215,	'LUIS VICENTE',	            'SEDANO TEJEDA', 		    'luisedano@yahoo.com.mx',	        '5510089528',	'5552086427',	'5557820378'),
+2645, 64, 011 (216,	'ZYANYA NAXCA',	            'FRANCO URIBE', 		    '',	                                '5573413471',	'5526364524',	'5539023723'),
+2645, 64, 012 (217,	'LUIS VICENTE',	            'SEDANO TEJEDA',		    'luisedano@yahoo.com.mx',	        '5510089528',	'5552086427',	'5557820378'),
+2645, 64, 013 (218,	'LUIS VICENTE',	            'SEDANO TEJEDA', 		    'luisedano@yahoo.com.mx',	        '5510089528',	'5552086427',	'5557820378'),
+2645, 64, 014 (219,	'MARIA ELENA DE LA CRUZ',	'MARTINEZ ALVAREZ',		    '',	                                '5512636703',	'5555261522',	'5535076396'),
+2645, 64, 016 (220,	'DANIEL',	                'RODRIGUEZ GALVEZ', 		'mbc230k77@gmail.com',	            '5555974271',	'5586696501',	'');
+
+
+
+
+
+2645, 64, 017 (221,	'ANGELA',	            'GUTIERREZ PEDROZO',		'atn.gupa@hotmail.com',	            '5623695956',	'5513563316',	''),
+2645, 64, 104 (222,	'PAOLA',	            'ARIAS FLORES', 		    '',	                                '5564932653',	'5591851611',	'5510111683'),
+2655, 07, 007 (223,	'BERNARDO',	            'RICO MAYA', 		        '',	                                '5556845069',	'5546331127',	'5518006373'),
+2661, 78, 201 (224,	'VACIO',	            'VACIO',		            '',	'',	'',	''),
+2665, 44, 102 (225,	'KARLA',	            'AGUILAR GOMEZ',		    'karla_agz@hotmail.com',	        '5549507101',	'',	''),
+2666, 74, 302 (226,	'JORGE ABEL',	        'SANCHEZ PARRA', 		    '',	                                '5534174139',	'5513736273',	'5557650918'),
+2674, 13, 013 (227,	'EMMANUEL LEONARDO',	'VILLATORO RAMIREZ',        'emmannuelvillatoro@hotmail.com',	'5530408396',		''),
+2674, 70, 102 (228,	'JOSE',	                'BAEZA MORAN', 		        'jbm_83@hotmail.com',	            '5515311331',	'5557029740',	'5557688928'),
+2681, 28, 104 (229,	'CESAR',	            'DESCO MENDOZA',		    'cesard@siainteractive.com',	    '5541309746',	'5556849829',	'5519975095'),
+2681, 58, PH1 (230,	'YARETH',	            'TRUJILLO FERNANDEZ', 	    'vidriofusionado@gmail.com',	    '5539354381',	'5542615667',	''),
+2685, 68, 303 (231,	'FABIAN',	            'GRANADOS COVARRUBIAS', 	'ronnie_f66@hotmail.com',	        '5528658092',	'',	''),
+2690, 94, 304 (232,	'SALVADOR',	            'GONZALEZ MORENO', 		    'chava1687@gmail.com',	            '5535665299',	'',	''),
+2691, 07, 504 (233,	'RAFAEL',	            'HIDALGO RAMIREZ', 		    'rafaelhidalgoramirez@gmail.com',	'5583683183',	'5553601982',	''),
+2696, 19, 101 (234,	'JOSE LUIS',	        'SALINAS URBANO', 		    'jurbano304@gmail.com',	            '5535228638',	'5552273999',	''),
+2699, 11, 001 (235,	'ANGEL PASCUAL',	    'RAVELO GUZMAN',		    'doris_whisper@hotmail.com',	    '5553414713',	'5524651399',	''),
+2699, 11, 002 (236,	'ALICIA',	            'MANZUR VDA. DE IBARRA',    'rafaelibarraster@gmail.com',	    '5532462494',	'5553968386',	'');
+
+
+
+
+
+
+2699, 11, 003 (237,	'MA.DE LOURDES',	    'HUERTA MENDEZ', 		'mineyelimartinez@gmail.com',	'5553964338',	'',	''),
+2699, 11, 004 (238,	'RAMIRO',	            'FLORES SOLTERO',		'rafaelibarraster@gmail.com',	'5553964356',	'5553964338',	'5520736574'),
+2699, 11, 005 (239,	'FRANCISCO JAVIER',	    'MENDOZA',		        'fjmendoza@live.com.mx',	    '5553964356',	'5525366345',	''),
+2699, 11, 006 (240,	'VACIO',	            'VACIO',		        '',	'',	'',	''),
+2699, 11, 007 (241,	'OCUPA',                'PROPIETARIO',		    '',	'',	'',	''),
+2699, 11, 008 (242,	'JORGE',	            'PUGA RUIZ',		    '',	                            '5539936444',	'5553964369',	''),
+2699, 11, 009 (243,	'MIGUEL ANGEL',	        'HERRERA', 		        '',	                            '5540741523',	'',	''),
+2699, 11, 010 (244,	'JENNY',	            'GARCIA CRUZ',		    '',	                            '5527530646',	'5553410633',	''),
+2699, 11, 011 (245,	'SERGIO ALEJANDRO',	    'VILLENA A.', 		    '',	'',	'',	''),
+2699, 11, 012 (246,	'JEAN ERICK',	        'SOLORZANO SANCHEZ', 	'jsolorzano@banamex.com',	    '5561760392',	'5553423596',	'5534079288'),
+2699, 11, AyB (247,	'GUADALUPE',	        'CRUZ RIVERA', 		    '',	                            '5553968730',	'0147771400',	'5559650073'),
+2702, 81, 308 (248,	'MANUEL ALEJANDRO',	    'MORENO HERNANDEZ', 	'alejandro_498@hotmail.com',	'5583434786',	'5583434786',	''),
+2715, 43, 201 (249,	'IRVING CHRISTIAN',	    'DOMINGUEZ RICCI',		'chricci1000@outlook.it',	    '5568714591',	'9333033361',	'5619880870'),
+2738, 38, 001 (250,	'OSCAR DAVID',	        'ELNECAVE CARDENAS', 	'davidecardenas@gmail.com',	    '5528473345',	'5584261005',	'5543847673'),
+2739, 06, 007 (251,	'JOSE LUIS',	        'TRUJILLO RODRIGUEZ', 	'trujillo1953@hotmail.com',	    '5530491838',	'5512542361',	'');
+
+
+
+
+
+2740, 20, 502 (252,	'PATRICIA',	        'VERDEJA APARTADO', 		'pvapatricia@gmail com',	            '5544884399',	'5555545379',	'5513285238'),
+2745, 20, 010 (253,	'MELISSA STEFANIE',	'MACIAS FERNANDEZ', 		'melissa_estefanie_88@hotmail.com',	    '5543485957',	'5576906584',	'5576906585'),
+2748, 90, 018 (254,	'BASILIA',	        'SANCHEZ ESPINOZA', 		'alimentosconsalud@hotmail.com',	    '5550302345',	'5539554897',	'5548603353'),
+2749, 54, 002 (255,	'MARIA EMILIA',	    'RODRIGUEZ ORRANTE', 		'',	                                    '5513318952',	'5551417900',	'5575248012'),
+2750, 54, 1PB (256,	'LUIS ENRIQUE',	    'BRAVO LOPEZ', 		        'enrique.sistem@gmail.com',	            '5635131437',	'',	''),
+2750, 54, 2PA (257,	'NORMA LILIA',	    'SOLORIO GONZALEZ', 		'normalsg@hotmail.com',	                '5534690108',	'',	''),
+2752, 10, 301 (258,	'IRMA',	            'PUGA ESCOBAR',		        'i.puga@grupodlv.mx',	                '5513222899',	'5552775882',	'5552775777'),
+2755, 40, 202 (259,	'ANA MARIA',	    'ALBA PEREZ', 		        '',	                                    '5523039033',	'5573800307',	'5587576055'),
+2757, 06, 201 (260,	'JORGE LUIS',	    'MADRID SANDOVAL', 		    'integrafik@gmail.com',	                '5511915329',	'',	''),
+2759, 83, 001 (261,	'WENDY XIOMARA',	'RUIZ FERNANDEZ', 		    'xiomara0118@hotmail.com',	            '5578295399',	'5512822969',	'5512829328'),
+2768, 96, 103 (262,	'ALDO',	            'SANCHEZ GADEA',		    'aldosg71@gmail.com',	                '5551378375',	'5590465550',	'5530921199'),
+2771, 10, 010 (263,	'ENEIDA PATRICIA',	'PLATAS PAVON', 		    '',	                                    '5521550919',	'5559978113',	'5555497815'),
+2772, 51, 001 (264,	'KAROLL MARLEINE',	'RELLSTAB SANCHEZ', 		'karollreillstab@hotmail.com',	        '5514520236',	'5551619971',	''),
+2772, 51, 002 (265,	'JULIO ENRIQUE',	'DE LA FUENTE ROCHA', 		'',	                                    '5523091824',	'',	''),
+2772, 51, 003 (266,	'LILIAN ITZEL',	    'GARIN MARTINEZ', 		    'garinm-lilian@gmail.com',	            '5541949694',	'5589174109',	'5540346654');
+
+
+
+
+
+2772, 51, 951 (267,	'GABRIELA',	            'GURAIEB RUEDA', 		'g-gru73@gmail.com',	            '5535562888',	'',	''),
+2773, 83, 183 (268,	'MARIA LILI',	        'TORRES GUERRERO', 		'',	                                '5511997680',	'5567452890',	'5578165799'),
+2776, 04, 001 (269,	'RICARDO',	            'MARQUEZ MONTAÑO',		'gansterrm1@gmail.com',	            '5535253420',	'5557597371',	''),
+2776, 04, 002 (270,	'OSCAR',	            'ESCALANTE MARTINEZ', 	'grupovitroescalante@hotmail.com',	'5530976806',	'5555375321',	''),
+2777, 15, 001 (271,	'VACIO',	            'VACIO',		        '',	'',	'',	''),
+2779, 27, 009 (272,	'JOSE LUIS',	        'GARCIA HERNANDEZ',     'joseluis.garcia@atramat.com',	    '5536777876',	'5555942166',	'5511050260'),
+2780, 51, 110 (273,	'MANUEL GUILLERMO',	    'MORALES ANGUIANO', 	'',	                                '4423597445',	'4421869713',	'5522822271'),
+2781, 17, 105 (274,	'ALEJANDRO',	        'MENDOZA NIETO', 		'amendozani@gmail.com',	            '5525386035',	'5530993000',	'5555401136'),
+2782, 94, 203 (275,	'MARIA ENRIQUETA',	    'VALDES GARCIA', 		'mari_decoraciones@hotmail.com',	'7751463559',	'7791444008',	''),
+2783, 52, 105 (276,	'VICTOR IVAN',	        'HUERTA HERNANDEZ',     'vicivan2910@gmail.com',	        '5541276065',	'5570269526',	'');
+
+
+
+
+
+2784, 01,042 (277,	'EDDA DEL CARMEN',	'PEREZ RICARDO', 		    'edda_132@hotmail.com',	                '5532217555',	'5554812100',	''),
+2785, 12,044 (278,	'JORGE ANTONIO',    'BUSTAMANTE MONTES',		'jorge.a.bm@outlook.com',	            '5547890342',	'5591276045',	'5544636331'),
+2787, 05, 302 (279,	'EVELYN JOHANA',	'CHAVARIN ROCHA',		    'melanie,gami.2282@gmail.com',	        '5526703113',	'',	''),
+2788, 02, 404 (280,	'HUGO ISMAEL',	    'MARTINEZ ORTIZ', 		    'mitzey-camil@hotmail.com',	            '',	'',	''),
+2789, 11, 306 (281,	'JOSE ROBERTO',	    'CARBAJAL RODRIGUEZ', 		'ingrobertocarbajal@gmail.com',	        '5537109472',	'5558407125',	'554018234'),
+2790, 23, 001 (282,	'OSCAR MAURICIO',	'ONTIVEROS GONZALEZ', 		'racso.sorevitno@gmail.com',	        '5585331000',	'',	''),
+2790, 23, 002 (283,	'JUAN',	            'QUIÑONES VASQUEZ', 		'juanquinones154@gmail.com',	        '5554563830',	'5521382513',	''),
+2790, 23, 003 (284,	'TOSHIYA',	        'KOBAYASHI TORRES', 		'devlesa.ss@gmail.com',	                '5527733975',	'5592012473',	''),
+2019, 11, 102 (285,	'HERLINDA LILIANA',	'RIVERA TREJO', 		    'lilirivera.ciudadmaderas@gmail.com',	'4424259021',	'',	'');
+
+
+    insertar en inquiino 25/05
+
+2035, 18, 006 (286,	'JOSE ANTONIO',	    'RAMIREZ SALINAS', 		'iramirezsalinas@yahoo.com.mx',	    '5538779926',	'',	            ''),
+2035, 18, 01B (287,	'BRENDA MICHEL',	'HERNANDEZ NAVARRETE', 	'brendahnavarrete@gmail.com',	    '5624369423',	'5553920824',	''),
+2037, 24, 001 (288,	'LEONOR',	        'GONZALEZ SANTOS', 		'santosnigth@gmail.com',	        '',         	'',         	''),
+2048, 46, 002 (289,	'ADRIANA',	        'URIBE CEDILLO',		'adriuribe03@hotmail.com',	        '5534427852',	'5530261286',	'5555905399'),
+2048, 46, 004 (290,	'ANA LORENA',	    'GONZALEZ CANCINO',		'floreriacancino@gmail.com',	    '5531983152',	'5513409606',	'5552578000'),
+2048, 46, 005 (291,	'JORGE LUIS',	    'ARAMBULA VERA',		' ',                                '5573670381',	'5522508354',	''),
+2048, 46, 006 (292,	'ERIKA',	        'SANTIAGO LOPEZ',		'eridanzaluz@gmail.com',	        '5578440908',	'5551407000',	''),
+2048, 46, 007 (293,	'GERARDO',	        'RODRIGUEZ SANCHEZ',	'raqmarger@hotmail.com',	        '5555902408',	'5529528454',	'5539600344'),
+2048, 46, 102 (294,	'CLAUDIA PATRICIA',	'RODRIGUEZ MENDOZA',	'claurodmen@yahoo.com.mx',	        '5562265850',	'5533346368',	'5536550166'),
+2048, 46, 103 (295,	'RUBEN IGNACIO',	'CANO MORENO',		    'canoimpresor@gmail.com',           '5532338399',	'5570405112',	''),
+2050, 44, 008 (296,	'KARIM EMMANUEL',	'VAZQUEZ MARTINEZ',		'ximena.g.ayala@gmail.com',	        '5547637563',	'5578932395',	'');

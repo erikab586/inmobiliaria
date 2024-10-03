@@ -1,0 +1,343 @@
+INFO - 2024-04-07 01:42:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-07 02:55:15 --> ErrorException: Undefined array key "id_inquilino"
+in APPPATH\Controllers\CobranzaController.php on line 217.
+ 1 APPPATH\Controllers\CobranzaController.php(217): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_inquilino"', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\CobranzaController.php', 217)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CobranzaController->crearMora()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobranzaController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-07 02:56:17 --> Error: Undefined constant "App\Controllers\id_inquilino"
+in APPPATH\Controllers\CobranzaController.php on line 217.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CobranzaController->crearMora()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobranzaController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-07 02:59:02 --> ErrorException: Undefined variable $i
+in APPPATH\Controllers\CobranzaController.php on line 217.
+ 1 APPPATH\Controllers\CobranzaController.php(217): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $i', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\CobranzaController.php', 217)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CobranzaController->crearMora()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobranzaController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-07 03:06:58 --> ErrorException: Uninitialized string offset 4
+in APPPATH\Controllers\CobranzaController.php on line 224.
+ 1 APPPATH\Controllers\CobranzaController.php(224): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Uninitialized string offset 4', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\CobranzaController.php', 224)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CobranzaController->crearMora()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobranzaController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-07 03:13:26 --> ErrorException: Undefined variable $inquilino00
+in APPPATH\Controllers\CobranzaController.php on line 223.
+ 1 APPPATH\Controllers\CobranzaController.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $inquilino00', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\CobranzaController.php', 223)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CobranzaController->crearMora()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobranzaController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-07 03:17:30 --> TypeError: Illegal offset type in isset or empty
+in APPPATH\Controllers\CobranzaController.php on line 233.
+ 1 [internal function]: App\Controllers\CobranzaController->App\Controllers\{closure}([], [...])
+ 2 APPPATH\Controllers\CobranzaController.php(232): array_reduce([...], Object(Closure), [])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CobranzaController->crearMora()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobranzaController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-07 03:19:22 --> TypeError: Illegal offset type in isset or empty
+in APPPATH\Controllers\CobranzaController.php on line 236.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CobranzaController->crearMora()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobranzaController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-07 03:20:47 --> TypeError: Illegal offset type
+in APPPATH\Controllers\CobranzaController.php on line 237.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CobranzaController->crearMora()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobranzaController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-07 03:21:28 --> ErrorException: Undefined array key "id_inquiino"
+in APPPATH\Controllers\CobranzaController.php on line 239.
+ 1 APPPATH\Controllers\CobranzaController.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_inquiino"', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\CobranzaController.php', 239)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CobranzaController->crearMora()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobranzaController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-07 03:23:09 --> ErrorException: Undefined variable $registros
+in APPPATH\Controllers\CobranzaController.php on line 236.
+ 1 APPPATH\Controllers\CobranzaController.php(236): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $registros', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\CobranzaController.php', 236)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CobranzaController->crearMora()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobranzaController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-07 03:23:30 --> ErrorException: Undefined variable $contador
+in APPPATH\Controllers\CobranzaController.php on line 253.
+ 1 APPPATH\Controllers\CobranzaController.php(253): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contador', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\CobranzaController.php', 253)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CobranzaController->crearMora()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobranzaController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-07 03:24:17 --> TypeError: array_filter(): Argument #1 ($array) must be of type array, int given
+in APPPATH\Controllers\CobranzaController.php on line 253.
+ 1 APPPATH\Controllers\CobranzaController.php(253): array_filter(0, Object(Closure))
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CobranzaController->crearMora()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobranzaController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-07 05:46:17 --> ErrorException: Undefined array key "id_inquilino"
+in APPPATH\Controllers\CobranzaController.php on line 235.
+ 1 APPPATH\Controllers\CobranzaController.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_inquilino"', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\CobranzaController.php', 235)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CobranzaController->crearMora()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobranzaController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-07 05:46:49 --> Error: Undefined constant "App\Controllers\id_inquilino"
+in APPPATH\Controllers\CobranzaController.php on line 235.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CobranzaController->crearMora()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobranzaController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-07 06:24:06 --> ErrorException: Undefined variable $buillder
+in APPPATH\Controllers\CobranzaController.php on line 209.
+ 1 APPPATH\Controllers\CobranzaController.php(209): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $buillder', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\CobranzaController.php', 209)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CobranzaController->crearMora()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobranzaController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-07 06:24:06 --> ErrorException: Undefined variable $buillder
+in APPPATH\Controllers\CobranzaController.php on line 209.
+ 1 APPPATH\Controllers\CobranzaController.php(209): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $buillder', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\CobranzaController.php', 209)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CobranzaController->crearMora()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobranzaController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-07 06:38:12 --> ErrorException: Undefined variable $inquilinos
+in APPPATH\Controllers\CobranzaController.php on line 222.
+ 1 APPPATH\Controllers\CobranzaController.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $inquilinos', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\CobranzaController.php', 222)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CobranzaController->crearMora()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobranzaController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-07 06:38:33 --> ErrorException: Undefined variable $item
+in APPPATH\Controllers\CobranzaController.php on line 226.
+ 1 APPPATH\Controllers\CobranzaController.php(226): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $item', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\CobranzaController.php', 226)
+ 2 [internal function]: App\Controllers\CobranzaController->App\Controllers\{closure}([...])
+ 3 APPPATH\Controllers\CobranzaController.php(225): array_filter([...], Object(Closure))
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CobranzaController->crearMora()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobranzaController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-07 06:39:55 --> ErrorException: Undefined variable $item
+in APPPATH\Controllers\CobranzaController.php on line 226.
+ 1 APPPATH\Controllers\CobranzaController.php(226): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $item', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\CobranzaController.php', 226)
+ 2 [internal function]: App\Controllers\CobranzaController->App\Controllers\{closure}([...])
+ 3 APPPATH\Controllers\CobranzaController.php(225): array_filter([...], Object(Closure))
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CobranzaController->crearMora()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobranzaController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-07 06:41:28 --> ErrorException: Undefined variable $item
+in APPPATH\Controllers\CobranzaController.php on line 226.
+ 1 APPPATH\Controllers\CobranzaController.php(226): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $item', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\CobranzaController.php', 226)
+ 2 [internal function]: App\Controllers\CobranzaController->App\Controllers\{closure}([...])
+ 3 APPPATH\Controllers\CobranzaController.php(225): array_filter([...], Object(Closure))
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CobranzaController->crearMora()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobranzaController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-07 06:42:15 --> ErrorException: Undefined variable $inquilino
+in APPPATH\Controllers\CobranzaController.php on line 240.
+ 1 APPPATH\Controllers\CobranzaController.php(240): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $inquilino', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\CobranzaController.php', 240)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CobranzaController->crearMora()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobranzaController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-07 06:50:40 --> ErrorException: Array to string conversion
+in APPPATH\Controllers\CobranzaController.php on line 249.
+ 1 APPPATH\Controllers\CobranzaController.php(249): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\CobranzaController.php', 249)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CobranzaController->crearMora()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobranzaController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-07 06:56:45 --> ErrorException: Undefined array key "id_inquilino"
+in APPPATH\Controllers\CobranzaController.php on line 248.
+ 1 APPPATH\Controllers\CobranzaController.php(248): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_inquilino"', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\CobranzaController.php', 248)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CobranzaController->crearMora()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobranzaController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-07 06:57:03 --> ErrorException: Undefined array key "id_inquilino"
+in APPPATH\Controllers\CobranzaController.php on line 248.
+ 1 APPPATH\Controllers\CobranzaController.php(248): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_inquilino"', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\CobranzaController.php', 248)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CobranzaController->crearMora()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobranzaController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-07 06:57:29 --> ErrorException: Undefined array key "id_inquilino"
+in APPPATH\Controllers\CobranzaController.php on line 248.
+ 1 APPPATH\Controllers\CobranzaController.php(248): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_inquilino"', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\CobranzaController.php', 248)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CobranzaController->crearMora()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobranzaController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-07 07:20:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:20:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:20:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:20:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:20:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:20:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:20:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:20:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:20:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:20:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:20:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:20:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:20:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:20:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:20:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:20:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:20:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:20:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:20:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:20:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:20:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:20:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:20:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:20:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:20:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:20:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:20:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:20:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:21:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:21:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:21:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:21:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:21:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:21:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:21:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:21:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:21:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:21:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:21:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:21:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:21:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:21:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:21:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:21:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:21:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:21:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:21:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:21:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:21:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:21:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:21:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:21:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:21:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:21:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:21:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:21:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:21:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:21:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:21:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:22:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:29:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-07 07:29:49 --> ErrorException: Undefined variable $cobranza
+in APPPATH\Views\cobranza\mora.php on line 59.
+ 1 APPPATH\Views\cobranza\mora.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cobranza', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\cobranza\\mora.php', 59)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\cobranza\\mora.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('cobranza/mora', [], true)
+ 5 APPPATH\Controllers\CobranzaController.php(251): view('cobranza/mora', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CobranzaController->crearMora()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobranzaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-07 07:30:22 --> ErrorException: Undefined array key "id_inquilino"
+in APPPATH\Controllers\CobranzaController.php on line 230.
+ 1 APPPATH\Controllers\CobranzaController.php(230): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_inquilino"', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\CobranzaController.php', 230)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CobranzaController->crearMora()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobranzaController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-07 07:30:49 --> ErrorException: Undefined array key "id_inquilino"
+in APPPATH\Controllers\CobranzaController.php on line 230.
+ 1 APPPATH\Controllers\CobranzaController.php(230): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_inquilino"', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\CobranzaController.php', 230)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CobranzaController->crearMora()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobranzaController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-07 07:32:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:33:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:39:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:42:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:42:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:42:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:42:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:42:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:42:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:42:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:42:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:44:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:45:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:46:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:52:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:55:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 07:58:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-07 07:59:53 --> ParseError: Unclosed '{' on line 10
+in APPPATH\Controllers\CobranzaController.php on line 264.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\CobranzaController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CobranzaController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CobranzaController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\CobranzaController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-07 08:01:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 08:05:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 08:06:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 08:06:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 08:11:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 08:13:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 08:17:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-07 08:17:29 --> ErrorException: Undefined variable $cobro
+in APPPATH\Controllers\CobranzaController.php on line 234.
+ 1 APPPATH\Controllers\CobranzaController.php(234): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cobro', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\CobranzaController.php', 234)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CobranzaController->crearMora()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobranzaController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-07 08:18:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 08:19:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 08:35:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 08:41:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 08:42:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 08:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 08:44:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 08:48:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 08:57:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 08:59:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 09:02:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 09:03:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-07 09:26:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

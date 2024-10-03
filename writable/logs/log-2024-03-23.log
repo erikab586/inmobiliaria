@@ -1,0 +1,748 @@
+INFO - 2024-03-23 00:23:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 00:23:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-23 00:23:17 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\concepto\editar.php on line 37.
+ 1 APPPATH\Views\concepto\editar.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\concepto\\editar.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\concepto\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('concepto/editar', [], true)
+ 5 APPPATH\Controllers\ConceptoController.php(35): view('concepto/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ConceptoController->edit('app-assets', 'images', 'logo', 'robust-logo-light.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConceptoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 00:23:18 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\concepto\editar.php on line 37.
+ 1 APPPATH\Views\concepto\editar.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\concepto\\editar.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\concepto\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('concepto/editar', [], true)
+ 5 APPPATH\Controllers\ConceptoController.php(35): view('concepto/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ConceptoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-1.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConceptoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 00:23:18 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\concepto\editar.php on line 37.
+ 1 APPPATH\Views\concepto\editar.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\concepto\\editar.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\concepto\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('concepto/editar', [], true)
+ 5 APPPATH\Controllers\ConceptoController.php(35): view('concepto/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ConceptoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-3.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConceptoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 00:23:18 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\concepto\editar.php on line 37.
+ 1 APPPATH\Views\concepto\editar.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\concepto\\editar.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\concepto\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('concepto/editar', [], true)
+ 5 APPPATH\Controllers\ConceptoController.php(35): view('concepto/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ConceptoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-2.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConceptoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 00:23:19 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\concepto\editar.php on line 37.
+ 1 APPPATH\Views\concepto\editar.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\concepto\\editar.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\concepto\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('concepto/editar', [], true)
+ 5 APPPATH\Controllers\ConceptoController.php(35): view('concepto/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ConceptoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-6.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConceptoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 00:23:19 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\concepto\editar.php on line 37.
+ 1 APPPATH\Views\concepto\editar.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\concepto\\editar.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\concepto\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('concepto/editar', [], true)
+ 5 APPPATH\Controllers\ConceptoController.php(35): view('concepto/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ConceptoController->edit('app-assets', 'js', 'core', 'app.js')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConceptoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 00:23:19 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\concepto\editar.php on line 37.
+ 1 APPPATH\Views\concepto\editar.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\concepto\\editar.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\concepto\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('concepto/editar', [], true)
+ 5 APPPATH\Controllers\ConceptoController.php(35): view('concepto/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ConceptoController->edit('app-assets', 'js', 'core', 'app-menu.js')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConceptoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-23 00:23:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 00:23:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 00:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 00:24:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-23 00:24:15 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\concepto\editar.php on line 37.
+ 1 APPPATH\Views\concepto\editar.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\concepto\\editar.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\concepto\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('concepto/editar', [], true)
+ 5 APPPATH\Controllers\ConceptoController.php(35): view('concepto/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ConceptoController->edit('app-assets', 'images', 'logo', 'robust-logo-light.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConceptoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 00:24:15 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\concepto\editar.php on line 37.
+ 1 APPPATH\Views\concepto\editar.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\concepto\\editar.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\concepto\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('concepto/editar', [], true)
+ 5 APPPATH\Controllers\ConceptoController.php(35): view('concepto/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ConceptoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-1.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConceptoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 00:24:16 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\concepto\editar.php on line 37.
+ 1 APPPATH\Views\concepto\editar.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\concepto\\editar.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\concepto\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('concepto/editar', [], true)
+ 5 APPPATH\Controllers\ConceptoController.php(35): view('concepto/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ConceptoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-2.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConceptoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 00:24:16 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\concepto\editar.php on line 37.
+ 1 APPPATH\Views\concepto\editar.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\concepto\\editar.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\concepto\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('concepto/editar', [], true)
+ 5 APPPATH\Controllers\ConceptoController.php(35): view('concepto/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ConceptoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-3.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConceptoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 00:24:17 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\concepto\editar.php on line 37.
+ 1 APPPATH\Views\concepto\editar.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\concepto\\editar.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\concepto\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('concepto/editar', [], true)
+ 5 APPPATH\Controllers\ConceptoController.php(35): view('concepto/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ConceptoController->edit('app-assets', 'js', 'core', 'app.js')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConceptoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 00:24:17 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\concepto\editar.php on line 37.
+ 1 APPPATH\Views\concepto\editar.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\concepto\\editar.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\concepto\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('concepto/editar', [], true)
+ 5 APPPATH\Controllers\ConceptoController.php(35): view('concepto/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ConceptoController->edit('app-assets', 'js', 'core', 'app-menu.js')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConceptoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 00:24:17 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\concepto\editar.php on line 37.
+ 1 APPPATH\Views\concepto\editar.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\concepto\\editar.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\concepto\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('concepto/editar', [], true)
+ 5 APPPATH\Controllers\ConceptoController.php(35): view('concepto/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ConceptoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-6.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConceptoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-23 00:24:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 00:24:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 00:24:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 00:25:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 00:25:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 00:25:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 00:39:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 00:40:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-23 00:56:56 --> ErrorException: Undefined array key "id_iva"
+in APPPATH\Views\roles\index.php on line 84.
+ 1 APPPATH\Views\roles\index.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_iva"', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\roles\\index.php', 84)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\roles\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('roles/index.php', [], true)
+ 5 APPPATH\Controllers\RolesController.php(11): view('roles/index.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RolesController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RolesController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-23 00:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 00:57:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 01:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 01:23:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 01:23:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 01:24:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 04:41:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 04:42:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-23 04:42:39 --> ErrorException: Undefined variable $rol
+in APPPATH\Controllers\RolesController.php on line 17.
+ 1 APPPATH\Controllers\RolesController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rol', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\RolesController.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RolesController->create()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RolesController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-23 04:44:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 04:44:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-23 04:44:58 --> ErrorException: Undefined variable $RolestoModel
+in APPPATH\Controllers\RolesController.php on line 32.
+ 1 APPPATH\Controllers\RolesController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $RolestoModel', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\RolesController.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RolesController->edit('9')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RolesController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 04:45:20 --> ErrorException: Undefined variable $concepto
+in APPPATH\Views\roles\editar.php on line 37.
+ 1 APPPATH\Views\roles\editar.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $concepto', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\roles\\editar.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\roles\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('roles/editar', [], true)
+ 5 APPPATH\Controllers\RolesController.php(33): view('roles/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RolesController->edit('9')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RolesController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-23 04:46:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-23 04:46:25 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\roles\editar.php on line 37.
+ 1 APPPATH\Views\roles\editar.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\roles\\editar.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\roles\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('roles/editar', [], true)
+ 5 APPPATH\Controllers\RolesController.php(33): view('roles/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RolesController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-1.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RolesController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 04:46:25 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\roles\editar.php on line 37.
+ 1 APPPATH\Views\roles\editar.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\roles\\editar.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\roles\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('roles/editar', [], true)
+ 5 APPPATH\Controllers\RolesController.php(33): view('roles/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RolesController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-3.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RolesController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 04:46:25 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\roles\editar.php on line 37.
+ 1 APPPATH\Views\roles\editar.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\roles\\editar.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\roles\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('roles/editar', [], true)
+ 5 APPPATH\Controllers\RolesController.php(33): view('roles/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RolesController->edit('app-assets', 'images', 'logo', 'robust-logo-light.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RolesController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 04:46:25 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\roles\editar.php on line 37.
+ 1 APPPATH\Views\roles\editar.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\roles\\editar.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\roles\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('roles/editar', [], true)
+ 5 APPPATH\Controllers\RolesController.php(33): view('roles/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RolesController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-2.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RolesController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 04:46:26 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\roles\editar.php on line 37.
+ 1 APPPATH\Views\roles\editar.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\roles\\editar.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\roles\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('roles/editar', [], true)
+ 5 APPPATH\Controllers\RolesController.php(33): view('roles/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RolesController->edit('app-assets', 'js', 'core', 'app-menu.js')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RolesController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 04:46:26 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\roles\editar.php on line 37.
+ 1 APPPATH\Views\roles\editar.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\roles\\editar.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\roles\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('roles/editar', [], true)
+ 5 APPPATH\Controllers\RolesController.php(33): view('roles/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RolesController->edit('app-assets', 'js', 'core', 'app.js')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RolesController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 04:46:26 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\roles\editar.php on line 37.
+ 1 APPPATH\Views\roles\editar.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\roles\\editar.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\roles\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('roles/editar', [], true)
+ 5 APPPATH\Controllers\RolesController.php(33): view('roles/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RolesController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-6.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RolesController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 04:46:34 --> Error: Class "App\Controllers\ConceptoModel" not found
+in APPPATH\Controllers\RolesController.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RolesController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RolesController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-23 04:47:26 --> mysqli_sql_exception: Unknown column 'id_rolesU' in 'where clause' in C:\xampp\htdocs\inmobiliaria\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\inmobiliaria\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `inm_rol...', 0)
+#1 C:\xampp\htdocs\inmobiliaria\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `inm_rol...')
+#2 C:\xampp\htdocs\inmobiliaria\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `inm_rol...')
+#3 C:\xampp\htdocs\inmobiliaria\system\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `inm_rol...', Array, false)
+#4 C:\xampp\htdocs\inmobiliaria\app\Models\RolesModel.php(38): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\inmobiliaria\app\Controllers\RolesController.php(42): App\Models\RolesModel->modificar('9', Array)
+#6 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(941): App\Controllers\RolesController->save()
+#7 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RolesController))
+#8 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\inmobiliaria\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-23 04:47:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id_rolesU' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `inm_roles` SET `id_rolU` = :id_rolU:, `descripcion_rol` = :descripcion_rol:
+WHERE `id_rolesU` = :id_rolesU:', [...], false)
+ 2 APPPATH\Models\RolesModel.php(38): CodeIgniter\Database\BaseBuilder->update()
+ 3 APPPATH\Controllers\RolesController.php(42): App\Models\RolesModel->modificar('9', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RolesController->save()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RolesController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 04:47:26 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id_rolesU' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `inm_roles` SET `id_rolU` = \'9\', `descripcion_rol` = \'Presidente segundo\'
+WHERE `id_rolesU` = \'9\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `inm_roles` SET `id_rolU` = \'9\', `descripcion_rol` = \'Presidente segundo\'
+WHERE `id_rolesU` = \'9\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `inm_roles` SET `id_rolU` = :id_rolU:, `descripcion_rol` = :descripcion_rol:
+WHERE `id_rolesU` = :id_rolesU:', [...], false)
+ 4 APPPATH\Models\RolesModel.php(38): CodeIgniter\Database\BaseBuilder->update()
+ 5 APPPATH\Controllers\RolesController.php(42): App\Models\RolesModel->modificar('9', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RolesController->save()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RolesController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 04:47:26 --> [Caused by] mysqli_sql_exception: Unknown column 'id_rolesU' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `inm_roles` SET `id_rolU` = \'9\', `descripcion_rol` = \'Presidente segundo\'
+WHERE `id_rolesU` = \'9\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `inm_roles` SET `id_rolU` = \'9\', `descripcion_rol` = \'Presidente segundo\'
+WHERE `id_rolesU` = \'9\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `inm_roles` SET `id_rolU` = \'9\', `descripcion_rol` = \'Presidente segundo\'
+WHERE `id_rolesU` = \'9\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `inm_roles` SET `id_rolU` = :id_rolU:, `descripcion_rol` = :descripcion_rol:
+WHERE `id_rolesU` = :id_rolesU:', [...], false)
+ 5 APPPATH\Models\RolesModel.php(38): CodeIgniter\Database\BaseBuilder->update()
+ 6 APPPATH\Controllers\RolesController.php(42): App\Models\RolesModel->modificar('9', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RolesController->save()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RolesController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-23 04:50:36 --> mysqli_sql_exception: Unknown column 'id_rolesU' in 'where clause' in C:\xampp\htdocs\inmobiliaria\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\inmobiliaria\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `inm_rol...', 0)
+#1 C:\xampp\htdocs\inmobiliaria\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `inm_rol...')
+#2 C:\xampp\htdocs\inmobiliaria\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `inm_rol...')
+#3 C:\xampp\htdocs\inmobiliaria\system\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `inm_rol...', Array, false)
+#4 C:\xampp\htdocs\inmobiliaria\app\Models\RolesModel.php(38): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\inmobiliaria\app\Controllers\RolesController.php(41): App\Models\RolesModel->modificar('9', Array)
+#6 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(941): App\Controllers\RolesController->save()
+#7 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RolesController))
+#8 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\inmobiliaria\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-23 04:50:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id_rolesU' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `inm_roles` SET `descripcion_rol` = :descripcion_rol:
+WHERE `id_rolesU` = :id_rolesU:', [...], false)
+ 2 APPPATH\Models\RolesModel.php(38): CodeIgniter\Database\BaseBuilder->update()
+ 3 APPPATH\Controllers\RolesController.php(41): App\Models\RolesModel->modificar('9', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RolesController->save()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RolesController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 04:50:36 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id_rolesU' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `inm_roles` SET `descripcion_rol` = \'Presidente segundo\'
+WHERE `id_rolesU` = \'9\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `inm_roles` SET `descripcion_rol` = \'Presidente segundo\'
+WHERE `id_rolesU` = \'9\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `inm_roles` SET `descripcion_rol` = :descripcion_rol:
+WHERE `id_rolesU` = :id_rolesU:', [...], false)
+ 4 APPPATH\Models\RolesModel.php(38): CodeIgniter\Database\BaseBuilder->update()
+ 5 APPPATH\Controllers\RolesController.php(41): App\Models\RolesModel->modificar('9', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RolesController->save()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RolesController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 04:50:36 --> [Caused by] mysqli_sql_exception: Unknown column 'id_rolesU' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `inm_roles` SET `descripcion_rol` = \'Presidente segundo\'
+WHERE `id_rolesU` = \'9\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `inm_roles` SET `descripcion_rol` = \'Presidente segundo\'
+WHERE `id_rolesU` = \'9\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `inm_roles` SET `descripcion_rol` = \'Presidente segundo\'
+WHERE `id_rolesU` = \'9\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `inm_roles` SET `descripcion_rol` = :descripcion_rol:
+WHERE `id_rolesU` = :id_rolesU:', [...], false)
+ 5 APPPATH\Models\RolesModel.php(38): CodeIgniter\Database\BaseBuilder->update()
+ 6 APPPATH\Controllers\RolesController.php(41): App\Models\RolesModel->modificar('9', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RolesController->save()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RolesController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-23 04:52:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 04:53:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-23 04:53:37 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\roles\editar.php on line 37.
+ 1 APPPATH\Views\roles\editar.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\roles\\editar.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\roles\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('roles/editar', [], true)
+ 5 APPPATH\Controllers\RolesController.php(33): view('roles/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RolesController->edit('app-assets', 'images', 'logo', 'robust-logo-light.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RolesController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 04:53:37 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\roles\editar.php on line 37.
+ 1 APPPATH\Views\roles\editar.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\roles\\editar.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\roles\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('roles/editar', [], true)
+ 5 APPPATH\Controllers\RolesController.php(33): view('roles/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RolesController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-1.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RolesController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 04:53:37 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\roles\editar.php on line 37.
+ 1 APPPATH\Views\roles\editar.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\roles\\editar.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\roles\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('roles/editar', [], true)
+ 5 APPPATH\Controllers\RolesController.php(33): view('roles/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RolesController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-2.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RolesController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 04:53:37 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\roles\editar.php on line 37.
+ 1 APPPATH\Views\roles\editar.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\roles\\editar.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\roles\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('roles/editar', [], true)
+ 5 APPPATH\Controllers\RolesController.php(33): view('roles/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RolesController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-3.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RolesController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 04:53:38 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\roles\editar.php on line 37.
+ 1 APPPATH\Views\roles\editar.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\roles\\editar.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\roles\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('roles/editar', [], true)
+ 5 APPPATH\Controllers\RolesController.php(33): view('roles/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RolesController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-6.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RolesController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 04:53:38 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\roles\editar.php on line 37.
+ 1 APPPATH\Views\roles\editar.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\roles\\editar.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\roles\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('roles/editar', [], true)
+ 5 APPPATH\Controllers\RolesController.php(33): view('roles/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RolesController->edit('app-assets', 'js', 'core', 'app-menu.js')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RolesController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 04:53:38 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\roles\editar.php on line 37.
+ 1 APPPATH\Views\roles\editar.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\roles\\editar.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\roles\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('roles/editar', [], true)
+ 5 APPPATH\Controllers\RolesController.php(33): view('roles/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RolesController->edit('app-assets', 'js', 'core', 'app.js')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RolesController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-23 04:53:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 04:53:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 04:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-23 04:53:55 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\roles\editar.php on line 37.
+ 1 APPPATH\Views\roles\editar.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\roles\\editar.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\roles\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('roles/editar', [], true)
+ 5 APPPATH\Controllers\RolesController.php(33): view('roles/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RolesController->edit('app-assets', 'images', 'logo', 'robust-logo-light.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RolesController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 04:53:56 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\roles\editar.php on line 37.
+ 1 APPPATH\Views\roles\editar.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\roles\\editar.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\roles\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('roles/editar', [], true)
+ 5 APPPATH\Controllers\RolesController.php(33): view('roles/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RolesController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-2.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RolesController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 04:53:56 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\roles\editar.php on line 37.
+ 1 APPPATH\Views\roles\editar.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\roles\\editar.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\roles\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('roles/editar', [], true)
+ 5 APPPATH\Controllers\RolesController.php(33): view('roles/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RolesController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-1.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RolesController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 04:53:57 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\roles\editar.php on line 37.
+ 1 APPPATH\Views\roles\editar.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\roles\\editar.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\roles\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('roles/editar', [], true)
+ 5 APPPATH\Controllers\RolesController.php(33): view('roles/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RolesController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-3.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RolesController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 04:53:58 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\roles\editar.php on line 37.
+ 1 APPPATH\Views\roles\editar.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\roles\\editar.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\roles\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('roles/editar', [], true)
+ 5 APPPATH\Controllers\RolesController.php(33): view('roles/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RolesController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-6.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RolesController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 04:53:58 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\roles\editar.php on line 37.
+ 1 APPPATH\Views\roles\editar.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\roles\\editar.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\roles\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('roles/editar', [], true)
+ 5 APPPATH\Controllers\RolesController.php(33): view('roles/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RolesController->edit('app-assets', 'js', 'core', 'app.js')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RolesController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 04:53:58 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\roles\editar.php on line 37.
+ 1 APPPATH\Views\roles\editar.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\roles\\editar.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\roles\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('roles/editar', [], true)
+ 5 APPPATH\Controllers\RolesController.php(33): view('roles/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RolesController->edit('app-assets', 'js', 'core', 'app-menu.js')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RolesController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-23 04:54:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 04:56:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 04:56:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-23 04:57:27 --> ErrorException: Undefined variable $rolesodel
+in APPPATH\Models\RolesModel.php on line 45.
+ 1 APPPATH\Models\RolesModel.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rolesodel', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Models\\RolesModel.php', 45)
+ 2 APPPATH\Controllers\RolesController.php(55): App\Models\RolesModel->borrar('9')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RolesController->delete('9')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RolesController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-23 04:58:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 04:58:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 05:00:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 05:00:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 05:08:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 05:09:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 05:09:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 05:20:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 05:21:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 05:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 05:24:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 05:29:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 05:33:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 05:33:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-23 05:33:42 --> ErrorException: unlink(C:\xampp\htdocs\inmobiliaria\writable\debugbar/debugbar_1711169615.522496.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 80.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\inmobiliaria\\writable\\debugbar/debugbar_1711169615.522496.json): No such file or directory', 'C:\\xampp\\htdocs\\inmobiliaria\\system\\Debug\\Toolbar\\Collectors\\History.php', 80)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(80): unlink('C:\\xampp\\htdocs\\inmobiliaria\\writable\\debugbar/debugbar_1711169615.522496.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(496): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1711172001.385299', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(475): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(154): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-23 05:34:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 05:34:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 05:34:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 05:34:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 05:36:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 05:44:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 05:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 05:47:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 05:49:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 05:57:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 05:58:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 05:58:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 05:58:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 05:58:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 05:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-23 06:24:20 --> ErrorException: Undefined variable $roles
+in APPPATH\Views\usuario\index.php on line 37.
+ 1 APPPATH\Views\usuario\index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $roles', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\usuario\\index.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\usuario\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('usuario/index.php', [...], true)
+ 5 APPPATH\Controllers\UsuarioController.php(16): view('usuario/index.php', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UsuarioController->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 06:24:20 --> ErrorException: Undefined variable $roles
+in APPPATH\Views\usuario\index.php on line 37.
+ 1 APPPATH\Views\usuario\index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $roles', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\usuario\\index.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\usuario\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('usuario/index.php', [...], true)
+ 5 APPPATH\Controllers\UsuarioController.php(16): view('usuario/index.php', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UsuarioController->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-23 06:28:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-23 06:29:54 --> mysqli_sql_exception: Column 'descripcion' cannot be null in C:\xampp\htdocs\inmobiliaria\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\inmobiliaria\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `in...', 0)
+#1 C:\xampp\htdocs\inmobiliaria\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 C:\xampp\htdocs\inmobiliaria\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 C:\xampp\htdocs\inmobiliaria\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 C:\xampp\htdocs\inmobiliaria\app\Models\ConceptoModel.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\inmobiliaria\app\Controllers\ConceptoController.php(21): App\Models\ConceptoModel->insertar(Array)
+#6 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(941): App\Controllers\ConceptoController->create()
+#7 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConceptoController))
+#8 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\inmobiliaria\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-23 06:29:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'descripcion' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `inm_concepto` (`cod_concepto`, `descripcion`) VALUES (:cod_concepto:, :descripcion:)', [...], false)
+ 2 APPPATH\Models\ConceptoModel.php(28): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ConceptoController.php(21): App\Models\ConceptoModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ConceptoController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConceptoController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 06:29:54 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'descripcion' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `inm_concepto` (`cod_concepto`, `descripcion`) VALUES (NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `inm_concepto` (`cod_concepto`, `descripcion`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `inm_concepto` (`cod_concepto`, `descripcion`) VALUES (:cod_concepto:, :descripcion:)', [...], false)
+ 4 APPPATH\Models\ConceptoModel.php(28): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\ConceptoController.php(21): App\Models\ConceptoModel->insertar([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ConceptoController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConceptoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 06:29:54 --> [Caused by] mysqli_sql_exception: Column 'descripcion' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `inm_concepto` (`cod_concepto`, `descripcion`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `inm_concepto` (`cod_concepto`, `descripcion`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `inm_concepto` (`cod_concepto`, `descripcion`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `inm_concepto` (`cod_concepto`, `descripcion`) VALUES (:cod_concepto:, :descripcion:)', [...], false)
+ 5 APPPATH\Models\ConceptoModel.php(28): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\ConceptoController.php(21): App\Models\ConceptoModel->insertar([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ConceptoController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConceptoController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-23 06:30:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-23 06:33:48 --> ErrorException: Undefined variable $db
+in APPPATH\Controllers\UsuarioController.php on line 16.
+ 1 APPPATH\Controllers\UsuarioController.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\UsuarioController.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UsuarioController->lista()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-23 06:34:28 --> mysqli_sql_exception: Unknown column 'r.id_rol' in 'on clause' in C:\xampp\htdocs\inmobiliaria\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\inmobiliaria\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `u`.*, `...', 0)
+#1 C:\xampp\htdocs\inmobiliaria\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `u`.*, `...')
+#2 C:\xampp\htdocs\inmobiliaria\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.*, `...')
+#3 C:\xampp\htdocs\inmobiliaria\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `u`.*, `...', Array, false)
+#4 C:\xampp\htdocs\inmobiliaria\app\Controllers\UsuarioController.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(941): App\Controllers\UsuarioController->lista()
+#6 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#7 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inmobiliaria\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-23 06:34:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'r.id_rol' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `u`.*, `r`.`descripcion_rol`
+FROM `inm_usuario` `u`
+JOIN `inm_roles` `r` ON `r`.`id_rol` = `u`.`id_rolU`', [], false)
+ 2 APPPATH\Controllers\UsuarioController.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UsuarioController->lista()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 06:34:28 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'r.id_rol' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `u`.*, `r`.`descripcion_rol`
+FROM `inm_usuario` `u`
+JOIN `inm_roles` `r` ON `r`.`id_rol` = `u`.`id_rolU`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.*, `r`.`descripcion_rol`
+FROM `inm_usuario` `u`
+JOIN `inm_roles` `r` ON `r`.`id_rol` = `u`.`id_rolU`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `u`.*, `r`.`descripcion_rol`
+FROM `inm_usuario` `u`
+JOIN `inm_roles` `r` ON `r`.`id_rol` = `u`.`id_rolU`', [], false)
+ 4 APPPATH\Controllers\UsuarioController.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UsuarioController->lista()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 06:34:28 --> [Caused by] mysqli_sql_exception: Unknown column 'r.id_rol' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `u`.*, `r`.`descripcion_rol`
+FROM `inm_usuario` `u`
+JOIN `inm_roles` `r` ON `r`.`id_rol` = `u`.`id_rolU`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `u`.*, `r`.`descripcion_rol`
+FROM `inm_usuario` `u`
+JOIN `inm_roles` `r` ON `r`.`id_rol` = `u`.`id_rolU`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.*, `r`.`descripcion_rol`
+FROM `inm_usuario` `u`
+JOIN `inm_roles` `r` ON `r`.`id_rol` = `u`.`id_rolU`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `u`.*, `r`.`descripcion_rol`
+FROM `inm_usuario` `u`
+JOIN `inm_roles` `r` ON `r`.`id_rol` = `u`.`id_rolU`', [], false)
+ 5 APPPATH\Controllers\UsuarioController.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UsuarioController->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-23 06:35:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,4 @@
+INSERT INTO `inm_deposito`(`id_deposito`, `id_contrato`, `referencia`, `digito_nuevo`, `digito_verificador`, `homo_clave`, `dir_documento`, 
+                            `dir_contrato`, `sub_02`, `created_at`, `updated_at`, `deleted_at`) 
+VALUES ('[value-1]','[value-2]','[value-3]','[value-4]','[value-5]','[value-6]','[value-7]','[value-8]',
+        '[value-9]','[value-10]','[value-11]','[value-12]')

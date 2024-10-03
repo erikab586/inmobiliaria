@@ -1,0 +1,179 @@
+INFO - 2024-03-28 07:09:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 07:09:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 07:09:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 07:10:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-28 07:36:43 --> ErrorException: Undefined array key "renta_actua"
+in APPPATH\Controllers\ContratoController.php on line 124.
+ 1 APPPATH\Controllers\ContratoController.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "renta_actua"', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\ContratoController.php', 124)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->generador()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-28 07:45:33 --> ErrorException: Undefined variable $datos
+in APPPATH\Controllers\ContratoController.php on line 130.
+ 1 APPPATH\Controllers\ContratoController.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\ContratoController.php', 130)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->generador()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-28 08:05:31 --> ErrorException: Undefined array key "fecha_terminoContrato"
+in APPPATH\Controllers\ContratoController.php on line 91.
+ 1 APPPATH\Controllers\ContratoController.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fecha_terminoContrato"', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\ContratoController.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->generador()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-28 08:06:08 --> ErrorException: Undefined variable $contrato
+in APPPATH\Controllers\ContratoController.php on line 88.
+ 1 APPPATH\Controllers\ContratoController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contrato', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\ContratoController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->generador()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-28 08:18:14 --> ErrorException: Array to string conversion
+in APPPATH\Controllers\ContratoController.php on line 118.
+ 1 APPPATH\Controllers\ContratoController.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\ContratoController.php', 118)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->generador()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-28 08:25:51 --> ErrorException: Undefined variable $saldo
+in APPPATH\Controllers\ContratoController.php on line 120.
+ 1 APPPATH\Controllers\ContratoController.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $saldo', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\ContratoController.php', 120)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->generador()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-28 08:28:06 --> ErrorException: Undefined variable $sado
+in APPPATH\Controllers\ContratoController.php on line 121.
+ 1 APPPATH\Controllers\ContratoController.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sado', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\ContratoController.php', 121)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->generador()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-28 08:43:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 08:43:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 08:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 08:46:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 08:46:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 08:46:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 08:46:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 08:46:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-28 09:33:34 --> ErrorException: Undefined variable $cvconceptoDif
+in APPPATH\Controllers\ContratoController.php on line 106.
+ 1 APPPATH\Controllers\ContratoController.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cvconceptoDif', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\ContratoController.php', 106)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->generador()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-28 09:34:25 --> ErrorException: Undefined array key "fecha_terminoContrato"
+in APPPATH\Controllers\ContratoController.php on line 117.
+ 1 APPPATH\Controllers\ContratoController.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fecha_terminoContrato"', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\ContratoController.php', 117)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->generador()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-28 09:35:40 --> ErrorException: Undefined array key "fecha_terminoContrato"
+in APPPATH\Controllers\ContratoController.php on line 117.
+ 1 APPPATH\Controllers\ContratoController.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fecha_terminoContrato"', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\ContratoController.php', 117)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->generador()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-28 09:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:43:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:43:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:46:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:46:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:46:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:46:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:46:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:46:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:49:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:49:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:49:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:56:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 10:00:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 10:02:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 10:02:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-28 10:02:15 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\cobranza\editar.php on line 39.
+ 1 APPPATH\Views\cobranza\editar.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\cobranza\\editar.php', 39)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\cobranza\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('cobranza/editar', [], true)
+ 5 APPPATH\Controllers\CobranzaController.php(87): view('cobranza/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CobranzaController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-2.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobranzaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-28 10:02:16 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\cobranza\editar.php on line 39.
+ 1 APPPATH\Views\cobranza\editar.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\cobranza\\editar.php', 39)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\cobranza\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('cobranza/editar', [], true)
+ 5 APPPATH\Controllers\CobranzaController.php(87): view('cobranza/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CobranzaController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-1.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobranzaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-28 10:02:16 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\cobranza\editar.php on line 39.
+ 1 APPPATH\Views\cobranza\editar.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\cobranza\\editar.php', 39)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\cobranza\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('cobranza/editar', [], true)
+ 5 APPPATH\Controllers\CobranzaController.php(87): view('cobranza/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CobranzaController->edit('app-assets', 'images', 'logo', 'robust-logo-light.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobranzaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-28 10:02:16 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\cobranza\editar.php on line 39.
+ 1 APPPATH\Views\cobranza\editar.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\cobranza\\editar.php', 39)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\cobranza\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('cobranza/editar', [], true)
+ 5 APPPATH\Controllers\CobranzaController.php(87): view('cobranza/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CobranzaController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-3.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobranzaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-28 10:02:16 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\cobranza\editar.php on line 39.
+ 1 APPPATH\Views\cobranza\editar.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\cobranza\\editar.php', 39)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\cobranza\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('cobranza/editar', [], true)
+ 5 APPPATH\Controllers\CobranzaController.php(87): view('cobranza/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CobranzaController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-6.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobranzaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-28 10:02:17 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\cobranza\editar.php on line 39.
+ 1 APPPATH\Views\cobranza\editar.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\cobranza\\editar.php', 39)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\cobranza\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('cobranza/editar', [], true)
+ 5 APPPATH\Controllers\CobranzaController.php(87): view('cobranza/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CobranzaController->edit('app-assets', 'js', 'core', 'app-menu.js')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobranzaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-28 10:02:17 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\cobranza\editar.php on line 39.
+ 1 APPPATH\Views\cobranza\editar.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\cobranza\\editar.php', 39)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\cobranza\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('cobranza/editar', [], true)
+ 5 APPPATH\Controllers\CobranzaController.php(87): view('cobranza/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CobranzaController->edit('app-assets', 'js', 'core', 'app.js')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobranzaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

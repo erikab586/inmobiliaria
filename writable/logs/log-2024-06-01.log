@@ -1,0 +1,499 @@
+INFO - 2024-06-01 04:57:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 04:57:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 04:57:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 04:57:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 05:00:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 05:00:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 05:01:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 05:01:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 05:01:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 05:02:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 05:05:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 05:11:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-01 05:11:56 --> ErrorException: Undefined variable $ultimo
+in APPPATH\Controllers\ContratoController.php on line 37.
+ 1 APPPATH\Controllers\ContratoController.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ultimo', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\ContratoController.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->generador()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-01 05:12:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-01 05:12:49 --> mysqli_sql_exception: Unknown column 'inm_cobranza.deleted_at' in 'where clause' in C:\xampp\htdocs\inmobiliaria\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\inmobiliaria\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\inmobiliaria\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\inmobiliaria\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\inmobiliaria\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\inmobiliaria\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\inmobiliaria\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\inmobiliaria\app\Controllers\ContratoController.php(95): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(941): App\Controllers\ContratoController->generador()
+#8 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+#9 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\inmobiliaria\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-06-01 05:12:49 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'inm_cobranza.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `inm_cobranza`
+WHERE `inm_cobranza`.`deleted_at` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\ContratoController.php(95): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->generador()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-01 05:12:49 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'inm_cobranza.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `inm_cobranza`
+WHERE `inm_cobranza`.`deleted_at` IS NULL')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `inm_cobranza`
+WHERE `inm_cobranza`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `inm_cobranza`
+WHERE `inm_cobranza`.`deleted_at` IS NULL', [], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\ContratoController.php(95): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->generador()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-01 05:12:49 --> [Caused by] mysqli_sql_exception: Unknown column 'inm_cobranza.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `inm_cobranza`
+WHERE `inm_cobranza`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `inm_cobranza`
+WHERE `inm_cobranza`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `inm_cobranza`
+WHERE `inm_cobranza`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `inm_cobranza`
+WHERE `inm_cobranza`.`deleted_at` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\ContratoController.php(95): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->generador()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-01 05:18:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 05:25:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-01 05:27:27 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 403.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 05:34:36 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 403.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 05:35:00 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 403.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 05:35:51 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 403.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 05:36:36 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 403.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 05:36:51 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 403.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:01:09 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 403.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:01:09 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 405.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:01:09 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 406.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:01:09 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 407.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:02:37 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 403.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:02:37 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 405.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:02:37 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 406.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:02:37 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 407.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:03:03 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 403.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:03:03 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 405.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:03:03 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 406.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:03:03 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 407.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:03:39 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 403.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:03:39 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 405.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:03:39 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 406.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:03:39 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 407.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:07:22 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 403.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:07:22 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 405.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:07:22 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 406.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:07:22 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 407.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:07:40 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 403.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:07:40 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 405.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:07:40 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 406.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:07:40 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 407.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:08:03 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 403.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:08:03 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 405.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:08:03 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 406.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:08:03 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 407.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:08:22 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 403.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:08:22 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 405.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:08:22 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 406.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:08:22 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 407.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:08:44 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 403.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:08:44 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 405.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:08:44 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 406.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:08:44 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 407.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-01 06:47:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 06:47:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-01 06:47:43 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 404.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:47:43 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 406.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:47:43 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 407.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:47:43 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 408.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:48:04 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 404.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:48:04 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 406.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:48:04 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 407.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:48:04 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 408.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:48:32 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 404.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:48:32 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 406.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:48:32 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 407.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:48:32 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 408.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:49:07 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 404.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:49:07 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 406.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:49:07 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 407.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:49:07 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 408.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:49:32 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 404.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:49:32 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 406.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:49:32 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 407.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:49:32 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 408.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:50:07 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 404.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:50:07 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 406.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:50:07 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 407.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:50:07 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 408.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:50:25 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 404.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:50:25 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 406.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:50:25 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 407.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:50:25 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 408.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:51:01 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 404.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:51:01 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 407.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:51:01 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 409.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:51:01 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 411.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:51:43 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 404.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:51:43 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 407.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:51:43 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 409.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:51:43 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 411.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:53:05 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 404.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:53:05 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 407.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:53:05 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 409.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-01 06:53:05 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\ContratoController.php on line 411.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->recibo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

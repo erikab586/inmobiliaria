@@ -1,0 +1,13 @@
+ERROR - 2024-03-16 03:42:26 --> mysqli_sql_exception: Unknown column 'intrucciones_extras' in 'field list' in C:\xampp\htdocs\inmobiliaria\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\inmobiliaria\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `in...', 0)
+#1 C:\xampp\htdocs\inmobiliaria\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 C:\xampp\htdocs\inmobiliaria\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 C:\xampp\htdocs\inmobiliaria\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 C:\xampp\htdocs\inmobiliaria\app\Database\Seeds\Propietario.php(67): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\inmobiliaria\system\Database\Seeder.php(145): App\Database\Seeds\Propietario->run()
+#6 C:\xampp\htdocs\inmobiliaria\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#7 C:\xampp\htdocs\inmobiliaria\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#8 C:\xampp\htdocs\inmobiliaria\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#9 C:\xampp\htdocs\inmobiliaria\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}

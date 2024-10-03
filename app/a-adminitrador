@@ -1,0 +1,1 @@
+INSERT INTO `inm_administrador`(`id_administrador`, `id_rol`, `Nombres`, `Apellidos`, `dni`, `telefono_movil`, `email`, `banco_administrador`, `cuenta_bancaria`, `titular_cuenta`, `id_pais`, `id_estado`, `id_municipio`, `colonia`, `ciudad`, `calle`, `numero`) 

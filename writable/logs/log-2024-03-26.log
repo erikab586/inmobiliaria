@@ -1,0 +1,1643 @@
+INFO - 2024-03-26 00:05:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 01:05:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 01:06:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 01:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 01:07:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 01:08:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 01:11:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 01:12:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 01:13:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 01:14:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 01:14:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 01:14:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 01:18:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-26 01:18:14 --> Error: Class "App\Controllers\RolesModel" not found
+in APPPATH\Controllers\ContratoController.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 01:18:23 --> Error: Class "App\Controllers\UsuarioModel" not found
+in APPPATH\Controllers\ContratoController.php on line 115.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->delete('2')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-26 01:25:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 01:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-26 01:30:13 --> ErrorException: Undefined variable $roles
+in APPPATH\Views\contrato\crear.php on line 43.
+ 1 APPPATH\Views\contrato\crear.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $roles', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\crear.php', 43)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\crear.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/crear.php', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(51): view('contrato/crear.php')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-26 01:32:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-26 01:44:18 --> Error: Class "App\Controllers\InmuebleModel" not found
+in APPPATH\Controllers\ContratoController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->create()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 01:45:06 --> ErrorException: Undefined variable $inquilinos
+in APPPATH\Controllers\ContratoController.php on line 57.
+ 1 APPPATH\Controllers\ContratoController.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $inquilinos', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\ContratoController.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->create()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-26 01:45:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 01:46:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 01:47:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 01:48:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 01:48:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 01:49:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 01:49:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 01:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 01:51:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 01:52:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 01:53:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 01:56:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 01:58:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 01:59:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 03:20:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 03:20:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 03:23:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 03:25:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 03:34:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 03:38:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 03:39:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 03:46:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 03:47:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 03:49:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 03:52:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 03:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 04:01:51 --> [DEPRECATED] password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in APPPATH\Controllers\ContratoController.php on line 75.
+ 1 APPPATH\Controllers\ContratoController.php(75): password_hash(Object(SensitiveParameterValue), true, '2y')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->guardarNuevo()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:01:51 --> TypeError: password_hash(): Argument #3 ($options) must be of type array, string given
+in APPPATH\Controllers\ContratoController.php on line 75.
+ 1 APPPATH\Controllers\ContratoController.php(75): password_hash(Object(SensitiveParameterValue), true, '2y')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->guardarNuevo()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-26 04:30:21 --> mysqli_sql_exception: Unknown column 'estatus_servicio' in 'field list' in C:\xampp\htdocs\inmobiliaria\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\inmobiliaria\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `in...', 0)
+#1 C:\xampp\htdocs\inmobiliaria\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 C:\xampp\htdocs\inmobiliaria\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 C:\xampp\htdocs\inmobiliaria\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 C:\xampp\htdocs\inmobiliaria\app\Models\ContratoModel.php(30): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\inmobiliaria\app\Controllers\ContratoController.php(102): App\Models\ContratoModel->insertar(Array)
+#6 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(941): App\Controllers\ContratoController->guardarNuevo()
+#7 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+#8 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\inmobiliaria\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-26 04:30:21 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'estatus_servicio' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `inm_contrato` (`id_inmueble`, `id_unidad`, `id_inquilino`, `fecha_contrato`, `dia_pago`, `renta_inicial`, `incremento`, `porcentaje_cond`, `cond_incremento`, `renta_actual`, `estatus_servicio`, `tiempo_contrato`, `fecha_terminoContrato`, `iva`, `retencion_isr`, `estatus`) VALUES (:id_inmueble:, :id_unidad:, :id_inquilino:, :fecha_contrato:, :dia_pago:, :renta_inicial:, :incremento:, :porcentaje_cond:, :cond_incremento:, :renta_actual:, :estatus_servicio:, :tiempo_contrato:, :fecha_terminoContrato:, :iva:, :retencion_isr:, :estatus:)', [...], false)
+ 2 APPPATH\Models\ContratoModel.php(30): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ContratoController.php(102): App\Models\ContratoModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->guardarNuevo()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:30:21 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'estatus_servicio' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `inm_contrato` (`id_inmueble`, `id_unidad`, `id_inquilino`, `fecha_contrato`, `dia_pago`, `renta_inicial`, `incremento`, `porcentaje_cond`, `cond_incremento`, `renta_actual`, `estatus_servicio`, `tiempo_contrato`, `fecha_terminoContrato`, `iva`, `retencion_isr`, `estatus`) VALUES (\'36\', \'1\', \'17\', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, \'1\', NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `inm_contrato` (`id_inmueble`, `id_unidad`, `id_inquilino`, `fecha_contrato`, `dia_pago`, `renta_inicial`, `incremento`, `porcentaje_cond`, `cond_incremento`, `renta_actual`, `estatus_servicio`, `tiempo_contrato`, `fecha_terminoContrato`, `iva`, `retencion_isr`, `estatus`) VALUES (\'36\', \'1\', \'17\', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, \'1\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `inm_contrato` (`id_inmueble`, `id_unidad`, `id_inquilino`, `fecha_contrato`, `dia_pago`, `renta_inicial`, `incremento`, `porcentaje_cond`, `cond_incremento`, `renta_actual`, `estatus_servicio`, `tiempo_contrato`, `fecha_terminoContrato`, `iva`, `retencion_isr`, `estatus`) VALUES (:id_inmueble:, :id_unidad:, :id_inquilino:, :fecha_contrato:, :dia_pago:, :renta_inicial:, :incremento:, :porcentaje_cond:, :cond_incremento:, :renta_actual:, :estatus_servicio:, :tiempo_contrato:, :fecha_terminoContrato:, :iva:, :retencion_isr:, :estatus:)', [...], false)
+ 4 APPPATH\Models\ContratoModel.php(30): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\ContratoController.php(102): App\Models\ContratoModel->insertar([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->guardarNuevo()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:30:21 --> [Caused by] mysqli_sql_exception: Unknown column 'estatus_servicio' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `inm_contrato` (`id_inmueble`, `id_unidad`, `id_inquilino`, `fecha_contrato`, `dia_pago`, `renta_inicial`, `incremento`, `porcentaje_cond`, `cond_incremento`, `renta_actual`, `estatus_servicio`, `tiempo_contrato`, `fecha_terminoContrato`, `iva`, `retencion_isr`, `estatus`) VALUES (\'36\', \'1\', \'17\', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, \'1\', NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `inm_contrato` (`id_inmueble`, `id_unidad`, `id_inquilino`, `fecha_contrato`, `dia_pago`, `renta_inicial`, `incremento`, `porcentaje_cond`, `cond_incremento`, `renta_actual`, `estatus_servicio`, `tiempo_contrato`, `fecha_terminoContrato`, `iva`, `retencion_isr`, `estatus`) VALUES (\'36\', \'1\', \'17\', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, \'1\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `inm_contrato` (`id_inmueble`, `id_unidad`, `id_inquilino`, `fecha_contrato`, `dia_pago`, `renta_inicial`, `incremento`, `porcentaje_cond`, `cond_incremento`, `renta_actual`, `estatus_servicio`, `tiempo_contrato`, `fecha_terminoContrato`, `iva`, `retencion_isr`, `estatus`) VALUES (\'36\', \'1\', \'17\', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, \'1\', NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `inm_contrato` (`id_inmueble`, `id_unidad`, `id_inquilino`, `fecha_contrato`, `dia_pago`, `renta_inicial`, `incremento`, `porcentaje_cond`, `cond_incremento`, `renta_actual`, `estatus_servicio`, `tiempo_contrato`, `fecha_terminoContrato`, `iva`, `retencion_isr`, `estatus`) VALUES (:id_inmueble:, :id_unidad:, :id_inquilino:, :fecha_contrato:, :dia_pago:, :renta_inicial:, :incremento:, :porcentaje_cond:, :cond_incremento:, :renta_actual:, :estatus_servicio:, :tiempo_contrato:, :fecha_terminoContrato:, :iva:, :retencion_isr:, :estatus:)', [...], false)
+ 5 APPPATH\Models\ContratoModel.php(30): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\ContratoController.php(102): App\Models\ContratoModel->insertar([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->guardarNuevo()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-26 04:30:54 --> mysqli_sql_exception: Column 'fecha_contrato' cannot be null in C:\xampp\htdocs\inmobiliaria\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\inmobiliaria\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `in...', 0)
+#1 C:\xampp\htdocs\inmobiliaria\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 C:\xampp\htdocs\inmobiliaria\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 C:\xampp\htdocs\inmobiliaria\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 C:\xampp\htdocs\inmobiliaria\app\Models\ContratoModel.php(30): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\inmobiliaria\app\Controllers\ContratoController.php(102): App\Models\ContratoModel->insertar(Array)
+#6 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(941): App\Controllers\ContratoController->guardarNuevo()
+#7 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+#8 C:\xampp\htdocs\inmobiliaria\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\inmobiliaria\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-26 04:30:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'fecha_contrato' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `inm_contrato` (`id_inmueble`, `id_unidad`, `id_inquilino`, `fecha_contrato`, `dia_pago`, `renta_inicial`, `incremento`, `porcentaje_cond`, `cond_incremento`, `renta_actual`, `estatus_servicios`, `tiempo_contrato`, `fecha_terminoContrato`, `iva`, `retencion_isr`, `estatus`) VALUES (:id_inmueble:, :id_unidad:, :id_inquilino:, :fecha_contrato:, :dia_pago:, :renta_inicial:, :incremento:, :porcentaje_cond:, :cond_incremento:, :renta_actual:, :estatus_servicios:, :tiempo_contrato:, :fecha_terminoContrato:, :iva:, :retencion_isr:, :estatus:)', [...], false)
+ 2 APPPATH\Models\ContratoModel.php(30): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ContratoController.php(102): App\Models\ContratoModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->guardarNuevo()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:30:54 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'fecha_contrato' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `inm_contrato` (`id_inmueble`, `id_unidad`, `id_inquilino`, `fecha_contrato`, `dia_pago`, `renta_inicial`, `incremento`, `porcentaje_cond`, `cond_incremento`, `renta_actual`, `estatus_servicios`, `tiempo_contrato`, `fecha_terminoContrato`, `iva`, `retencion_isr`, `estatus`) VALUES (\'36\', \'1\', \'17\', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, \'1\', NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `inm_contrato` (`id_inmueble`, `id_unidad`, `id_inquilino`, `fecha_contrato`, `dia_pago`, `renta_inicial`, `incremento`, `porcentaje_cond`, `cond_incremento`, `renta_actual`, `estatus_servicios`, `tiempo_contrato`, `fecha_terminoContrato`, `iva`, `retencion_isr`, `estatus`) VALUES (\'36\', \'1\', \'17\', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, \'1\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `inm_contrato` (`id_inmueble`, `id_unidad`, `id_inquilino`, `fecha_contrato`, `dia_pago`, `renta_inicial`, `incremento`, `porcentaje_cond`, `cond_incremento`, `renta_actual`, `estatus_servicios`, `tiempo_contrato`, `fecha_terminoContrato`, `iva`, `retencion_isr`, `estatus`) VALUES (:id_inmueble:, :id_unidad:, :id_inquilino:, :fecha_contrato:, :dia_pago:, :renta_inicial:, :incremento:, :porcentaje_cond:, :cond_incremento:, :renta_actual:, :estatus_servicios:, :tiempo_contrato:, :fecha_terminoContrato:, :iva:, :retencion_isr:, :estatus:)', [...], false)
+ 4 APPPATH\Models\ContratoModel.php(30): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\ContratoController.php(102): App\Models\ContratoModel->insertar([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->guardarNuevo()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:30:54 --> [Caused by] mysqli_sql_exception: Column 'fecha_contrato' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `inm_contrato` (`id_inmueble`, `id_unidad`, `id_inquilino`, `fecha_contrato`, `dia_pago`, `renta_inicial`, `incremento`, `porcentaje_cond`, `cond_incremento`, `renta_actual`, `estatus_servicios`, `tiempo_contrato`, `fecha_terminoContrato`, `iva`, `retencion_isr`, `estatus`) VALUES (\'36\', \'1\', \'17\', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, \'1\', NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `inm_contrato` (`id_inmueble`, `id_unidad`, `id_inquilino`, `fecha_contrato`, `dia_pago`, `renta_inicial`, `incremento`, `porcentaje_cond`, `cond_incremento`, `renta_actual`, `estatus_servicios`, `tiempo_contrato`, `fecha_terminoContrato`, `iva`, `retencion_isr`, `estatus`) VALUES (\'36\', \'1\', \'17\', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, \'1\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `inm_contrato` (`id_inmueble`, `id_unidad`, `id_inquilino`, `fecha_contrato`, `dia_pago`, `renta_inicial`, `incremento`, `porcentaje_cond`, `cond_incremento`, `renta_actual`, `estatus_servicios`, `tiempo_contrato`, `fecha_terminoContrato`, `iva`, `retencion_isr`, `estatus`) VALUES (\'36\', \'1\', \'17\', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, \'1\', NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `inm_contrato` (`id_inmueble`, `id_unidad`, `id_inquilino`, `fecha_contrato`, `dia_pago`, `renta_inicial`, `incremento`, `porcentaje_cond`, `cond_incremento`, `renta_actual`, `estatus_servicios`, `tiempo_contrato`, `fecha_terminoContrato`, `iva`, `retencion_isr`, `estatus`) VALUES (:id_inmueble:, :id_unidad:, :id_inquilino:, :fecha_contrato:, :dia_pago:, :renta_inicial:, :incremento:, :porcentaje_cond:, :cond_incremento:, :renta_actual:, :estatus_servicios:, :tiempo_contrato:, :fecha_terminoContrato:, :iva:, :retencion_isr:, :estatus:)', [...], false)
+ 5 APPPATH\Models\ContratoModel.php(30): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\ContratoController.php(102): App\Models\ContratoModel->insertar([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->guardarNuevo()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-26 04:31:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 04:32:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 04:32:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-26 04:34:33 --> Error: Class "App\Controllers\RolesModel" not found
+in APPPATH\Controllers\ContratoController.php on line 115.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('11')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-26 04:34:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 04:34:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-26 04:34:54 --> Error: Class "App\Controllers\RolesModel" not found
+in APPPATH\Controllers\ContratoController.php on line 115.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('11')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:42:30 --> ErrorException: Undefined variable $ContratoModel
+in APPPATH\Controllers\ContratoController.php on line 127.
+ 1 APPPATH\Controllers\ContratoController.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ContratoModel', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\ContratoController.php', 127)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('11')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:43:06 --> ErrorException: Undefined array key "id_unidad"
+in APPPATH\Views\contrato\editar.php on line 53.
+ 1 APPPATH\Views\contrato\editar.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_unidad"', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 53)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('11')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:44:45 --> ErrorException: Undefined array key "id_iva"
+in APPPATH\Views\contrato\editar.php on line 133.
+ 1 APPPATH\Views\contrato\editar.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_iva"', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 133)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('11')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:45:07 --> ErrorException: Undefined array key "id_iva"
+in APPPATH\Views\contrato\editar.php on line 133.
+ 1 APPPATH\Views\contrato\editar.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_iva"', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 133)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('11')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-26 04:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-26 04:45:32 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 42.
+ 1 APPPATH\Views\contrato\editar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 42)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'css', 'bootstrap.css')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:45:33 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 42.
+ 1 APPPATH\Views\contrato\editar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 42)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'fonts', 'icomoon.css')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:45:33 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 42.
+ 1 APPPATH\Views\contrato\editar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 42)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'fonts', 'flag-icon-css', 'css', 'flag-icon.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:45:34 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 42.
+ 1 APPPATH\Views\contrato\editar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 42)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'vendors', 'css', 'extensions', 'pace.css')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:45:34 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 42.
+ 1 APPPATH\Views\contrato\editar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 42)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'css', 'bootstrap-extended.css')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:45:34 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 42.
+ 1 APPPATH\Views\contrato\editar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 42)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'css', 'colors.css')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:45:34 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 42.
+ 1 APPPATH\Views\contrato\editar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 42)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'css', 'app.css')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:45:34 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 42.
+ 1 APPPATH\Views\contrato\editar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 42)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'css', 'core', 'menu', 'menu-types', 'vertical-menu.css')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:45:35 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 42.
+ 1 APPPATH\Views\contrato\editar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 42)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'css', 'core', 'menu', 'menu-types', 'vertical-overlay-menu.css')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:45:35 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 42.
+ 1 APPPATH\Views\contrato\editar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 42)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'js', 'core', 'libraries', 'jquery.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:45:35 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 42.
+ 1 APPPATH\Views\contrato\editar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 42)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('assets', 'css', 'style.css')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:45:36 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 42.
+ 1 APPPATH\Views\contrato\editar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 42)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'logo', 'robust-logo-light.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:45:36 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 42.
+ 1 APPPATH\Views\contrato\editar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 42)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-2.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:45:36 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 42.
+ 1 APPPATH\Views\contrato\editar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 42)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-1.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:45:37 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 42.
+ 1 APPPATH\Views\contrato\editar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 42)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-3.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:45:37 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 42.
+ 1 APPPATH\Views\contrato\editar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 42)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-6.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:45:38 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 42.
+ 1 APPPATH\Views\contrato\editar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 42)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'vendors', 'js', 'ui', 'tether.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:45:38 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 42.
+ 1 APPPATH\Views\contrato\editar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 42)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'js', 'core', 'libraries', 'bootstrap.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:45:38 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 42.
+ 1 APPPATH\Views\contrato\editar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 42)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'vendors', 'js', 'ui', 'perfect-scrollbar.jquery.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:45:39 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 42.
+ 1 APPPATH\Views\contrato\editar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 42)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'vendors', 'js', 'ui', 'unison.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:45:39 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 42.
+ 1 APPPATH\Views\contrato\editar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 42)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'vendors', 'js', 'ui', 'blockUI.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:45:39 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 42.
+ 1 APPPATH\Views\contrato\editar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 42)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'vendors', 'js', 'ui', 'jquery.matchHeight-min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:45:39 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 42.
+ 1 APPPATH\Views\contrato\editar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 42)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'vendors', 'js', 'ui', 'screenfull.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:45:40 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 42.
+ 1 APPPATH\Views\contrato\editar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 42)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'vendors', 'js', 'extensions', 'pace.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:45:40 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 42.
+ 1 APPPATH\Views\contrato\editar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 42)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'js', 'core', 'app-menu.js')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:45:41 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 42.
+ 1 APPPATH\Views\contrato\editar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 42)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'js', 'core', 'app.js')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:45:41 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 42.
+ 1 APPPATH\Views\contrato\editar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 42)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'ico', 'favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:45:42 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 42.
+ 1 APPPATH\Views\contrato\editar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 42)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'ico', 'favicon-32.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:45:43 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 42.
+ 1 APPPATH\Views\contrato\editar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 42)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'ico', 'favicon-32.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:45:43 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 42.
+ 1 APPPATH\Views\contrato\editar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 42)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'ico', 'favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:46:54 --> ErrorException: Undefined array key "estatus_servicio"
+in APPPATH\Views\contrato\editar.php on line 144.
+ 1 APPPATH\Views\contrato\editar.php(144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "estatus_servicio"', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 144)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('11')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-26 04:47:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-26 04:47:30 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 42.
+ 1 APPPATH\Views\contrato\editar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 42)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-1.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:47:30 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 42.
+ 1 APPPATH\Views\contrato\editar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 42)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-2.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:47:30 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 42.
+ 1 APPPATH\Views\contrato\editar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 42)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'logo', 'robust-logo-light.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:47:30 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 42.
+ 1 APPPATH\Views\contrato\editar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 42)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-3.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:47:31 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 42.
+ 1 APPPATH\Views\contrato\editar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 42)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-6.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:47:31 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 42.
+ 1 APPPATH\Views\contrato\editar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 42)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'js', 'core', 'app-menu.js')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:47:31 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 42.
+ 1 APPPATH\Views\contrato\editar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 42)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'js', 'core', 'app.js')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-26 04:48:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-26 04:48:38 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 42.
+ 1 APPPATH\Views\contrato\editar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 42)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'logo', 'robust-logo-light.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:48:38 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 42.
+ 1 APPPATH\Views\contrato\editar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 42)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-1.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:48:38 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 42.
+ 1 APPPATH\Views\contrato\editar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 42)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-3.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:48:38 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 42.
+ 1 APPPATH\Views\contrato\editar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 42)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'js', 'core', 'app-menu.js')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:48:39 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 42.
+ 1 APPPATH\Views\contrato\editar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 42)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-2.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:48:39 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 42.
+ 1 APPPATH\Views\contrato\editar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 42)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-6.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:48:39 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 42.
+ 1 APPPATH\Views\contrato\editar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 42)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'js', 'core', 'app.js')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-26 04:50:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-26 04:50:21 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-1.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:50:21 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'logo', 'robust-logo-light.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:50:22 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-2.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:50:22 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'js', 'core', 'app-menu.js')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:50:22 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-6.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:50:23 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-3.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:50:23 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'js', 'core', 'app.js')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-26 04:51:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-26 04:51:41 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-1.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:51:41 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'logo', 'robust-logo-light.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:51:41 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-3.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:51:41 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-2.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:51:41 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-6.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:51:41 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'js', 'core', 'app-menu.js')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:51:42 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'js', 'core', 'app.js')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:55:21 --> ErrorException: Undefined array key "fecha_contrato"
+in APPPATH\Views\contrato\editar.php on line 77.
+ 1 APPPATH\Views\contrato\editar.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fecha_contrato"', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 77)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('11')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:56:12 --> ErrorException: Undefined array key "fecha_terminoContrato"
+in APPPATH\Views\contrato\editar.php on line 83.
+ 1 APPPATH\Views\contrato\editar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fecha_terminoContrato"', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 83)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('11')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-26 04:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-26 04:56:32 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'logo', 'robust-logo-light.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:56:32 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-1.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:56:32 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-2.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:56:32 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-3.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:56:33 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'js', 'core', 'app-menu.js')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:56:33 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-6.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:56:33 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'js', 'core', 'app.js')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-26 04:59:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-26 04:59:46 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-1.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:59:47 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'logo', 'robust-logo-light.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:59:47 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-3.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:59:47 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-2.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:59:48 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'js', 'core', 'app.js')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:59:48 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'js', 'core', 'app-menu.js')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 04:59:48 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-6.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-26 05:00:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-26 05:00:47 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-1.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 05:00:47 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-2.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 05:00:48 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'logo', 'robust-logo-light.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 05:00:48 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-6.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 05:00:48 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'js', 'core', 'app-menu.js')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 05:00:48 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-3.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 05:00:48 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'js', 'core', 'app.js')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-26 05:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-26 05:07:42 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'logo', 'robust-logo-light.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 05:07:42 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-1.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 05:07:43 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-3.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 05:07:43 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-2.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 05:07:43 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'js', 'core', 'app-menu.js')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 05:07:43 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-6.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 05:07:43 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'js', 'core', 'app.js')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-26 05:08:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-26 05:08:14 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'logo', 'robust-logo-light.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 05:08:15 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-1.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 05:08:15 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-3.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 05:08:16 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-2.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 05:08:18 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-6.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 05:08:22 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'js', 'core', 'app.js')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 05:08:22 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'js', 'core', 'app-menu.js')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-26 05:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-26 05:10:09 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-1.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 05:10:10 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'logo', 'robust-logo-light.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 05:10:10 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-2.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 05:10:11 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-6.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 05:10:12 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-3.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 05:10:14 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'js', 'core', 'app-menu.js')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 05:10:14 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 44.
+ 1 APPPATH\Views\contrato\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'js', 'core', 'app.js')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-26 05:16:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 05:16:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 05:16:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-26 05:16:58 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\usuario\editar.php on line 45.
+ 1 APPPATH\Views\usuario\editar.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\usuario\\editar.php', 45)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\usuario\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('usuario/editar', [], true)
+ 5 APPPATH\Controllers\UsuarioController.php(82): view('usuario/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UsuarioController->edit('app-assets', 'images', 'logo', 'robust-logo-light.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 05:16:58 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\usuario\editar.php on line 45.
+ 1 APPPATH\Views\usuario\editar.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\usuario\\editar.php', 45)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\usuario\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('usuario/editar', [], true)
+ 5 APPPATH\Controllers\UsuarioController.php(82): view('usuario/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UsuarioController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-1.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 05:17:00 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\usuario\editar.php on line 45.
+ 1 APPPATH\Views\usuario\editar.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\usuario\\editar.php', 45)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\usuario\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('usuario/editar', [], true)
+ 5 APPPATH\Controllers\UsuarioController.php(82): view('usuario/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UsuarioController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-2.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 05:17:00 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\usuario\editar.php on line 45.
+ 1 APPPATH\Views\usuario\editar.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\usuario\\editar.php', 45)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\usuario\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('usuario/editar', [], true)
+ 5 APPPATH\Controllers\UsuarioController.php(82): view('usuario/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UsuarioController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-3.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 05:17:00 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\usuario\editar.php on line 45.
+ 1 APPPATH\Views\usuario\editar.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\usuario\\editar.php', 45)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\usuario\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('usuario/editar', [], true)
+ 5 APPPATH\Controllers\UsuarioController.php(82): view('usuario/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UsuarioController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-6.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 05:17:03 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\usuario\editar.php on line 45.
+ 1 APPPATH\Views\usuario\editar.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\usuario\\editar.php', 45)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\usuario\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('usuario/editar', [], true)
+ 5 APPPATH\Controllers\UsuarioController.php(82): view('usuario/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UsuarioController->edit('app-assets', 'js', 'core', 'app.js')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 05:17:04 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\usuario\editar.php on line 45.
+ 1 APPPATH\Views\usuario\editar.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\usuario\\editar.php', 45)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\usuario\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('usuario/editar', [], true)
+ 5 APPPATH\Controllers\UsuarioController.php(82): view('usuario/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UsuarioController->edit('app-assets', 'js', 'core', 'app-menu.js')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-26 05:17:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 05:17:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 05:17:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 05:21:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-26 05:21:59 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 40.
+ 1 APPPATH\Views\contrato\editar.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 40)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-1.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 05:22:00 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 40.
+ 1 APPPATH\Views\contrato\editar.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 40)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-2.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 05:22:00 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 40.
+ 1 APPPATH\Views\contrato\editar.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 40)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'logo', 'robust-logo-light.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 05:22:00 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 40.
+ 1 APPPATH\Views\contrato\editar.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 40)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-3.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 05:22:00 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 40.
+ 1 APPPATH\Views\contrato\editar.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 40)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'images', 'portrait', 'small', 'avatar-s-6.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 05:22:01 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 40.
+ 1 APPPATH\Views\contrato\editar.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 40)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'js', 'core', 'app-menu.js')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 05:22:01 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\contrato\editar.php on line 40.
+ 1 APPPATH\Views\contrato\editar.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php', 40)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\contrato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contrato/editar', [], true)
+ 5 APPPATH\Controllers\ContratoController.php(128): view('contrato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->edit('app-assets', 'js', 'core', 'app.js')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-26 05:22:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 05:22:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 05:23:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 05:23:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 05:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 05:28:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 05:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-26 05:34:13 --> ErrorException: Undefined array key "id_contrato"
+in APPPATH\Views\cobranza\index.php on line 72.
+ 1 APPPATH\Views\cobranza\index.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_contrato"', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\cobranza\\index.php', 72)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\inmobiliaria\\app\\Views\\cobranza\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('cobranza/index.php', [], true)
+ 5 APPPATH\Controllers\CobranzaController.php(23): view('cobranza/index.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CobranzaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobranzaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-26 05:35:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 05:35:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-26 06:45:10 --> ErrorException: Undefined variable $fecha_actual
+in APPPATH\Controllers\ContratoController.php on line 44.
+ 1 APPPATH\Controllers\ContratoController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $fecha_actual', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\ContratoController.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->generador()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 06:52:16 --> Error: Undefined constant "App\Controllers\fecha_actual"
+in APPPATH\Controllers\ContratoController.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->generador()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 07:07:01 --> TypeError: Unsupported operand types: string / int
+in APPPATH\Controllers\ContratoController.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->generador()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 07:07:52 --> TypeError: Unsupported operand types: string / int
+in APPPATH\Controllers\ContratoController.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->generador()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 07:07:58 --> TypeError: Unsupported operand types: string / int
+in APPPATH\Controllers\ContratoController.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->generador()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 07:12:29 --> ErrorException: Undefined variable $nuevaRenta
+in APPPATH\Controllers\ContratoController.php on line 55.
+ 1 APPPATH\Controllers\ContratoController.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nuevaRenta', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\ContratoController.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->generador()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-26 07:21:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 07:22:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 07:22:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-26 07:51:24 --> ErrorException: Undefined array key "id.unidad"
+in APPPATH\Controllers\ContratoController.php on line 61.
+ 1 APPPATH\Controllers\ContratoController.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id.unidad"', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\ContratoController.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->generador()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 08:04:56 --> ErrorException: Undefined variable $fecha_ejempo
+in APPPATH\Controllers\ContratoController.php on line 57.
+ 1 APPPATH\Controllers\ContratoController.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $fecha_ejempo', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\ContratoController.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->generador()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 08:20:35 --> Error: Class "App\Controllers\DateTime" not found
+in APPPATH\Controllers\ContratoController.php on line 73.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->generador()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 08:23:06 --> Error: Class "App\Controllers\DateTime" not found
+in APPPATH\Controllers\ContratoController.php on line 74.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->generador()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 08:51:52 --> TypeError: Unsupported operand types: string + string
+in APPPATH\Controllers\ContratoController.php on line 77.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->generador()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 08:56:14 --> ErrorException: Undefined variable $cvconcepto
+in APPPATH\Controllers\ContratoController.php on line 107.
+ 1 APPPATH\Controllers\ContratoController.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cvconcepto', 'C:\\xampp\\htdocs\\inmobiliaria\\app\\Controllers\\ContratoController.php', 107)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ContratoController->generador()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContratoController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
